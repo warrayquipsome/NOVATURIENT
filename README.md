@@ -6,3 +6,9 @@ A theme that includes addons and stuff to make it a little more •AESTHETIC•
 >Fancy channel indicators-by [LuckFire#4800](https://github.com/LuckFire)
 # ATTENTION
 >Only use this theme if you know words and the Allison font :)
+# BetterDiscord Installation
+>Download better discord [**here**](https://betterdiscord.app/)
+# Bugs eating da theme
+> If u see "bugs" let me know, cus im improving it :)
+# Future addons
+> If u have ideas pls join [**this**](https://discord.gg/4WSe2YVr) server
