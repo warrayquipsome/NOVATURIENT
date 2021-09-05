@@ -10,8 +10,8 @@
 
 /*font*/
 :root {
-  --font-primary: Allison;
-  --font-display: Allison;
+  --font-primary: Annie Use Your Telescope;
+  --font-display: Annie Use Your Telescope;
 }
 #app-mount {
   letter-spacing: 2px;
