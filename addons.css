@@ -8,14 +8,6 @@
     color: var(--interactive-active) !important;
 }
 
-/*font*/
-:root {
-  --font-primary: Amatic SC;
-  --font-display: Amatic SC;
-}
-#app-mount {
-  letter-spacing: 2px;
-}
 
 
 /*custom user setting inside buttons*/
