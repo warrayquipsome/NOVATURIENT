@@ -10,8 +10,8 @@
 
 /*font*/
 :root {
-  --font-primary: Annie Use Your Telescope;
-  --font-display: Annie Use Your Telescope;
+  --font-primary: Amatic SC;
+  --font-display: Amatic SC;
 }
 #app-mount {
   letter-spacing: 2px;
