@@ -16,9 +16,6 @@
 #app-mount {
   letter-spacing: 2px;
 }
-::placeholder, body, button, input, select, textarea {
-    font-family: var(--font), sans-serif;
-}
 
 
 /*custom user setting inside buttons*/
