@@ -399,9 +399,9 @@ background-color: #fff !important;
 .homeIcon-FuNwkv path {fill: transparent}
 .homeIcon-FuNwkv {
     background: url('https://media.giphy.com/avatars/hplus/EhW05Low9YF0.gif') center/cover no-repeat;
-    min-width: 270px;
-    min-height: 60px;
-    margin-left: 130px;
+    min-width: 1px;
+    min-height: 1px;
+    margin-left: 1px;
 }
 
 /*blur when open image*/
