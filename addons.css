@@ -424,3 +424,53 @@ div.layer-2KE1M9 {
 [mask="url(#svg-mask-channel-call-control-button)"]{
   mask:none!important;
 }
+/*bd text*/
+.header-2RyJ0Y {
+    text-align: center;
+    color: #fff;
+}
+.bd-sidebar-header {
+    text-align: center;
+    color: #fff;
+}
+
+/*the || and center*/
+.item-PXvHYJ:hover {
+  text-align: center;
+}
+.item-PXvHYJ:hover::before {
+  content: ">> ";
+}
+.item-PXvHYJ:hover::after {
+  content: " <<";
+}
+.item-PXvHYJ {
+    text-align: left;
+}
+.item-PXvHYJ:hover {
+    animation: fadeinout 10s linear 1 forwards ; 
+}
+
+@keyframes fadeinout {
+  0% { opacity: 0; }
+  10% { opacity: 1; }
+  20% { opacity: 0; }
+  30% { opacity: 1; }
+  40% { opacity: 0; }
+  50% { opacity: 1; }
+  60% { opacity: 0; }
+  70% { opacity: 1; }
+  80% { opacity: 0; }
+  90% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.selected-3s45Ha::before {
+  content: ">> ";
+}
+.selected-3s45Ha::after {
+  content: " <<";
+}
+.selected-3s45Ha {
+  text-align: center;
+}
