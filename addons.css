@@ -493,3 +493,16 @@ div.layer-2KE1M9 {
 .selected-3s45Ha {
   text-align: center;
 }
+/*Search Bar Text*/
+.public-DraftEditorPlaceholder-root {visibility: hidden;}
+.public-DraftEditorPlaceholder-root::before {
+  content: "‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‏‏‎  ‎‏‏‎ ‎‏‏‎ ‎What's up boi?";
+  visibility: visible;}
+  /*Textbox Text*/
+.placeholder-37qJjk {visibility: hidden;}
+.placeholder-37qJjk::before {
+  content: "What's on your mind bro?";
+  font-size: 1rem;
+  visibility: visible;}
+  /*Hides CSS Tips*/
+.markdown-hover {display: none;}
