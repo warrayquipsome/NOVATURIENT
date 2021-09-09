@@ -61,8 +61,8 @@
 
 div[class*="typeWindows-"]::after {
     position: absolute;
-    font-family: "Noto Sans TC";
-    content: "{‏‏‎ ‎‎The Aesthetic‎‏‏‎ ‎}";
+    font-family: "Amatic SC";
+    content: "{‏‏‎‎‎The Aesthetic‎‏‏‎}HALLOWEEN THEME";
     font-size: 20px;
     font-weight: 100;
     top: -1px;
