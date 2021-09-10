@@ -8,7 +8,23 @@
     color: var(--interactive-active) !important;
 }
 
+/*theme text*/
+.wordmark-2iDDfm{
+    --text-muted: rgba(255, 255, 255, 0);
+}
 
+div[class*="typeWindows-"]::after {
+    position: absolute;
+    font-family: "Amatic SC";
+    content: "‏‏‎‎‏‏‎‎‏NOVATURIENT‎‏‏‎‏‏";
+    font-size: 20px;
+    font-weight: 100;
+    top: -1px;
+    left: 150px;
+    color: white;
+    transform: translateY(-8%);
+    line-height: 43px;
+}
 
 
 /*custom user setting buttons*/
