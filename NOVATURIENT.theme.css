@@ -13,22 +13,22 @@
      ██║╚████║██║░░██║░╚████╔╝░██╔══██║░░░██║░░░██║░░░██║██╔══██╗██║██╔══╝░░██║╚████║░░░██║░░░
      ██║░╚███║╚█████╔╝░░╚██╔╝░░██║░░██║░░░██║░░░╚██████╔╝██║░░██║██║███████╗██║░╚███║░░░██║░░░
      ╚═╝░░╚══╝░╚════╝░░░░╚═╝░░░╚═╝░░╚═╝░░░╚═╝░░░░╚═════╝░╚═╝░░╚═╝╚═╝╚══════╝╚═╝░░╚══╝░░░╚═╝░░░
+     
+
 /**credit**/
 /**Fancy channel indicators-by LuckFire#4800**/
-/*theme text*/
-.wordmark-2iDDfm{
-    --text-muted: rgba(255, 255, 255, 0);
+:root {
+    --version1_0: none;
 }
-
-div[class*="typeWindows-"]::after {
-    position: absolute;
-    font-family: "Amatic SC";
-    content: "‏‏‎‎‏‏‎‎‏NOVATURIENT‎‏‏‎‏‏ ‎";
-    font-size: 20px;
-    font-weight: 100;
-    top: -1px;
-    left: 100px;
-    color: white;
-    transform: translateY(-8%);
-    line-height: 43px;
+/* main.css */
+#app-mount .app-2rEoOp::before {
+    content: "Your version of 'NOVATURIENT' is outdated. Please download the newest version from: https://betterdiscord.app/theme/NOVATURIENT";
+    display: var(--version2_0, block);
+    background-color: #ff9900;
+    color: #fff;
+    font-size: 14px;
+    line-height: 36px;
+    font-weight: 500;
+    text-align: center;
+    z-index: 101;
 }
