@@ -23,7 +23,7 @@
 div[class*="typeWindows-"]::after {
     position: absolute;
     font-family: "Amatic SC";
-    content: "‏‏‎‎‏‏‎‎‏NOVATURIENT‎‏‏‎‏‏ ‎HALLOWEEN THEME 🎃";
+    content: "‏‏‎‎‏‏‎‎‏NOVATURIENT‎‏‏‎‏‏ ‎";
     font-size: 20px;
     font-weight: 100;
     top: -1px;
