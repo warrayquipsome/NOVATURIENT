@@ -1,5 +1,5 @@
 # NOVATURIENT
-A theme that includes addons and stuff to make it a little more •AESTHETIC•
+A simple little theme that includes mystery
 ![image](https://user-images.githubusercontent.com/84565593/131484418-0991cebc-f9b6-473a-9843-84ce2dafa622.png)
 
 # ADDON CREDIT
