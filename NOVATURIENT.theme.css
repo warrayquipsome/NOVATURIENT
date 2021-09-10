@@ -2,7 +2,7 @@
 * @name        NOVATURIENT
 * @author      YABOIWQ
 * @description A theme that has been spiced up a lil.
-* @version     2.0
+* @version     1.0
 */
 @import url("https://warrayquipsome.github.io/NOVATURIENT/addons.css");
 @import url('https://discord-theme-addons.github.io/modern-channel-indicators/src/support/compiled.css');
@@ -20,16 +20,4 @@
 /*update notice*/
 :root {
     --version1_0: none;
-}
-/* update notice */
-#app-mount .app-2rEoOp::before {
-    content: "Your version of 'NOVATURIENT' is outdated. Please download the newest version from: https://betterdiscord.app/theme/NOVATURIENT";
-    display: var(--version1_0, block);
-    background-color: var(--status-warning-background);
-    color: #fff;
-    font-size: 14px;
-    line-height: 36px;
-    font-weight: 500;
-    text-align: center;
-    z-index: 101;
 }
