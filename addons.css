@@ -150,19 +150,7 @@ div[class*="typeWindows-"]::after {
     background-color: rgba(159, 0, 173, 0.527);
 }
 /*custom right click menu*/
-.menu-3sdvDG {
-    animation: custom-menu-animation 250ms ease;
-    transform-origin: top;
-}
 
-@keyframes custom-menu-animation {
-    0% {
-        transform: scaleY(0);
-    }
-    100% {
-        transform: scaleY(1);
-    }
-}
 
 
 /*fancy indicator */
