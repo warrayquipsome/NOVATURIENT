@@ -10,7 +10,7 @@
 
 
 
-/*custom user setting inside buttons*/
+/*custom user setting buttons*/
 :root .container-3auIfb, :root .bd-switch-body {
   border-radius: 5px;
 }
@@ -84,53 +84,7 @@ div[class*="typeWindows-"]::after {
   background: url(https://emoji.gg/assets/emoji/1150_pugdancel.gif) center / 100% 100%;
 }
 
- /* Hover Channels animated */
-.mainContent-u_9PKf:hover {
-  animation: UserModalButtons 0.5s normal ease;}
-.mainContent-u_9PKf .noWrap-3jynv6 {width: 100px;opacity: 1;}
-.mainContent-u_9PKf {transition: 0.2s;}
-.mainContent-u_9PKf:hover {transition: 0.2;}
-@keyframes UserModalButtons {
-  0% {
-    transform: translateY(0px);
-  }
-  45% {
-    transform: translateY(-5px);
-  }
-  90% {
-    transform: translateY(0px);
-  }
-}
-/*hide cursor on video-*/
-.wrapperControlsHidden-35Gtol {
-    cursor: none;
-}
 
-/* Discord Message box */
-:root {
-    --color-brand-lighter: #ffffff00;
-}
-.input-cIJ7To,
-.scrollableContainer-2NUZem {
-    background-color: #29292900;
-    transition: background-color 0.2s ease, border-color 0.2s ease;
-    border: 1px solid transparent;
-    outline: none;
-}
-.input-cIJ7To:hover,
-.scrollableContainer-2NUZem:hover {
-    border-color: #ffffff23;
-    background-color: #ffffff23;
-}
-.input-cIJ7To:focus-within,
-.scrollableContainer-2NUZem:focus-within {
-    background-color: rgba(9, 1, 22, 0.267);
-    border-color: var(--color-brand-lighter);
-}
-.scrollableContainer-2NUZem {
-    border: 1px solid transparent;
-    border-radius: 10px;
-}
 /* settings/deafen/mute buttons animated */
 .button-14-BFJ:hover .contents-18-Yxp {
   animation: UserModalButtons 0.5s normal ease;
@@ -158,34 +112,13 @@ div[class*="typeWindows-"]::after {
   }
 }
 
-/* Pings */
-.numberBadge-2s8kKX {
-  animation: animatedPing 1.3s infinite ease-in-out;
-}
-@keyframes animatedPing {
-  0% {
-    transform: rotate(-12deg);
-  }
-  50% {
-    transform: rotate(12deg) scale(1.2);
-  }
-  100% {
-    transform: rotate(-10deg);
-  }
-}
+
 /*remove limit css editor*/
 #floating-editor-window.resizable {
     max-height: unset;
     max-width: unset;
 }
-/*Everything Offline*/
-/*Offline Revamp*/
-.tipTitle-GL9qAt{content:"";font-size: 0px;}
-.tipTitle-GL9qAt::before{content:"Oink";font-size: 12px;}
-.tip-2cgoli{content:"";font-size: 0px;}
-.tip-2cgoli::before{content: "You're Offline, the bois waitin you fam!!";font-size: 16px;}
-.problems-3mgf6w.slideIn-sCvzGz{display:none;}
-.container-16j22k.fixClipping-3qAKRb{background:rgba(0, 0, 0, 0.1);backdrop-filter: blur(5px);}
+
 /*pin home button*/
 .guilds-1SWlCJ .tree-2wKJdG:focus {
   outline-color: transparent;
@@ -210,14 +143,7 @@ div[class*="typeWindows-"]::after {
 }
 /* do not mirror video preview*/
 .mirror-1Z13AJ {transform: none}
-/*resize channel list*/
-:root { --sidebar-initial-width: 240px; }
-.sidebar-2K8pFh {
-    resize: horizontal;
-    width: var(--sidebar-initial-width);
-}
-.sidebar-2K8pFh .channel-2QD9_O { max-width: unset; }
-.bannerImage-3KhIJ6 { width: 100%; }
+
 /*avatar only member list*/
 .membersWrap-2h-GB4 {
   min-width: unset;
@@ -263,33 +189,7 @@ div[class*="typeWindows-"]::after {
     }
 }
 
-/*replace speaking ring color*/
-/* Servers */
-.avatarSpeaking-2IGMRN {box-shadow: inset 0 0 0 2px rgb(123, 255, 200),inset 0 0 0 3px var(--background-secondary)}
-/* DMs */
-.border-Jn5IOt.speaking-B2MXPi {box-shadow: inset 0 0 0 2px rgb(123, 255, 200),inset 0 0 0 3px var(--background-floating)}
-/* Grid call */
-.border-3dQmSY.speaking-WDn8Wm {box-shadow: inset 0 0 0 2px rgb(123, 255, 200), inset 0 0 0 3px #000}
-/* User menu (bottom left) */
-.avatarSpeaking-2c8-9i {box-shadow: inset 0 0 0 2px rgb(123, 255, 200),inset 0 0 0 3px var(--background-secondary)}
-/* Voice users */
-.speaking-3dBKhR {box-shadow: inset 0 0 0 2px rgb(123, 255, 200),inset 0 0 0 3px var(--background-secondary)}
 
-/*disable discord laggy animation*/
-.layer-3QrUeG {
-    transform: none !important;
-    opacity: 1 !important;
-}
-
-.layers-3iHuyZ>.layer-3QrUeG.animating-rRxada *,
-.layers-3iHuyZ>.layer-3QrUeG.animating-rRxada {
-    pointer-events: auto !important;
-    will-change: unset;
-}
-
-.animating-rRxada.stop-animations {
-    z-index: 100 !important;
-}
 /*fancy indicator */
 :root {
     /* ---- base -- */
@@ -315,7 +215,7 @@ div[class*="typeWindows-"]::after {
     --indicator-connected-hover: rgba(var(--indicator-connected), 0.18);
 }
 
-/*custom 2 buttons*/
+/*custom public servers and create server buttons*/
 :root .guilds-1SWlCJ .scroller-1Bvpku .circleIconButton-1QV--U {
     border-radius: 14px;
     border: dashed 2px #fff3;
@@ -373,47 +273,7 @@ background-color: #fff !important;
 }
 
 
-/*order of user setting*/
-/* USER SETTINGS */
-.layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 > .header-2RyJ0Y:first-child,
-.layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 > .header-2RyJ0Y:first-child ~ * {
-    order: 1;
-}
-/* BILLING SETTINGS */
-.layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 > .header-2RyJ0Y:first-child ~ .separator-gCa7yv,
-.layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 > .header-2RyJ0Y:first-child ~ .separator-gCa7yv ~ * {
-    order: 2;
-}
-/* APP SETTINGS */
-.layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 > .header-2RyJ0Y:first-child ~ .separator-gCa7yv ~ .separator-gCa7yv,
-.layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 > .header-2RyJ0Y:first-child ~ .separator-gCa7yv ~ .separator-gCa7yv ~ * {
-    order: 3;
-}
-/* ACTIVITY SETTINGS */
-.layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 > .header-2RyJ0Y:first-child ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv,
-.layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 > .header-2RyJ0Y:first-child ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ * {
-    order: 4;
-}
-/* BETTERDISCORD SETTINGS */
-.layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 > .header-2RyJ0Y:first-child ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv,
-.layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 > .header-2RyJ0Y:first-child ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ * {
-    order: 0;
-}
-/* CHANGELOG/HYPESQUAD/DEVELOPER */
-.layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 > .header-2RyJ0Y:first-child ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv,
-.layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 > .header-2RyJ0Y:first-child ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ * {
-    order: 7;
-}
-/* LOGOUT */
-.layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 > .header-2RyJ0Y:first-child ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv,
-.layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 > .header-2RyJ0Y:first-child ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ * {
-    order: 8;
-}
-/* SOCIALLINKS/INFO */
-.layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 > .header-2RyJ0Y:first-child ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv,
-.layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 > .header-2RyJ0Y:first-child ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ * {
-    order: 9;
-}
+
  /*home icon*/
 .homeIcon-FuNwkv path {fill: transparent}
 .homeIcon-FuNwkv {
@@ -443,7 +303,7 @@ div.layer-2KE1M9 {
 [mask="url(#svg-mask-channel-call-control-button)"]{
   mask:none!important;
 }
-/*bd text*/
+/*bd user setting text*/
 .header-2RyJ0Y {
     text-align: center;
     color: #fff;
@@ -453,7 +313,7 @@ div.layer-2KE1M9 {
     color: #fff;
 }
 
-/*the || and center*/
+/*the >> and center*/
 .item-PXvHYJ:hover {
   text-align: center;
 }
@@ -628,7 +488,7 @@ div[class*="noChannel-"],
   border-top: 1px solid rgba(0,0,0,0.20) !important;
 }
 
-/*channel side server and message boxx transparent*/
+/*channel list server list and message boxx and member list transparent*/
 #app-mount .guilds-1SWlCJ .scrollerBase-289Jih {
   background-color: rgba(255, 255, 255, 0);
 }
@@ -703,7 +563,7 @@ div[class*="noChannel-"],
 .winButtonMinMax-PBQ2gm:hover {
   background-color: rgba(255, 255, 255, 0.336);
 }
-/*avatar hover colour thing */
+/*avatar hover colour thing [it feelsl ike iron man light hand] */
 .avatar-1BDn8e:hover {
   background: rgb(255, 255, 255);
   box-shadow: 0 0 10px rgb(255, 255, 255, 1),
