@@ -579,7 +579,7 @@ div[class*="noChannel-"],
 .form-2fGMdU::before {
     display: none;
 }
-/*channel list hover wave effect*/
+/*channel list hover breathing effect*/
 .content-1x5b-n:hover {
   animation: wave-text 1s ease-in-out infinite;
 }
@@ -601,4 +601,11 @@ div[class*="noChannel-"],
   100%{
     transform: translateY(0em);
   }
+}
+/*middle min max close buttons*/
+.winButtonClose-1HsbF- {
+  left: -640px;
+}
+.winButtonMinMax-PBQ2gm {
+  left: -640px;
 }
