@@ -313,46 +313,7 @@ div.layer-2KE1M9 {
     color: #fff;
 }
 
-/*the >> and center*/
-.item-PXvHYJ:hover {
-  text-align: center;
-}
-.item-PXvHYJ:hover::before {
-  content: ">> ";
-}
-.item-PXvHYJ:hover::after {
-  content: " <<";
-}
-.item-PXvHYJ {
-    text-align: left;
-}
-.item-PXvHYJ:hover {
-    animation: fadeinout 10s linear 1 forwards ; 
-}
 
-@keyframes fadeinout {
-  0% { opacity: 0; }
-  10% { opacity: 1; }
-  20% { opacity: 0; }
-  30% { opacity: 1; }
-  40% { opacity: 0; }
-  50% { opacity: 1; }
-  60% { opacity: 0; }
-  70% { opacity: 1; }
-  80% { opacity: 0; }
-  90% { opacity: 1; }
-  100% { opacity: 0; }
-}
-
-.selected-3s45Ha::before {
-  content: ">> ";
-}
-.selected-3s45Ha::after {
-  content: " <<";
-}
-.selected-3s45Ha {
-  text-align: center;
-}
 /*Search Bar Text*/
 .public-DraftEditorPlaceholder-root {visibility: hidden;}
 .public-DraftEditorPlaceholder-root::before {
@@ -702,4 +663,22 @@ div[class*="noChannel-"],
 .avatarContainer-2LLZwy,
 .appAvatar-3bgkQ9 {
   border-radius: 5px;
+}
+/*status animation up and down*/
+.pointerEvents-2zdfdO {
+  mask: none;
+  border-radius: 15px;
+  y: 28;
+  x: -18;
+  width: 50px;
+  animation: MoveUpDown 2s linear infinite;
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-1px);
+  }
 }
