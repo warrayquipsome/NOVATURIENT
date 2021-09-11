@@ -37,6 +37,22 @@ div[class*="typeWindows-"]::after {
     line-height: 43px;
 }
 
+.wordmark-2iDDfm{
+    --text-muted: rgba(255, 255, 255, 0);
+}
+
+div[class*="typeWindows-"]::before {
+    position: absolute;
+    font-family: "Amatic SC";
+    content: "Mythical Forest‎‏‏‎‏‏";
+    font-size: 20px;
+    font-weight: 100;
+    top: -1px;
+    left: 1220px;
+    color: white;
+    transform: translateY(-8%);
+    line-height: 43px;
+}
 
 /*custom user setting buttons*/
 :root .container-3auIfb, :root .bd-switch-body {
