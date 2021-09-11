@@ -609,3 +609,78 @@ div[class*="noChannel-"],
 .winButtonMinMax-PBQ2gm {
   left: -640px;
 }
+/*user profile*/
+.roleCircle-3xAZ1j {
+  border-radius: 2px;
+}
+.avatarHint-2A3RNb {
+    border-radius: 15px!important;
+}
+.avatarHint-2A3RNb > foreignObject {
+    mask: none;
+}
+.avatarWrapper-3r9PdD .pointerEvents-2zdfdO {
+    y: 55;
+    x: -90;
+    mask: none;
+    pointer-events: none;
+    height: 22px;
+    width: 70px;
+}
+.avatarWrapper-3r9PdD .mask-1l8v16 {
+    overflow: visible;
+}
+.username-2b1r56 {
+  margin-left: 45px;
+  bottom: -6px;
+}
+.avatarHint-2A3RNb {
+  border-radius: 15px;
+}
+.headerTagDiscriminatorNoNickname-D-AYUN {
+  color: #fff;
+  margin-left: 3px;
+}
+.colorLink-2vG20E {
+  margin-left: 60px;
+  color: #fff;
+}
+.colorLink-2vG20E:hover {
+  margin-left: 60px;
+  color: rgba(255, 255, 255, 0.822);
+}
+.avatar-37jOim {
+  margin-left: -0px;
+  border-radius: 15px;
+}
+.avatarWrapperNormal-26WQIb {
+  margin-left: 80px;
+  border-radius: 15px;
+}
+.wrapper-3t9DeA {
+  border-radius: 15px;
+}
+.wrapper-3t9DeA foreignObject,
+.callAvatarMask-1SLlRi foreignObject,
+.avatarContainer-3CQrif foreignObject {
+  mask: none;
+}
+.wrapper-3t9DeA,
+.avatar-1BDn8e,
+.profile-1eT9hT .avatarUploaderInner-3UNxY3,
+.voiceAvatar-14IynY,
+.avatar-3tNQiO,
+.border-Jn5IOt,
+.avatar-3bWpYy,
+.clickableAvatar-1wQpeh,
+.emptyUser-7txhlW,
+.avatar-VxgULZ,
+.wrapper-2QE8vf.ringingIncoming-38YcLn::after,
+.wrapper-2QE8vf.ringingOutgoing-mbXhhQ::after,
+.replyAvatar-1K9Wmr,
+.avatarSpeaking-2c8-9i,
+.avatar-3Heyg_,
+.avatarContainer-2LLZwy,
+.appAvatar-3bgkQ9 {
+  border-radius: 5px;
+}
