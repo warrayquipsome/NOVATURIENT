@@ -679,3 +679,16 @@ div[class*="noChannel-"],
     transform: translateY(-1px);
   }
 }
+/*ghost icons*/ 
+.contents-18-Yxp {
+   animation: MoveUpDown2 1.5s linear infinite;
+}
+
+@keyframes MoveUpDown2 {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+}
