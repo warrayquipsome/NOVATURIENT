@@ -700,3 +700,17 @@ div[class*="noChannel-"],
     transform: translateY(-3px);
   }
 }
+/*transparent scrollbar*/
+::-webkit-scrollbar,
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track-piece {
+  border-color: transparent !important;
+  background: transparent !important;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px !important;
+  border: none !important;
+  background-clip: content-box !important;
+  background: rgba(255, 255, 255, 0) !important;
+}
