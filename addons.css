@@ -1,7 +1,10 @@
 @import url('https://discord-theme-addons.github.io/modern-channel-indicators/src/support/compiled.css');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css);
 /**credit**/
 /**Fancy channel indicators-by LuckFire#4800**/
+/**Server Columns by DevilBro#4401**/
+
 /* update notice */
 #app-mount .app-2rEoOp::before {
     content: "Your version of 'NOVATURIENT' is outdated. Please download the newest version from: https://betterdiscord.app/theme/NOVATURIENT";
@@ -14,7 +17,15 @@
     text-align: center;
     z-index: 101;
 }
-
+/*servercolumns*/
+:root {
+	--columns:			2;							/* default:	3					(amount of servercolumns)																		*/
+	
+	--guildsize:		50;							/* default:	50					(serversize in pixel)																			*/
+	--guildgap:			2;							/* default:	3					(top/bottom gap between servers in pixel)														*/
+	
+	--aligndms:			0;							/* default:	0					(should DMs be aligned in columns: 0 = no, 1 = yes)												*/
+}
 /*sidebar white*/
 .modeUnread-1qO3K1 .icon-1DeIlz { 
     color: var(--interactive-active) !important;
