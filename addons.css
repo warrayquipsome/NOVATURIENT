@@ -450,6 +450,12 @@ div[class*="noChannel-"],
 }
 
 /*channel list server list and message boxx and member list transparent*/
+#app-mount .members-1998pB {
+  background-color: rgba(0, 0, 0, var(--right-brightness));
+}
+#app-mount .members-1998pB > div {
+  background: transparent;
+}
 #app-mount .guilds-1SWlCJ .scrollerBase-289Jih {
   background-color: rgba(255, 255, 255, 0);
 }
