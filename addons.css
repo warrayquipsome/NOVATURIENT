@@ -450,6 +450,9 @@ div[class*="noChannel-"],
 }
 
 /*channel list server list and message boxx and member list transparent*/
+#app-mount .button-1YfofB {
+    background-color: rgba(255, 255, 255, 0);
+}
 #app-mount .nowPlayingColumn-2sl4cE {
   background-color: rgba(0, 0, 0, var(--right-brightness));
 }
