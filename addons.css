@@ -717,3 +717,10 @@ div[class*="noChannel-"],
   background-clip: content-box !important;
   background: rgba(255, 255, 255, 0) !important;
 }
+/*active now activity blur*/
+.itemCard-v9viV7 {
+    background-color: rgba(255, 255, 255, 0.288);
+    backdrop-filter: blur(4px);
+    border-radius: 5px;
+    border: none;
+}
