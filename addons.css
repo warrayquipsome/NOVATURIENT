@@ -749,3 +749,8 @@ div[class*="noChannel-"],
   opacity: unset !important;
   animation: unset !important;
 }
+/*reply bar colour*/
+.replyBar-1YLQ2F {
+   background: rgb(148, 148, 148);
+   border-radius: 5px;
+}
