@@ -463,8 +463,8 @@ div[class*="noChannel-"],
     background-color: transparent;
     backdrop-filter: blur(70px);
 }
-#app-mount .contentRegion-3nDuYy {
-  background-color: var(--);
+.contentRegionScroller-26nc1e, .auto-Ge5KZx > .scrollerBase-289Jih {
+    background-color: transparent;
 }
 #app-mount .button-1YfofB {
     background-color: rgba(255, 255, 255, 0);
