@@ -470,7 +470,7 @@ div[class*="noChannel-"],
 }
 .channelTextArea-rNsIhG, .channelTextArea-rNsIhG > .scrollableContainer-2NUZem {
     background-color: transparent;
-    backdrop-filter: blur(70px);
+    backdrop-filter: blur(7px);
 }
 .layers-3iHuyZ>.layer-3QrUeG:first-child{
     transform: scale(1) !important;
