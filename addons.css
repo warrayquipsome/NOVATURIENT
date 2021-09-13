@@ -459,6 +459,9 @@ div[class*="noChannel-"],
 }
 
 /*channel list server list and message boxx and member list AND other settings transparent*/
+#app-mount .radioBar-bMNUI- {
+    background-color: rgb(5, 96, 156)!important;
+}
 .scroller-lynW5A {
     background-color: rgb(0, 24, 46);
 }
