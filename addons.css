@@ -806,3 +806,46 @@ div[class*="noChannel-"],
   opacity: 0; 
   transform: scale(0.1, 1);
 }
+/*pin messages inbox gif etc colours*/
+.header-1TOWci {
+    background-color: rgb(0, 5, 26);
+}
+.inner-3ErfOT {
+    background-color: rgb(0, 5, 26);
+}
+.unicodeShortcut-15J8Ck {
+    background-color: rgb(0, 5, 26);
+}
+.header-ywPcAE {
+    background-color: rgba(0, 5, 26, 0.87);
+}
+.scroller-3gAZLs {
+    background-color: rgba(0, 5, 26, 0.87);
+}
+.inspector-S2gM3e {
+    background-color: rgba(0, 7, 53, 0.87);
+}
+.contentWrapper-SvZHNd {
+    background-color: rgba(0, 5, 26, 0.87);
+}
+.messagesPopout-24nkyi {
+    background-color: rgb(0, 5, 26);
+}
+.header-ykumBX {
+    background-color: rgba(0, 8, 39, 0.87);
+}
+.messageGroupCozy-2iY6cT {
+    background-color: rgb(27, 35, 61);
+}
+.scroller-tlc3kG {
+    background-color: rgb(0, 15, 43);
+}
+.tutorial-3w5I9h {
+    background-color: rgb(27, 35, 61);
+}
+.channelHeader-3Gd2xq {
+    background-color: rgb(27, 35, 61);
+}
+.messages-3G3erD {
+    background-color: rgb(27, 35, 61);
+}
