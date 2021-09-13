@@ -459,6 +459,9 @@ div[class*="noChannel-"],
 }
 
 /*channel list server list and message boxx and member list AND other settings transparent*/
+.scroller-lynW5A {
+    background-color: rgb(0, 24, 46);
+}
 .accountProfileCard-1XCH88, .background-1QDuV2, .fieldList-21DyL8 {
     background-color: rgb(8, 0, 43);
 }
