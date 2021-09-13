@@ -458,7 +458,7 @@ div[class*="noChannel-"],
   border-top: 1px solid rgba(0,0,0,0.20) !important;
 }
 
-/*channel list server list and message boxx and member list AND user setting transparent*/
+/*channel list server list and message boxx and member list AND other settings transparent*/
 .channelTextArea-rNsIhG, .channelTextArea-rNsIhG > .scrollableContainer-2NUZem {
     background-color: transparent;
     backdrop-filter: blur(70px);
@@ -473,6 +473,10 @@ div[class*="noChannel-"],
 .contentRegionScroller-26nc1e,.contentRegion-3nDuYy,.standardSidebarView-3F1I7i,
 .sidebarRegionScroller-3MXcoP{
     background: transparent;
+}
+
+#app-mount .pageWrapper-1PgVDX {
+    background-color: transparent;
 }
 #app-mount .button-1YfofB {
     background-color: rgba(255, 255, 255, 0);
