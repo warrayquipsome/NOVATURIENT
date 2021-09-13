@@ -463,8 +463,16 @@ div[class*="noChannel-"],
     background-color: transparent;
     backdrop-filter: blur(70px);
 }
-.contentRegionScroller-26nc1e, .auto-Ge5KZx > .scrollerBase-289Jih {
-    background-color: transparent;
+.layers-3iHuyZ>.layer-3QrUeG:first-child{
+    transform: scale(1) !important;
+    opacity: 1 !important;
+}
+.layers-3iHuyZ>.layer-3QrUeG:nth-child(2),.perksModal-fSYqOq{
+        background-color: rgba(0, 0, 0, 0)!important;
+}
+.contentRegionScroller-26nc1e,.contentRegion-3nDuYy,.standardSidebarView-3F1I7i,
+.sidebarRegionScroller-3MXcoP{
+    background: transparent;
 }
 #app-mount .button-1YfofB {
     background-color: rgba(255, 255, 255, 0);
