@@ -459,6 +459,9 @@ div[class*="noChannel-"],
 }
 
 /*channel list server list and message boxx and member list AND other settings transparent*/
+.accountProfileCard-1XCH88, .background-1QDuV2, .fieldList-21DyL8 {
+    background-color: rgb(8, 0, 43);
+}
 .channelTextArea-rNsIhG, .channelTextArea-rNsIhG > .scrollableContainer-2NUZem {
     background-color: transparent;
     backdrop-filter: blur(70px);
