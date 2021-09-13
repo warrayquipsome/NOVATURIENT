@@ -459,6 +459,10 @@ div[class*="noChannel-"],
 }
 
 /*channel list server list and message boxx and member list AND user setting transparent*/
+.channelTextArea-rNsIhG, .channelTextArea-rNsIhG > .scrollableContainer-2NUZem {
+    background-color: transparent;
+    backdrop-filter: blur(70px);
+}
 #app-mount .contentRegion-3nDuYy {
   background-color: var(--);
 }
