@@ -984,3 +984,11 @@ code.hljs {
         border-color: #fff;
     }
 }
+/* small little edit of the pub button and read all button*/
+#bd-pub-button {
+    text-transform: uppercase;
+}
+.button-Jt-tIg {
+    text-transform: uppercase;
+    font-size: 11px;
+}
