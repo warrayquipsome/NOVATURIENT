@@ -962,33 +962,18 @@ code.hljs {
 
 @keyframes test {
     0% {
-        border-color: #00446b;
-    }
-    10% {
-        border-color: #015c92;
+        border-color: #fff;
     }
     20% {
-        border-color: #2d82b5;
-    }
-    30% {
-        border-color: #399ad6;
+        border-color: #d2eeff;
     }
     40% {
-        border-color: #88cdf6;
-    }
-    50% {
-        border-color: #bce6ff;
+        border-color: #a1dbff;
     }
     60% {
-        border-color: #88cdf6;
-    }
-    70% {
-        border-color: #399ad6;
+        border-color: #d2eeff;
     }
     80% {
-        border-color: #2d82b5;
-    }
-    100% {
-        border-color: #015c92;
+        border-color: #fff;
     }
 }
