@@ -793,6 +793,15 @@ div[class*="noChannel-"],
   background-clip: content-box !important;
   background: rgba(255, 255, 255, 0) !important;
 }
+/*change colour of status*/
+rect[fill^="hsl(38,"] {
+fill: rgb(255, 255, 255)}
+rect[fill^="hsl(359,"] {
+fill: rgb(255, 255, 255)}
+rect[fill^="hsl(139,"] {
+fill: rgb(255, 255, 255)}
+rect[fill^="hsl(262,"] {
+fill: rgb(255, 175, 251)}
 /*active now activity blur*/
 .itemCard-v9viV7 {
     background-color: rgba(255, 255, 255, 0.288);
