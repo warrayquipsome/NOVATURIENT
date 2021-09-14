@@ -1,8 +1,10 @@
 @import url('https://discord-theme-addons.github.io/modern-channel-indicators/src/support/compiled.css');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css');
 
 /**credit**/
 /**Fancy channel indicators-by LuckFire#4800**/
+/**settings icon by DevilBro#4401**/
 /* update notice */
 #app-mount .app-2rEoOp::before {
     content: "Your version of 'NOVATURIENT' is outdated. Please download the newest version from: https://betterdiscord.app/theme/NOVATURIENT";
@@ -907,4 +909,86 @@ div[class*="noChannel-"],
 }
 .messages-3G3erD {
     background-color: rgb(27, 35, 61);
+}
+/*better bot tag*/
+.botTagRegular-2HEhHi:hover {
+    transition: .5s;
+    background: #444444;
+    color: #ffffff;
+}
+.botTagRegular-2HEhHi {
+    transition: .5s;
+    background: rgba(30, 0, 27, 0.1);
+    color: #ffffff;
+}
+/* Codeblocks animation*/
+
+* {
+    --dark-shade: rgba(15, 0, 15, 0.95)
+}
+
+.contentWrapper-SvZHNd,
+.wrapper-1-Fsb8,
+.header-ywPcAE,
+.list-donH_Z,
+.inspector-S2gM3e,
+.inspector-3LQtX9 {
+    background: var(--dark-shade);
+}
+
+.guildIcon-3h-1IH:hover::before {
+    content: attr(alt);
+}
+
+.guildIcon-3h-11H {
+    border-bottom: 10px dashed #000;
+    pointer-events: all;
+}
+
+.titleSecondary-3Dh_RZ {
+    transform: translateX(90%);
+}
+
+#app-mount .edited-3sfAzf::before {
+    content: "is ";
+}
+
+code.hljs {
+    border-width: 2px !important;
+    border-color: rgb(255, 255, 255);
+    animation: test 18s ease infinite;
+    display: block;
+}
+
+@keyframes test {
+    0% {
+        border-color: #00446b;
+    }
+    10% {
+        border-color: #015c92;
+    }
+    20% {
+        border-color: #2d82b5;
+    }
+    30% {
+        border-color: #399ad6;
+    }
+    40% {
+        border-color: #88cdf6;
+    }
+    50% {
+        border-color: #bce6ff;
+    }
+    60% {
+        border-color: #88cdf6;
+    }
+    70% {
+        border-color: #399ad6;
+    }
+    80% {
+        border-color: #2d82b5;
+    }
+    100% {
+        border-color: #015c92;
+    }
 }
