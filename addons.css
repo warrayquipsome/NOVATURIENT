@@ -992,3 +992,7 @@ code.hljs {
     text-transform: uppercase;
     font-size: 11px;
 }
+/*spotify gradient thing*/
+.timeline-UWmgAx:hover .barFill-Dhkah7 {
+    background: linear-gradient(135deg, #24ff72, #2196f3);
+}
