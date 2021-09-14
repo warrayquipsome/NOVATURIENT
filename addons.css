@@ -296,6 +296,12 @@ background-color: #fff !important;
 div.layer-2KE1M9 {
   backdrop-filter: blur(5px);
 }
+/*online friends button*/
+.actionButton-uPB8Fs {
+    background-color: rgba(255, 255, 255, 0.288);
+    backdrop-filter: blur(4px);
+    border-radius: 5px;
+}
 /*unread and mention text*/
 .bar-30k2ka {
   border-radius: 5px;
