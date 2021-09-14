@@ -491,13 +491,16 @@ div[class*="noChannel-"],
     background: transparent;
 }
 #app-mount .bd-addon-header {
-    background-color: rgb(174, 212, 255);
+    background-color: rgb(9, 0, 29);
 }
 #app-mount .bd-description-wrap {
-    background-color: rgb(22, 25, 66);
+    background-color: rgb(6, 9, 41);
 }
 #app-mount .bd-footer {
-    background-color: rgb(22, 25, 66);
+    background-color: rgb(6, 9, 41);
+}
+#app-mount .bd-search-wrapper {
+    background-color: rgb(6, 9, 41);
 }
 #app-mount .pageWrapper-1PgVDX {
     background-color: transparent;
