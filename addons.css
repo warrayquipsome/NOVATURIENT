@@ -755,8 +755,6 @@ div[class*="noChannel-"],
 }
 /*status animation up and down*/
 .pointerEvents-2zdfdO {
-  mask: none;
-  border-radius: 15px;
   animation: MoveUpDown 2s linear infinite;
 }
 
