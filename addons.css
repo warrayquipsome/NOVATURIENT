@@ -755,6 +755,37 @@ div[class*="noChannel-"],
 .appAvatar-3bgkQ9 {
   border-radius: 5px;
 }
+/*smaller server icons*/
+  svg[class^="placeholderMask-"] {
+     width: 40px;
+     height: 40px;
+ }
+ div[data-list-item-id="guildsnav___home"] {
+     background: var(--home-image) top center/110% no-repeat;
+ }
+ ul[data-list-id='guildsnav'] ::-webkit-scrollbar {
+     display: none;
+ }
+  [data-list-id='guildsnav'] [class^="pill-"] span[style^="opacity: 1; height: 40"] {
+     --header-primary: rgba(var(--accent), 1);
+ }
+ span[class^="expandedFolderBackground-"] {
+     --background-secondary: rgba(var(--black), 0.25);
+     border-radius: 14px;
+     width: 40px;
+     left: 16px;
+ }
+ ul[data-list-id='guildsnav'] [class^="pill-"],
+ ul[data-list-id='guildsnav'] [class^="pill-"]>div {
+     height: 40px !important;
+ }
+ ul[data-list-id='guildsnav'] div[style*="height: 56"],
+ ul[id^="folder-items-"] {
+     height: auto !important;
+ }
+ .wrapper-25eVIn, .button-Jt-tIg{
+     zoom: .83334;
+ }
 /*status animation up and down*/
 .pointerEvents-2zdfdO {
   animation: MoveUpDown 2s linear infinite;
