@@ -1,6 +1,6 @@
 # NOVATURIENT
 A simple little theme that includes mystery
-![image](https://user-images.githubusercontent.com/84565593/133039410-1b899061-e72c-46ea-92b4-68cfb837c947.png)
+![image](![Uploading Untitled (2)
 # READ!! If you like style
 Pls download Read All button if you want it to look more tidy. Download read all button from [**this**](https://betterdiscord.app/plugin/ReadAllNotificationsButton) link
 # ADDON CREDIT
