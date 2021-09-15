@@ -996,3 +996,7 @@ code.hljs {
 .timeline-UWmgAx:hover .barFill-Dhkah7 {
     background: linear-gradient(135deg, #24ff72, #2196f3);
 }
+/*user settings text shadow*/
+.header-2RyJ0Y {
+    text-shadow: 0 0 20px #ffffff;
+}
