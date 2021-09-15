@@ -179,7 +179,7 @@ div[class*="typeWindows-"]::before {
 }
 /*higlighter*/
 ::selection {
-    background-color: rgba(159, 0, 173, 0.527);
+    background-color: rgba(255, 255, 255, 0.26);
 }
 /*custom right click menu updated version*/
 .menu-3sdvDG {
