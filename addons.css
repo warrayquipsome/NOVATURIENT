@@ -1,10 +1,17 @@
 @import url('https://discord-theme-addons.github.io/modern-channel-indicators/src/support/compiled.css');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
 @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css');
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
 
 /**credit**/
 /**Fancy channel indicators-by LuckFire#4800**/
 /**settings icon by DevilBro#4401**/
+/**recolor by DevilBro#4401**/
+
+/*recolor*/
+:root {
+	--accentcolor:			0, 73, 92;
+}
 /* update notice */
 #app-mount .app-2rEoOp::before {
     content: "Your version of 'NOVATURIENT' is outdated. Please download the newest version from: https://betterdiscord.app/theme/NOVATURIENT";
