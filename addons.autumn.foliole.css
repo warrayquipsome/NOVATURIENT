@@ -1,7 +1,7 @@
 @import url('https://discord-theme-addons.github.io/modern-channel-indicators/src/support/compiled.css');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
 @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css');
-/**use the mythical forest theme by changing the @import url("https://warrayquipsome.github.io/NOVATURIENT/addons.mythical.forest.css"); to @import url("https://warrayquipsome.github.io/NOVATURIENT/addons.mythical.forest.css");**/
+/**use the autumn foliole theme by changing the @import url("https://warrayquipsome.github.io/NOVATURIENT/addons.mythical.forest.css"); to @import url("https://warrayquipsome.github.io/NOVATURIENT/addons.autumn.foliole.css");**/
 
 /**credit**/
 /**Fancy channel indicators-by LuckFire#4800**/
@@ -19,7 +19,7 @@
     text-align: center;
     z-index: 101;
 }
-/*sidebar white*/
+/*channel sidebar icon white thing*/
 .modeUnread-1qO3K1 .icon-1DeIlz { 
     color: var(--interactive-active) !important;
 }
@@ -62,6 +62,9 @@ div[class*="typeWindows-"]::before {
   rx: 5px;
 }
 /*esc button hover animation*/
+#app-mount .keybind-KpFkfr {
+    color: rgba(255, 255, 255, 0.473);
+}
 .closeButton-1tv5uR:hover {
   background: #fff;
   box-shadow: 0 0 10px rgba(255,255,255,1),
@@ -943,4 +946,17 @@ code.hljs {
 /*user settings text shadow*/
 .header-2RyJ0Y {
     text-shadow: 0 0 20px #ffffff;
+}
+/*no text in share screen and video button*/
+.actionButtons-14eAc_ .contents-18-Yxp {
+    font-size: 0;   
+}
+
+.actionButtons-14eAc_ .withText-10pQhr {
+    margin: 0;
+}
+/*status border radius*/
+.pointerEvents-2zdfdO {
+  border-radius: 5px;
+  mask: none;
 }
