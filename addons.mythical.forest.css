@@ -235,12 +235,6 @@ div[class*="typeWindows-"]::before {
 :root .guilds-1SWlCJ .scroller-1Bvpku .circleIconButton-1QV--U:hover {
     color: #ffffff;
     border-color: #ffffff00;
-    animation: spin 3s linear infinite;
-}
-@keyframes spin { 
-  100% { 
-    transform: rotateZ(360deg);
-  }
 }
 
 .scroller-1Bvpku > .tutorialContainer-30WoTp:nth-last-child(3) foreignObject, .scroller-1Bvpku > .listItem-GuPuDH:nth-last-child(2) foreignObject { mask: none;}
