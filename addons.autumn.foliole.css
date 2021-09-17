@@ -298,6 +298,15 @@ div.layer-2KE1M9 {
   content: "What's on your mind bro?";
   font-size: 1rem;
   visibility: visible;}
+  /*find or start conversation text*/
+  #app-mount .searchBar-6Kv8R2 .searchBarComponent-32dTOx {
+    color: transparent;
+}
+.searchBar-6Kv8R2 .searchBarComponent-32dTOx::before {
+    content: "Who you tryna search for?🎅";
+    color: hsla(0, 0%, 100%, 0.616);
+    margin-left: 10px;
+}
   /*Hides CSS Tips*/
 .markdown-hover {display: none;}
 /*background-image*/
