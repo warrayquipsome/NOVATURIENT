@@ -1,6 +1,6 @@
 # NOVATURIENT
 A simple little theme that includes mystery
-![Myhtical forest](https://user-images.githubusercontent.com/84565593/133546372-585978de-17a7-4c97-9496-df759350b0cd.png)
+![video-to-gif-converter](https://user-images.githubusercontent.com/84565593/133711620-aa78de72-7a62-4775-b41c-c4821bbc40c7.gif)
 # READ!! If you like style
 Pls download Read All button if you want it to look more tidy. Download read all button from [**this**](https://betterdiscord.app/plugin/ReadAllNotificationsButton) link, you will know why when u use my theme.
 # ADDON CREDIT
