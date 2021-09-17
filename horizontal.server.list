@@ -274,3 +274,7 @@ html.platform-osx #app-mount #pluginNotice {
 body.foldercontentopened .base-3dtUhz {
   transition: 0.2s ease !important;
 }
+:root {
+  --HSL-server-icon-size: 50px;  /* Size of the server icons | DEFAULT: 40px */
+  --HSL-server-spacing: 25px;  /* Spacing between each server icon | DEFAULT: 10px */
+}
