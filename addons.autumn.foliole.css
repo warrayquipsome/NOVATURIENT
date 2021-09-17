@@ -206,7 +206,7 @@ div[class*="typeWindows-"]::before {
 
 /*custom public servers and create server buttons*/
 :root .guilds-1SWlCJ .scroller-1Bvpku .circleIconButton-1QV--U {
-    border-radius: 11px;
+    border-radius: 5px;
     border: dashed 1px #fff3;
     background: transparent;
     color: #fff3;
