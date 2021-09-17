@@ -969,3 +969,10 @@ code.hljs {
   border-radius: 5px;
   mask: none;
 }
+/*i took out the unread new button cus it was rly bothering ther server list place*/
+.unreadMentionsBar-1Bu1dC  {
+  display: none;
+}
+.unreadMentionsIndicatorTop-2-tcdU {
+   display: none;
+}
