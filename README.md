@@ -1,6 +1,6 @@
 # NOVATURIENT
 A simple little theme that includes mystery
-![WhatsApp Video 2021-09-17 at 10.04.32 AM](https://user-images.githubusercontent.com/84565593/133712824-c9c48d31-c061-45ff-a957-ed3d25f7da64.mp4)
+![video-to-gif-converter](https://user-images.githubusercontent.com/84565593/133713026-939fd7d4-5e9b-4237-96ea-dca4d17a2e95.gif)
 # READ!! If you like style
 Pls download Read All button if you want it to look more tidy. Download read all button from [**this**](https://betterdiscord.app/plugin/ReadAllNotificationsButton) link, you will know why when u use my theme.
 # ADDON CREDIT
