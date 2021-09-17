@@ -976,3 +976,16 @@ code.hljs {
 .unreadMentionsIndicatorTop-2-tcdU {
    display: none;
 }
+/*reply bar and mark as read button colour*/
+.barButtonMain-3K-jeJ, .barButtonAlt-mYL1lj {
+  background-color: rgb(255, 167, 52);
+  height: 50px;
+  bottom: -10px;
+}
+.jumpToPresentBar-G1R9s6 {
+  background-color: transparent;
+}
+.newMessagesBar-265mhP {
+  background-color: transparent;
+}
+
