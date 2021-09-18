@@ -50,7 +50,7 @@ div[class*="typeWindows-"]::after {
     transform: translateY(-8%);
     line-height: 43px;
     animation: revealtext 2.5s linear;
-    animation-delay: 2s;
+    animation-delay: 4s;
 }
 @keyframes revealtext {
     0% {
@@ -130,7 +130,7 @@ div[class*="typeWindows-"]::before {
     transform: translateY(-8%);
     line-height: 43px;
     animation: revealtext2 2.5s linear;
-    animation-delay: 2s;
+    animation-delay: 4s;
 }
 @keyframes revealtext2 {
     0% {
