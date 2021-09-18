@@ -9,6 +9,15 @@
 /**settings icon by DevilBro#4401**/
 /**Better Badges by mr_miner#6969**/
 
+/**secondary credit**/
+/**credit to Demented_Elmo#1234 for the custom searchbar and chatbox texts code **/
+/*Background Image*/
+#app-mount [data-user-id="810543628307922955"].userPopout-xaxa6l {background-image: url(https://cdn.discordapp.com/attachments/872597872472907896/876122913869299782/Screen_Shot_2021-08-14_at_9.09.59_AM.png);}
+/*Popout Fixes*/
+#app-mount [data-user-id="810543628307922955"] .bodyInnerWrapper-26fQXj {background: transparent;}
+
+
+
 
 /* update notice */
 #app-mount .app-2rEoOp::before {
