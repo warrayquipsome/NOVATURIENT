@@ -35,7 +35,6 @@
     color: var(--interactive-active) !important;
 }
 /*theme text*/
-/*theme text*/
 .wordmark-2iDDfm{
     --text-muted: rgba(255, 255, 255, 0);
 }
@@ -50,7 +49,8 @@ div[class*="typeWindows-"]::after {
     color: white;
     transform: translateY(-8%);
     line-height: 43px;
-    animation: revealtext 2s linear;
+    animation: revealtext 2.5s linear;
+    animation-delay: 2s;
 }
 @keyframes revealtext {
     0% {
@@ -113,6 +113,7 @@ div[class*="typeWindows-"]::after {
     100% {
         content: "NOVATURIENT";
     }
+    
 }
 .wordmark-2iDDfm{
     --text-muted: rgba(255, 255, 255, 0);
@@ -129,6 +130,7 @@ div[class*="typeWindows-"]::before {
     transform: translateY(-8%);
     line-height: 43px;
     animation: revealtext2 2.5s linear;
+    animation-delay: 2s;
 }
 @keyframes revealtext2 {
     0% {
