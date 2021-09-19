@@ -38,7 +38,9 @@
 }
 #app-mount [data-user-id="709377715320651838"] .bodyInnerWrapper-26fQXj {background: transparent;}
 #app-mount [data-user-id="709377715320651838"] .banner-2QYc2d {background: transparent!important;}
-
+.divider-ewBQKj {
+  display: none;
+}
 /*channel sidebar icon white thing*/
 .modeUnread-1qO3K1 .icon-1DeIlz { 
     color: var(--interactive-active) !important;
