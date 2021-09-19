@@ -1187,6 +1187,15 @@ code.hljs {
    display: none;
 }
 /*reply bar and mark as read button colour*/
+.replyBar-1YLQ2F {
+  background-color: rgb(255, 167, 52);
+  height: 40px;
+  margin-bottom: -10px!important;
+  border-radius: 4px;
+}
+.text-15b_0l, .replyLabel-27F26o {
+  color: #fff;
+}
 .barButtonMain-3K-jeJ, .barButtonAlt-mYL1lj {
   background-color: rgb(255, 167, 52);
   height: 50px;
