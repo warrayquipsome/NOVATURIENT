@@ -1215,3 +1215,8 @@ code.hljs {
 #app-mount .status-1AY8sU {
     background-color: #fff!important;
 }
+/*blur status picker*/
+.menu-3sdvDG {
+    background-color: rgba(255, 255, 255, 0.192) !important;
+    backdrop-filter: blur(15px) !important;
+}
