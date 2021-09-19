@@ -901,7 +901,22 @@ div[class*="noChannel-"],
      zoom: .83334;
  }
 
-
+/*unread chat thing and ping*/
+.numberBadge-2s8kKX {
+  background-color: rgb(255, 94, 94) !important;
+  margin-bottom: -4px;
+  height: 55px !important;
+  margin-right: -30px !important;
+  border-radius: 3px;
+}
+.isUnread-3Ef-o9 .content-1o0f9g{
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.582);
+}
+.wrapper-25eVIn foreignObject {
+    mask: unset;
+    border-radius: 5px;
+}
 /*transparent scrollbar*/
 ::-webkit-scrollbar,
 ::-webkit-scrollbar-track,
