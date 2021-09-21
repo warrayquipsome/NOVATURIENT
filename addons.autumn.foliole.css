@@ -1261,3 +1261,12 @@ code.hljs {
 #app-mount [data-user-id="709377715320651838"] .nickname-3M3Jfa {text-align: center;}
 #app-mount [data-user-id="709377715320651838"] .headerTagWithNickname-3l_x6x, .setIdentityLink-1t8Ahd {text-align: center;}
 #app-mount [data-user-id="709377715320651838"] .userPopout-xaxa6l {filter: blur(5px);}
+/*pin member noti etc buttons hover*/
+.clickable-3rdHwn .icon-22AiRD { 
+    transition: width 0.3s ease, height 0.3s ease;
+}
+.clickable-3rdHwn:hover .icon-22AiRD { 
+    color: rgba(255, 255, 255, 0.432);
+    width: 30px;
+    height: 30px;
+}
