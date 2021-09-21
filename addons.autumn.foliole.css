@@ -1227,3 +1227,22 @@ code.hljs {
     background-color: rgba(255, 255, 255, 0.192) !important;
     backdrop-filter: blur(15px) !important;
 }
+/*custom css editor colours*/
+.floating-window-titlebar {
+  background-color: rgb(255, 166, 0);
+}
+#bd-editor-controls {
+  background-color: rgb(255, 78, 78)!important;
+}
+.title {
+  color: #fff!important;
+}
+.floating-window-buttons {
+  background-color: #fff!important;
+}
+.slider {
+  background: linear-gradient(45deg,rgb(255, 166, 0),rgb(255, 60, 60))!important;
+}
+.checkbox::after {
+  background-color: rgb(255, 255, 255)!important;
+}
