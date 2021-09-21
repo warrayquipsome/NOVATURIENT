@@ -1,6 +1,6 @@
 # NOVATURIENT
-◆ Make your discord look more better with NOVATURIENT 🤪👍
 ![THEME PREVIEW 1 ‐ Made with Clipchamp](https://user-images.githubusercontent.com/84565593/134127275-0d5d2534-0fcd-4bba-bd00-d8dccad3d7d6.gif)
+◆ Make your discord look more better with NOVATURIENT 🤪👍
 # READ!! If you like style
 ◆ Pls download Read All button if you want it to look more tidy. Download read all button from [**this**](https://betterdiscord.app/plugin/ReadAllNotificationsButton) link, you will know why when u use my theme.
 # ADDON CREDIT
