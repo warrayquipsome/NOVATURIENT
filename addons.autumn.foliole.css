@@ -1272,3 +1272,13 @@ code.hljs {
     min-height: 20px;
     margin-left: 20px;
 }
+/*tooltip background colour*/
+.theme-dark .tooltipPrimary-1d1ph4 { 
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    backface-visibility: hidden;
+    perspective: 1000;
+    background-color: rgba(0, 0, 0, 0.671);
+    -webkit-backdrop-filter: blur(7px);
+    border-radius: 5px;
+}
