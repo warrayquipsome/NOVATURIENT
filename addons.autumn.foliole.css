@@ -1238,12 +1238,6 @@ code.hljs {
   color: #fff!important;
 }
 .floating-window-buttons {
-  background-color: #fff!important;
-}
-.slider {
-  background: linear-gradient(45deg,rgba(255, 166, 0, 0.637),rgba(255, 60, 60, 0.651))!important;
-}
-.checkbox::after {
   background-color: rgb(255, 255, 255)!important;
 }
 /*Custom user popout FOR ME HEHEHEH*/
