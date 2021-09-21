@@ -296,9 +296,9 @@ background-color: #fff !important;
  /*home icon*/
 .homeIcon-FuNwkv path {fill: transparent}
 .homeIcon-FuNwkv {
-    background: url('https://i.imgur.com/gLS0eEx.gif') center/cover no-repeat;
-    min-width: 1px;
-    min-height: 1px;
+    background: url('https://i.imgur.com/MDny8wG.png') center/cover no-repeat;
+    min-width: 50px;
+    min-height: 50px;
     margin-left: 1px;
 }
 
