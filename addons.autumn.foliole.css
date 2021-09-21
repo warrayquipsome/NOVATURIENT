@@ -1264,3 +1264,11 @@ code.hljs {
     width: 30px;
     height: 30px;
 }
+/*custom server banner side icon animation*/
+.button-1w5pas path {display: none;}
+.button-1w5pas {
+    background: url('https://www.chophousesteaks.ca/wp-content/uploads/2019/02/6576638-0-scrolldown-black.gif') center/cover no-repeat;
+    min-width: 20px;
+    min-height: 20px;
+    margin-left: 20px;
+}
