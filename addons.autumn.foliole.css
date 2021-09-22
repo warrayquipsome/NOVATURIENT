@@ -1343,11 +1343,6 @@ code.hljs {
 }
 /*text colour and font*/
 .scrollableContainer-2NUZem span, .markup-2BOw-j.messageContent-2qWWxC, .repliedTextPreview-2NBljf  {
-    color: #000000;
-    font-family: Neucha;
-}
-.scrollableContainer-2NUZem:hover, .markup-2BOw-j.messageContent-2qWWxC:hover, .repliedTextPreview-2NBljf:hover  {
-    color: #ffffff;
     font-family: Neucha;
 }
 /*user setting spin*/
