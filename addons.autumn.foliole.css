@@ -583,7 +583,59 @@ div[class*="noChannel-"],
 .sidebar-2K8pFh > div:last-child {
   border-top: 1px solid rgba(0,0,0,0.20) !important;
 }
+/* colored links */
+/* YouTube */
+[href*="youtu.be"],
+[href*="youtube.com"] {
+    color:#c4302b !important;
+}
+/* Twitch */
+[href*="twitch.tv"] {
+    color:#b700ff !important;
+}
+/* Discord */
+[href*="discord.com/channels/"] {
+    color:#7289da !important;
+}
+[href*="discord.com/channels/"]::before {
+    content:'Jump to Message : ';
+    font-size:16px;
+    color: #603cff;
+}
+[href*="betterdiscord.app/"],
+[href*="discord.gg/"],
+[href*="discord.com/"],
+[href*="media.discordapp.net/"],
+[href*="cdn.discordapp.com/"] {
+    color:#7289da !important;
+}
 
+/* Twitter */
+[href*="twitter.com/"]{
+    color:#00acee !important;
+}
+/* GitHub */
+[href*="github.com"]{
+    color:#00f0a8 !important;
+}
+
+/* Imgur */
+[href*="i.imgur.com"]{
+    color:#89C623 !important;
+}
+
+/* Steam */
+[href*="store.steampowered.com"],
+[href*="https://s.team"],
+[href*="steamcommunity.com/"] {
+    color:#1b2838 !important; 
+}
+
+/* Spotify */
+[href*="spotify.com"],
+[href*="open.spotify.com"]{
+    color:#13B94A !important; 
+}
 /*channel list server list and message boxx and member list AND other settings transparent  its a real big mess tbh*/
 .scroller-305q3I {
   background-color: transparent;
