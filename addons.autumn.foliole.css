@@ -849,6 +849,21 @@ div[class*="noChannel-"],
   .winButtonClose-1HsbF-:hover {
     background-color: rgba(255, 255, 255, 0.336);
   }
+.winButtonMinMax-PBQ2gm:hover {
+    transform: rotate(45deg)!important;
+    background-color: transparent;
+}
+.winButtonMinMax-PBQ2gm:hover {
+    transform: rotate(45deg)!important;
+    background-color: transparent;
+}
+.winButton-iRh8-Z:nth-child(2):hover {
+    transform: rotate(45deg)!important;
+    background-color: transparent;
+}
+.winButton-iRh8-Z {
+    transition: all 200ms ease-out!important;
+}
   
 /*user profile*/
 .roleCircle-3xAZ1j {
