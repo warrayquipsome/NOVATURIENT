@@ -1305,21 +1305,7 @@ code.hljs {
 .floating-window-buttons {
   background-color: rgb(255, 255, 255)!important;
 }
-/*Custom user popout FOR ME HEHEHEH*/
-#app-mount [data-user-id="709377715320651838"].userPopout-xaxa6l, .topSection-y3p-_D {background-image: url('https://i.imgur.com/PC58MLf.jpeg');width: 900px!important;height: 500px!important;}
-#app-mount [data-user-id="709377715320651838"] .bodyInnerWrapper-26fQXj {background: transparent;}
-#app-mount [data-user-id="709377715320651838"] .banner-2QYc2d {background: transparent!important;}
-#app-mount [data-user-id="709377715320651838"] .divider-ewBQKj {display: none;}
-#app-mount [data-user-id="709377715320651838"] .avatar-37jOim {position: absolute;margin-top: -0px;width: 100px!important;height: 100px!important;}
-#app-mount [data-user-id="709377715320651838"] .avatarPositionNormal-aZjAsn {margin-left: 380px;margin-top: -45px;}
-#app-mount [data-user-id="709377715320651838"] .bannerOverlay-1uIerX {width: 900px!important;}
-#app-mount [data-user-id="709377715320651838"] .avatarHint-2A3RNb {width: 100px; height: 100px;}
-#app-mount [data-user-id="709377715320651838"] .textarea-2r0oV8 {background-color: rgba(255, 255, 255, 0.137);}
-#app-mount [data-user-id="709377715320651838"] .infoScroller-1Qu30O  {background-color: rgb(10, 10, 10);}
-#app-mount [data-user-id="709377715320651838"] .body-3HBlXn, .headerTop-3vNv-a {backdrop-filter: blur(5px);}
-#app-mount [data-user-id="709377715320651838"] .nickname-3M3Jfa {text-align: center;}
-#app-mount [data-user-id="709377715320651838"] .headerTagWithNickname-3l_x6x, .setIdentityLink-1t8Ahd {text-align: center;}
-#app-mount [data-user-id="709377715320651838"] .userPopout-xaxa6l {filter: blur(5px);}
+
 /*pin member noti etc buttons hover*/
 .clickable-3rdHwn .icon-22AiRD { 
     transition: width 0.3s ease, height 0.3s ease;
