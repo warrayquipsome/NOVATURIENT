@@ -1347,3 +1347,12 @@ code.hljs {
   from {transform: rotate(0deg);}
   to {transform: rotate(360deg);}
 }
+/*new unreads colour*/
+.unreadBar-3t3sYc {
+    background-color: rgb(255, 166, 0);
+    opacity: 1;
+}
+.unreadBar-3t3sYc:hover {
+    background-color: rgb(255, 166, 0);
+    opacity: .9;
+}
