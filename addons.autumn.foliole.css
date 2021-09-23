@@ -228,6 +228,12 @@ div[class*="typeWindows-"]::before {
               0 0 0 4px rgba(255,255,255,0.05),
               0 0 0 2px rgba(255,255,255,0.05);
 }
+.closeButton-1tv5uR{
+    border-color: rgba(255, 255, 255, 0)!important;
+}
+.closeButton-1tv5uR:hover {
+    border-color: #fff!important;
+}
 .keybind-KpFkfr {
   margin-top: 17px;
   font-size: 20px;
