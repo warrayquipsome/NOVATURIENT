@@ -282,6 +282,9 @@ div[class*="typeWindows-"]::before {
   position: fixed;
   transform: translatey( -71px );
 }
+.button-Jt-tIg {
+  background-color: transparent!important;
+}
 /* do not mirror video preview*/
 .mirror-1Z13AJ {transform: none}
 
