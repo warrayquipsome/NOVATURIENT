@@ -1345,3 +1345,7 @@ code.hljs {
     background-color: rgb(255, 166, 0);
     opacity: .9;
 }
+/*makin home button and read all button transparent cus they r being naughty*/
+.button-Jt-tIg {
+  background-color: transparent!important;
+}
