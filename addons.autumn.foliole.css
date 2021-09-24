@@ -273,27 +273,14 @@ div[class*="typeWindows-"]::before {
     max-height: unset;
     max-width: unset;
 }
-/*scroll but home button and 2 other button stays*/
-.guilds-1SWlCJ .tree-2wKJdG:focus {
-  outline-color: transparent;
-}
+/*pin home button but its edited? */
 .guilds-1SWlCJ .scroller-1Bvpku {
   contain: unset;
-  margin-top: 116px;
+  margin-top: 100px;
 }
-.guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-2sGCg9 {
+.tutorialContainer-2sGCg9 {
   position: fixed;
-  transform: translatey( -116px );
-}
-.frame-oXWS21 {
-    position: fixed;
-    transform: translatey( -28px );
-}
-#app-mount .guilds-1SWlCJ {
-    background-color: rgba(0, 0, 0, var(--serverlist-brightness));
-}
-#app-mount .guilds-1SWlCJ .scrollerBase-289Jih {
-    background-color: unset;
+  transform: translatey( -92px );
 }
 /* do not mirror video preview*/
 .mirror-1Z13AJ {transform: none}
