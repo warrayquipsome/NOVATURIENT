@@ -280,7 +280,7 @@ div[class*="typeWindows-"]::before {
 }
 .tutorialContainer-2sGCg9 {
   position: fixed;
-  transform: translatey( -92px );
+  transform: translatey( -87px );
 }
 /* do not mirror video preview*/
 .mirror-1Z13AJ {transform: none}
