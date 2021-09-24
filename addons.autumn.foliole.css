@@ -1334,3 +1334,7 @@ code.hljs {
     opacity: .9;
 }
 
+/*sry bro its all for the home button*/
+#app-mount .childWrapper-anI2G9 {
+  background-color: rgba(255, 255, 255, 0);
+}
