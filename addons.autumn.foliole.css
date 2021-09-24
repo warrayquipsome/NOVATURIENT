@@ -964,7 +964,7 @@ div[class*="noChannel-"],
  ul[data-list-id='guildsnav'] ::-webkit-scrollbar {
      display: none;
  }
-  [data-list-id='guildsnav'] [class^="pill-"] span[style^="opacity: 1; height: 40"] {
+  [data-list-id='guildsnav'] [class^="pill-"] span[style^="opacity: 1; height: 0"] {
      --header-primary: rgba(var(--accent), 1);
  }
  span[class^="expandedFolderBackground-"] {
@@ -984,7 +984,6 @@ div[class*="noChannel-"],
  .wrapper-25eVIn, .button-Jt-tIg{
      zoom: .83334;
  }
-
 /*unread chat thing and ping*/
 .numberBadge-2s8kKX {
   background-color: rgb(255, 94, 94) !important;
