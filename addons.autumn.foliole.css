@@ -1344,3 +1344,43 @@ code.hljs {
 #app-mount .childWrapper-anI2G9 {
   background-color: rgba(255, 255, 255, 0);
 }
+/*home button crystal clear shine effect*/
+#app-mount .wrapper-1BJsBx[data-list-item-id="guildsnav___home"] {overflow: hidden;}
+#app-mount .wrapper-1BJsBx[data-list-item-id="guildsnav___home"]::before {
+
+content: '';
+position: absolute;
+top: 0;
+left: -100px;
+width: 5px;
+height: 100%;
+background: rgba(255,255,255, 0.3);
+transform: skewX(-30deg);
+animation-name: slide;
+animation-duration: 3s;
+animation-timing-function: ease-in-out;
+animation-delay: .3s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+background: linear-gradient(
+    to right, 
+    rgba(255, 255, 255, 0.548) 0%,
+    rgba(255, 255, 255, 0.534) 77%,
+    rgb(255, 255, 255) 92%,
+    rgb(255, 255, 255) 100%
+  );
+}
+@keyframes slide {
+  0% {
+    left: -100;
+    top: 0;
+  }
+  50% {
+    left: 120px;
+    top: 0px;
+  }
+  100% {
+    left: 290px;
+    top: 0;
+  }
+}
