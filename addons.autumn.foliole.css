@@ -434,7 +434,11 @@ div.layer-2KE1M9 {
     text-align: center;
     color: #fff;
 }
-
+.header-2RyJ0Y {
+    font-family: Amatic SC;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
 
 /*Search Bar Text*/
 .public-DraftEditorPlaceholder-root {visibility: hidden;}
