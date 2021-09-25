@@ -366,13 +366,13 @@ div[class*="typeWindows-"]::before {
     background: transparent;
 }
 .scroller-1Bvpku > .tutorialContainer-30WoTp:nth-last-child(3) foreignObject, .scroller-1Bvpku > .listItem-GuPuDH:nth-last-child(2) foreignObject { mask: none;}
-/*button hover white*/
+/*button hover white and red text*/
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
-color: rgb(255, 255, 255) !important;
+color: rgb(255, 0, 0) !important;
 background-color: #fff !important;
 }
 .button-Jt-tIg:hover,
-#bd-pub-button:hover {background-color: rgb(255, 255, 255)!important;
+#bd-pub-button:hover {background-color: rgb(255, 255, 255)!important;color: red;
 }
 
 /*blur emailthing*/
