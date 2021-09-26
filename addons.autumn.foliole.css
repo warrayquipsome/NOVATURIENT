@@ -1231,7 +1231,7 @@ code.hljs {
 .newMessagesBar-265mhP {
   background-color: transparent;
 }
-/*cleaner look for status picking*/ /*healing in progress*/
+/*cleaner look for status picking*/ 
 .separator-2I32lJ {
     display: none;
 }
@@ -1248,10 +1248,18 @@ code.hljs {
 #app-mount .status-1AY8sU {
     background-color: #fff!important;
 }
-/*blur status picker*/ /*healing in progress*/
-.menu-3sdvDG {
-    background-color: rgba(255, 255, 255, 0.192) !important;
-    backdrop-filter: blur(15px) !important;
+/*blur menus*/
+.menu-3sdvDG, .scroller-3BxosC { /*Right click panel*/
+    background-color: rgba(255, 255, 255, 0.103)!important;
+}
+.menu-3sdvDG::before,
+.menu-3sdvDG.submenu-2-ysNh::before { /*Creates the blur behind the panel*/
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;    -webkit-backdrop-filter: blur(15px)!important;
+    backdrop-filter: blur(15px)!important;
+    z-index: -1;
 }
 /*custom css editor colours*/
 .floating-window-titlebar {
