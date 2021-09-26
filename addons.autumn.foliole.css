@@ -1140,7 +1140,7 @@ div[class*="noChannel-"],
 /*better bot tag*/
 .botTagRegular-2HEhHi:hover {
     transition: .5s;
-    background: #444444;
+    background: rgb(255, 166, 0);
     color: #ffffff;
 }
 .botTagRegular-2HEhHi {
