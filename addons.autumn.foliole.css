@@ -611,17 +611,14 @@ div[class*="noChannel-"],
     color:#13B94A !important; 
 }
 /* make some of those things transparent */
-.wrapper-2aW0bm, .container-3w7J-x, #private-channels, .privateChannels-1nO12o, .sidebar-2K8pFh, .scroller-1Bvpku, .wrapper-3NnKdC, .sidebarRegionScroller-3MXcoP, .standardSidebarView-3F1I7i, .layer-3QrUeG #app-mount {
-    background: transparent !important;}
+.scroller-305q3I {
+    background-color: transparent;
+  }
 #app-mount .scroller-RmtA4e {
     background-color: rgba(255, 255, 255, 0);
 }
 #app-mount .card-4s8auQ, .settingCard-3w2mVL, .item-1yAxl1 {
   background-color: rgba(255, 255, 255, 0);
-}
-.channelTextArea-rNsIhG, .channelTextArea-rNsIhG > .scrollableContainer-2NUZem {
-    backdrop-filter: blur(7px);
-    background-color: rgba(255, 255, 255, 0.034);
 }
 .channelTextArea-rNsIhG, .channelTextArea-rNsIhG > .scrollableContainer-2NUZem {
     backdrop-filter: blur(7px);
@@ -760,6 +757,14 @@ div[class*="noChannel-"],
 }
 #app-mount .expandedFolderIconWrapper-Huv7rA {
     background-color: rgba(255, 255, 255, 0);
+}
+.closedFolderIconWrapper-2sTcE6 {
+    background-color: rgba(255, 255, 255, 0.623);
+    border-radius: 25px;
+  }
+/* user setting theme and those stuffs collours [idk whats it called ;-;] */
+.accountProfileCard-1XCH88, .background-1QDuV2, .fieldList-21DyL8 {
+    background-color: rgb(43, 0, 0);
 }
 /*theres something on the chatbox and its [uUUgLLy]*/
 .form-2fGMdU::before {
