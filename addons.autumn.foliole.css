@@ -433,12 +433,12 @@ div.layer-2KE1M9 {
 /*Search Bar Text*/
 .public-DraftEditorPlaceholder-root {visibility: hidden;}
 .public-DraftEditorPlaceholder-root::before {
-  content: "‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‏‏‎  ‎‏‏‎ ‎‏‏‎ I'm lookin what ur gonna type HEHEHE";
+  content: "‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‏‏‎  ‎‏‏‎ ‎‏‏‎ What's up my guy";
   visibility: visible;}
   /*Textbox Text*/
 .placeholder-37qJjk {visibility: hidden;}
 .placeholder-37qJjk::before {
-  content: "What's on your mind bro?";
+  content: "IM LOOKIN AT WHACHU TYPIN HEHEHEHEHEH";
   font-size: 1rem;
   visibility: visible;}
   /*find or start conversation text*/
@@ -446,7 +446,7 @@ div.layer-2KE1M9 {
     color: transparent;
 }
 .searchBar-6Kv8R2 .searchBarComponent-32dTOx::before {
-    content: "Who you tryna search for?🎅";
+    content: "Who you tryna search for?🎅📸";
     color: hsla(0, 0%, 100%, 0.616);
     margin-left: 10px;
 }
