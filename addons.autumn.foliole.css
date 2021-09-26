@@ -1340,3 +1340,10 @@ code.hljs {
 .children-19S4PO::after {
   display: none;
 }
+/* new unreads hover transition*/
+.active-1SSsBb{
+  transition: letter-spacing 0.5s;
+}
+.active-1SSsBb:hover {
+    letter-spacing: 5px;
+}
