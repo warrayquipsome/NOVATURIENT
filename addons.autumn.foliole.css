@@ -611,6 +611,8 @@ div[class*="noChannel-"],
     color:#13B94A !important; 
 }
 /* make some of those things transparent */
+.wrapper-2aW0bm, .container-3w7J-x, #private-channels, .privateChannels-1nO12o, .sidebar-2K8pFh, .scroller-1Bvpku, .wrapper-3NnKdC, .sidebarRegionScroller-3MXcoP, .standardSidebarView-3F1I7i, .layer-3QrUeG #app-mount {
+  background: transparent !important;}
 .scroller-305q3I {
     background-color: transparent;
   }
