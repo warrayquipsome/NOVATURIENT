@@ -941,13 +941,13 @@ div[class*="noChannel-"],
  .wrapper-25eVIn, .button-Jt-tIg{
      zoom: .83334;
  }
-/*unread chat thing and ping*/
 .numberBadge-2s8kKX {
     background-color: rgb(255, 94, 94) !important;
-    margin-bottom: -4px;
-    height: 55px !important;
+    margin-bottom: 25px;
+    height: 30px !important;
     margin-right: -8px !important;
-    border-radius: 3px;
+    border-radius: 0px;
+    animation: audio-flash 1.2s linear infinite;
   }
   .isUnread-3Ef-o9 .content-1o0f9g{
     color: rgb(255, 255, 255);
@@ -1326,21 +1326,21 @@ code.hljs {
 #app-mount .childWrapper-anI2G9 {
   background-color: rgba(255, 255, 255, 0);
 }
-/*audio call flash thing*/
+  /*audio call flash thing*/
 .upperBadge-2XnnGB {
-  left: -9pt!important;
-  top: 0px;
+  left: 30pt!important;
+  top: 25px;
 }
 :root {
     --accent-rgb: 128,128,128;
     --accent-text-color: #fff;
 }
 .listItem-GuPuDH .wrapper-25eVIn .upperBadge-2XnnGB .iconBadge-2NuvG9 {
-    width: 2px;
-    height: 50px;
+    width: 3px;
+    height: 30px;
     background-color: var(--accent-rgb);
     color: var(0,0,0);
-    border-radius: 5%;
+    border-radius: 0px;
     animation: audio-flash 1.2s linear infinite;
 }
 .listItem-GuPuDH .wrapper-25eVIn .upperBadge-2XnnGB .iconBadge-2NuvG9.participating-1NvRVd {
