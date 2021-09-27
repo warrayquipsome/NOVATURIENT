@@ -278,6 +278,15 @@ div[class*="typeWindows-"]::before {
   height: 22px;
   background: url(https://i.imgur.com/lBSnV7M.gif) center / 100% 100%;
 }
+/*legendary helper*/
+#app-mount [data-user-id="515780151791976453"] .badgeList-1R1WgZ::after,
+#app-mount [data-user-id="515780151791976453"] .profileBadges-ohc0Vu::after,
+#app-mount [data-user-id="515780151791976453"] .badges-XRnWAp::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url(https://i.imgur.com/P8ztVhA.png) center / 100% 100%;
+}
 /*remove limit css editor*/
 #floating-editor-window.resizable {
     max-height: unset;
