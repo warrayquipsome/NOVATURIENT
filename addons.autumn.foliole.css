@@ -717,6 +717,11 @@ div[class*="noChannel-"],
     background-color: rgba(255, 255, 255, 0);
 }
 #bd-pub-button {background-color: rgba(255, 255, 255, 0);}
+/*MORE transparent stuffs*/
+.inline, .section-2gLsgF, .scrollbarGhostHairline-1mSOM1, .DraftEditor-root, .card-3Qj_Yx, .spoilerText-3p6IlD, .footer-2yA7Ep, .textContainer-C0szpm, .checklistItem-37OOck, .previewContainer-1SS3uO, .tierBody-3aUxuc, .developerPortalCtaWrapper-2XNafh, .descriptionBox-1EKQKL, .radioBar-bMNUI-, .wrapper-18yWki {
+  background-color: rgba(0, 0, 0, 0.5)!important;
+  backdrop-filter: blur(10px);
+}
 /*message box little upgrades*/
 :root {
     --color-brand-lighter: #ffffff00;
