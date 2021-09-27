@@ -31,17 +31,14 @@
     text-align: center;
     z-index: 101;
 }
-/*I LOVE PUGS*/
-#app-mount [data-user-id="709377715320651838"].userPopout-xaxa6l {
-  background-image: url('https://i.imgur.com/PC58MLf.jpeg');
-  width: 900px!important;
-  height: 500px!important;
-}
+/*I LOVE PUGS, i mean i have a custom user popout*/
+#app-mount [data-user-id="709377715320651838"].userPopout-xaxa6l {background-color: rgba(255, 255, 255, 0.158);background-image: url(https://64.media.tumblr.com/503f5181ba9e33dd42cccce51e38f177/575a1e3069f478c4-9e/s1280x1920/f4298978fc6f94fb9e3ace2ac51d8f3d2ae1d788.gifv);backdrop-filter: blur(500px);width: 700px!important;height: 366px!important;}
 #app-mount [data-user-id="709377715320651838"] .bodyInnerWrapper-26fQXj {background: transparent;}
-#app-mount [data-user-id="709377715320651838"] .banner-2QYc2d {background: transparent!important;}
-.divider-ewBQKj {
-  display: none;
-}
+#app-mount [data-user-id="709377715320651838"] .banner-2QYc2d {background: transparent!important;}.divider-ewBQKj {display: none;}
+#app-mount [data-user-id="709377715320651838"] .bannerOverlayPopout-1clJ34, .bannerOverlay-1uIerX  {width: 900px!important;background-color: transparent;}
+#app-mount [data-user-id="709377715320651838"] .textarea-2r0oV8  {width: 900px!important;background-color: transparent;}
+#app-mount [data-user-id="709377715320651838"] img.avatar-VxgULZ {content: url('https://i.imgur.com/7PuhM2c.gif')}
+#app-mount [data-user-id="709377715320651838"] .role-2irmRk {background-color: transparent;}
 /*channel sidebar icon white thing*/
 .modeUnread-1qO3K1 .icon-1DeIlz { 
     color: var(--interactive-active) !important;
