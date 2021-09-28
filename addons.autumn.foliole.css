@@ -968,7 +968,7 @@ div[class*="noChannel-"],
 .numberBadge-2s8kKX {
     background-color: rgb(255, 94, 94) !important;
     margin-bottom: 25px;
-    height: 30px !important;
+    height: 5px !important;
     margin-right: -8px !important;
     border-radius: 0px;
     animation: audio-flash 1.2s linear infinite;
@@ -1350,7 +1350,7 @@ code.hljs {
 #app-mount .childWrapper-anI2G9 {
   background-color: rgba(255, 255, 255, 0);
 }
-  /*audio call flash thing*/
+    /*audio call flash thing*/
 .upperBadge-2XnnGB {
   left: 30pt!important;
   top: 25px;
@@ -1361,7 +1361,7 @@ code.hljs {
 }
 .listItem-GuPuDH .wrapper-25eVIn .upperBadge-2XnnGB .iconBadge-2NuvG9 {
     width: 3px;
-    height: 30px;
+    height: 5px;
     background-color: var(--accent-rgb);
     color: var(0,0,0);
     border-radius: 0px;
