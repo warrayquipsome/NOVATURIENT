@@ -259,14 +259,6 @@ div[class*="typeWindows-"]::before {
 :root .closeButton-1tv5uR:hover {
   transform: rotate(-315deg);
 }
-
-.attachButtonPlus-jWVFah {
-  transition: all 0.5s ease-in-out;
-}
-
-.attachButtonPlus-jWVFah:hover {
-  transform: rotate(-180deg)
-}
 /*hide thread*/
 .container-3O_wAf {display : none}
 /*dont change or i smack you*/
