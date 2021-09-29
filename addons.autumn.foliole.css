@@ -15,7 +15,24 @@
 #app-mount [data-user-id="810543628307922955"].userPopout-xaxa6l {background-image: url(https://cdn.discordapp.com/attachments/872597872472907896/876122913869299782/Screen_Shot_2021-08-14_at_9.09.59_AM.png);}
 /*Popout Fixes*/
 #app-mount [data-user-id="810543628307922955"] .bodyInnerWrapper-26fQXj {background: transparent;}
-
+/*thank you DoggyBootsy#3442 for helps in these months without hate ;)*/
+#app-mount [data-user-id="515780151791976453"] .badgeList-1R1WgZ::after,
+#app-mount [data-user-id="515780151791976453"] .profileBadges-ohc0Vu::after,
+#app-mount [data-user-id="515780151791976453"] .badges-XRnWAp::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url(https://i.imgur.com/P8ztVhA.png) center / 100% 100%;
+}
+/* also thank you Cedric too for the user popout effects pretty cooooooool*/
+#app-mount [data-user-id="523011655051902976"] .badgeList-1R1WgZ::after,
+#app-mount [data-user-id="523011655051902976"] .profileBadges-ohc0Vu::after,
+#app-mount [data-user-id="523011655051902976"] .badges-XRnWAp::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url(https://i.imgur.com/P8ztVhA.png) center / 100% 100%;
+}
 
 
 
@@ -43,6 +60,7 @@
 [data-user-id="709377715320651838"].userPopout-xaxa6l .headerTagDiscriminatorNoNickname-D-AYUN::after{
   content: "" !important;
 }
+.size14-e6ZScH {margin-left: 2px!important;}
 /*I LOVE PUGS, i mean i have a custom user popout*/
 #app-mount [data-user-id="709377715320651838"].userPopout-xaxa6l {background-color: rgba(255, 255, 255, 0.158);background-image: url(https://64.media.tumblr.com/503f5181ba9e33dd42cccce51e38f177/575a1e3069f478c4-9e/s1280x1920/f4298978fc6f94fb9e3ace2ac51d8f3d2ae1d788.gifv);backdrop-filter: blur(500px);width: 700px!important;height: 366px!important;}
 #app-mount [data-user-id="709377715320651838"] .bodyInnerWrapper-26fQXj {background: transparent;}
@@ -270,15 +288,6 @@ div[class*="typeWindows-"]::before {
   height: 22px;
   background: url(https://i.imgur.com/lBSnV7M.gif) center / 100% 100%;
 }
-/*legendary helper*/
-#app-mount [data-user-id="515780151791976453"] .badgeList-1R1WgZ::after,
-#app-mount [data-user-id="515780151791976453"] .profileBadges-ohc0Vu::after,
-#app-mount [data-user-id="515780151791976453"] .badges-XRnWAp::after {
-  content: "";
-  width: 20px;
-  height: 20px;
-  background: url(https://i.imgur.com/P8ztVhA.png) center / 100% 100%;
-}
 /*remove limit css editor*/
 #floating-editor-window.resizable {
     max-height: unset;
@@ -444,12 +453,12 @@ div.layer-2KE1M9 {
 /*Search Bar Text*/
 .public-DraftEditorPlaceholder-root {visibility: hidden;}
 .public-DraftEditorPlaceholder-root::before {
-  content: "‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‏‏‎  ‎‏‏‎ ‎‏‏‎ What's up my guy";
+  content: "‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏What's up my guy";
   visibility: visible;}
   /*Textbox Text*/
 .placeholder-37qJjk {visibility: hidden;}
 .placeholder-37qJjk::before {
-  content: "I'm lookin at whatchu typin bro HEHEHEHEHEH";
+  content: "I'm lookin at everywhere you typin bro HEHEHEHEHEH";
   font-size: 1rem;
     color: rgba(255, 255, 255, 0.315);
     font-family: Amatic SC;
@@ -710,9 +719,12 @@ div[class*="noChannel-"],
 }
 #bd-pub-button {background-color: rgba(255, 255, 255, 0);}
 /*MORE transparent stuffs*/
-.message-2qRu38, .horizontalReverse-2eTKWD, .small-3iVZYw, .scroller-lynW5A, .inline, .section-2gLsgF, .scrollbarGhostHairline-1mSOM1, .DraftEditor-root, .card-3Qj_Yx, .spoilerText-3p6IlD, .footer-2yA7Ep, .textContainer-C0szpm, .checklistItem-37OOck, .previewContainer-1SS3uO, .tierBody-3aUxuc, .developerPortalCtaWrapper-2XNafh, .descriptionBox-1EKQKL, .radioBar-bMNUI-, .wrapper-18yWki {
+.searchHeader-2XoQg7, .message-1Ng5AR, .searchResultsWrap-3-pOjs, .message-2qRu38, .horizontalReverse-2eTKWD, .small-3iVZYw, .scroller-lynW5A, .inline, .section-2gLsgF, .scrollbarGhostHairline-1mSOM1, .DraftEditor-root, .card-3Qj_Yx, .spoilerText-3p6IlD, .footer-2yA7Ep, .textContainer-C0szpm, .checklistItem-37OOck, .previewContainer-1SS3uO, .tierBody-3aUxuc, .developerPortalCtaWrapper-2XNafh, .descriptionBox-1EKQKL, .radioBar-bMNUI-, .wrapper-18yWki {
   background-color: rgba(0, 0, 0, 0.5)!important;
   backdrop-filter: blur(10px);
+}
+ .channelName-1JRO3C {
+   background-color: rgba(255, 255, 255, 0);
 }
 /*message box little upgrades*/
 :root {
@@ -1399,4 +1411,8 @@ code.hljs {
 }
 .total-i6us2n::after {
   display: none;
+}
+/*had to do it */
+.input-2_SIlA, .input-cIJ7To {
+  border: none;
 }
