@@ -1381,3 +1381,15 @@ code.hljs {
 }
 /*attach button play spotify logo colour*/
 .attachButtonPlay-3iJ0mf {color: rgb(255, 166, 0);}
+/*user volume bar*/
+:root .slider-1PF9SW .grabber-3mFHz2 {
+   height: 25px !important;
+   border-radius: 5px !important;
+}
+:root .barFill-23-gu- {
+  border-radius: 5px;
+}
+:root .bar-2Qqk5Z {
+  height: 20px !important;
+  background-color: var(--background-secondary);
+}
