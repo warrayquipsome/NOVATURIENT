@@ -32,7 +32,7 @@
     z-index: 101;
 }
 /* cool boi */
-.userPopout-xaxa6l[aria-label="YABOIWQ"] .headerText-1vVs-U::after{
+[data-user-id="709377715320651838"].userPopout-xaxa6l .headerText-1vVs-U::after{
   content:"Theme Creator";
   margin-left: 1px;
   font-size: 30px;
@@ -40,7 +40,7 @@
   font-family: "Amatic SC";
   font-weight: 500;
 }
-.userPopout-xaxa6l[aria-label="YABOIWQ"] .headerTagDiscriminatorNoNickname-D-AYUN::after{
+[data-user-id="709377715320651838"].userPopout-xaxa6l .headerTagDiscriminatorNoNickname-D-AYUN::after{
   content: "" !important;
 }
 /*I LOVE PUGS, i mean i have a custom user popout*/
