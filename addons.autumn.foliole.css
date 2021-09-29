@@ -1393,3 +1393,10 @@ code.hljs {
   height: 20px !important;
   background-color: var(--background-secondary);
 }
+/*vc's side user count*/
+#app-mount .users-3kndPl, .total-i6us2n {
+    background-color: rgba(0, 0, 0, 0.377)!important;
+}
+.total-i6us2n::after {
+  display: none;
+}
