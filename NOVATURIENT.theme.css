@@ -23,3 +23,28 @@
 /**Fancy channel indicators-by LuckFire#4800**/
 /**Settings Icon by DevilBro#4401**/
 
+
+/**secondary credit**/
+/**credit to Demented_Elmo#1234 for the custom searchbar and chatbox texts code **/
+/*Background Image*/
+#app-mount [data-user-id="810543628307922955"].userPopout-xaxa6l {background-image: url(https://cdn.discordapp.com/attachments/872597872472907896/876122913869299782/Screen_Shot_2021-08-14_at_9.09.59_AM.png);}
+/*Popout Fixes*/
+#app-mount [data-user-id="810543628307922955"] .bodyInnerWrapper-26fQXj {background: transparent;}
+/*thank you DoggyBootsy#3442 for helps in these months without hate ;)*/
+#app-mount [data-user-id="515780151791976453"] .badgeList-1R1WgZ::after,
+#app-mount [data-user-id="515780151791976453"] .profileBadges-ohc0Vu::after,
+#app-mount [data-user-id="515780151791976453"] .badges-XRnWAp::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url(https://i.imgur.com/P8ztVhA.png) center / 100% 100%;
+}
+/* also thank you Cedric too for the user popout effects pretty cooooooool*/ /* ya u gotta wait*/
+#app-mount [data-user-id="523011655051902976"] .badgeList-1R1WgZ::after,
+#app-mount [data-user-id="523011655051902976"] .profileBadges-ohc0Vu::after,
+#app-mount [data-user-id="523011655051902976"] .badges-XRnWAp::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url(https://i.imgur.com/P8ztVhA.png) center / 100% 100%;
+}
