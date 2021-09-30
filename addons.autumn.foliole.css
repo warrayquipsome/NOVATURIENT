@@ -25,18 +25,6 @@
   margin-top: 2px;
   background: url(https://i.imgur.com/YYioFjd.png) center / 100% 100%;
 }
-/* also thank you Cedric too for the user popout effects pretty cooooooool*/ /* ya u gotta wait*/
-#app-mount [data-user-id="523011655051902976"] .badgeList-1R1WgZ::after,
-#app-mount [data-user-id="523011655051902976"] .profileBadges-ohc0Vu::after,
-#app-mount [data-user-id="523011655051902976"] .badges-XRnWAp::after {
-  content: "";
-  width: 18px;
-  height: 18px;
-  margin-top: 2px;
-  background: url(https://i.imgur.com/YYioFjd.png) center / 100% 100%;
-}
-
-
 
 
 /* cool boi */
