@@ -1396,3 +1396,42 @@ code.hljs {
 .input-2_SIlA, .input-cIJ7To {
   border: none;
 }
+/*pill colours*/
+.item-2hkk8m {
+    animation: pill 25s ease infinite;
+}
+@keyframes pill {
+    0% {
+        background-color: #fff;
+    }
+    10% {
+        background-color: #ffd2d2;
+    }
+    20% {
+        background-color: #ffa1a1;
+    }
+    30% {
+        background-color: #ff8383;
+    }
+    40% {
+        background-color: #ff6969;
+    }
+    42% {
+        background-color: #ff4242;
+    }
+    45% {
+        background-color: #ff6969;
+    }
+    50% {
+        background-color: #ff8383;
+    }
+    60% {
+        background-color: #ffa1a1;
+    }
+    70% {
+        background-color: #ffd2d2;
+    }
+    80% {
+        background-color: #fff;
+    }
+}
