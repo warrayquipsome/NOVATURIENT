@@ -715,23 +715,23 @@ div[class*="noChannel-"],
 }
 /*message box little upgrades*/
 :root {
-    --color-brand-lighter: #ffffff00;
+    --color-brand-lighter: transparent;
 }
 .input-cIJ7To,
 .scrollableContainer-2NUZem {
-    background-color: #29292900;
+    background-color: transparent;
     transition: background-color 0.2s ease, border-color 0.2s ease;
     border: 1px solid transparent;
     outline: none;
 }
 .input-cIJ7To:hover,
 .scrollableContainer-2NUZem:hover {
-    border-color: #ffffff23;
-    background-color: #ffffff23;
+    border-color: #ffffff3f;
+    background-color: #ffffff3f;
 }
 .input-cIJ7To:focus-within,
 .scrollableContainer-2NUZem:focus-within {
-    background-color: rgba(9, 1, 22, 0.267);
+    background-color: rgba(22, 1, 1, 0.267);
     border-color: var(--color-brand-lighter);
 }
 .scrollableContainer-2NUZem {
