@@ -1,12 +1,14 @@
 @import url('https://discord-theme-addons.github.io/modern-channel-indicators/src/support/compiled.css');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
 @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css');
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
 @import url('https://fonts.googleapis.com/css?family=Neucha:wght@400;200&display=swap');
 /**use the autumn foliole theme by changing the @import url("https://warrayquipsome.github.io/NOVATURIENT/addons.autumn.foliole.css"); to @import url("https://warrayquipsome.github.io/NOVATURIENT/addons.autumn.foliole.css");**/
 
 /**credit**/
 /**Fancy channel indicators-by LuckFire#4800**/
 /**settings icon by DevilBro#4401**/
+/**blurple recolour by DevilBro#4401**/
 
 
 /**secondary credit**/
@@ -53,6 +55,11 @@
 /*channel sidebar icon white thing*/
 .modeUnread-1qO3K1 .icon-1DeIlz { 
     color: var(--interactive-active) !important;
+}
+/*blurple recolour root*/
+:root {
+	--accentcolor:			255, 166, 0;		/*	blurple		-	default:	88,101,242		*/
+	--accentcolor2:			255, 94, 94;	/*	boostpink	-	default:	255,115,250		*/
 }
 /*theme text*/
 .wordmark-2iDDfm{
