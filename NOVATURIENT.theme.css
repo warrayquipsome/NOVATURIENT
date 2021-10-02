@@ -33,18 +33,4 @@
 /*thank you DoggyBootsy#3442 for helps in these months without hate ;)*/
 #app-mount [data-user-id="515780151791976453"] .badgeList-1R1WgZ::after,
 #app-mount [data-user-id="515780151791976453"] .profileBadges-ohc0Vu::after,
-#app-mount [data-user-id="515780151791976453"] .badges-XRnWAp::after {
-  content: "";
-  width: 20px;
-  height: 20px;
-  background: url(https://i.imgur.com/P8ztVhA.png) center / 100% 100%;
-}
-/* also thank you Cedric too for the user popout effects pretty cooooooool*/ /* ya u gotta wait*/
-#app-mount [data-user-id="523011655051902976"] .badgeList-1R1WgZ::after,
-#app-mount [data-user-id="523011655051902976"] .profileBadges-ohc0Vu::after,
-#app-mount [data-user-id="523011655051902976"] .badges-XRnWAp::after {
-  content: "";
-  width: 20px;
-  height: 20px;
-  background: url(https://i.imgur.com/P8ztVhA.png) center / 100% 100%;
-}
+#app-mount [data-user-id="515780151791976453"] .badges-XRnWAp::after {content: "";width: 20px;height: 20px;background: url(https://i.imgur.com/P8ztVhA.png) center / 100% 100%;}
