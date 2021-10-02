@@ -1292,15 +1292,6 @@ code.hljs {
 .floating-window-buttons {
   background-color: rgb(255, 255, 255)!important;
 }
-/*pin member noti etc buttons hover*/
-.clickable-3rdHwn .icon-22AiRD { 
-    transition: width 0.3s ease, height 0.3s ease;
-}
-.clickable-3rdHwn:hover .icon-22AiRD { 
-    color: rgba(255, 255, 255, 0.432);
-    width: 30px;
-    height: 30px;
-}
 /*custom server banner side icon animation*/
 .button-1w5pas path {display: none;}
 .button-1w5pas {
