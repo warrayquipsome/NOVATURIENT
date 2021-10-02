@@ -1333,8 +1333,7 @@ code.hljs {
 .attachButtonPlay-3iJ0mf {color: rgb(255, 166, 0);}
 /*user volume bar*/
 :root .slider-1PF9SW .grabber-3mFHz2 {
-   height: 25px !important;
-   border-radius: 5px !important;
+   display: none;
 }
 :root .barFill-23-gu- {
   border-radius: 5px;
