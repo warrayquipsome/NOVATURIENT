@@ -739,35 +739,25 @@ div[class*="noChannel-"],
     border-radius: 10px;
 }
 /*searchbarrrrr*/
-:root .container-1r6BKw.themed-ANHk51 .search-36MZv- {
-    order: 1;
-    margin-left: 4px;
-  }
-  :root .container-1r6BKw.themed-ANHk51 .search-36MZv- .search-2oPWTC:not(.open-6_Y_aH) .searchBar-3dMhjb {
+:root .container-1r6BKw.themed-ANHk51 .search-36MZv- .search-2oPWTC:not(.open-6_Y_aH) .searchBar-3dMhjb {
+    transition: 250ms;
     width: 27px;
-    transition: 250ms;
     background-color: transparent;
-  }
-  :root .container-1r6BKw.themed-ANHk51 .search-36MZv- .search-2oPWTC:not(.open-6_Y_aH) .searchBar-3dMhjb .iconContainer-O4O2CN {
-    transform: scale(1.3);
-    transition: 250ms;
-  }
-  :root .container-1r6BKw.themed-ANHk51 .search-36MZv- .search-2oPWTC:not(.open-6_Y_aH) .searchBar-3dMhjb .iconContainer-O4O2CN .icon-3cZ1F_ {
-    color: var(--interactive-normal);
-  }
-  :root .container-1r6BKw.themed-ANHk51 .search-36MZv- .search-2oPWTC:not(.open-6_Y_aH):hover .searchBar-3dMhjb {
+}
+:root .container-1r6BKw.themed-ANHk51 .search-36MZv- .search-2oPWTC:not(.open-6_Y_aH) .searchBar-3dMhjb .iconContainer-O4O2CN {
+    transform: scale(1.4);
+    transition: 300ms;
+}
+:root .container-1r6BKw.themed-ANHk51 .search-36MZv- .search-2oPWTC:not(.open-6_Y_aH) .searchBar-3dMhjb .iconContainer-O4O2CN .icon-3cZ1F_ {
+    color: white;
+}
+:root .container-1r6BKw.themed-ANHk51 .search-36MZv- .search-2oPWTC:not(.open-6_Y_aH):hover .searchBar-3dMhjb {
     width: 240px;
     background-color: var(--background-tertiary);
-  }
-  :root .container-1r6BKw.themed-ANHk51 .search-36MZv- .search-2oPWTC:not(.open-6_Y_aH):hover .searchBar-3dMhjb .iconContainer-O4O2CN {
-    transform: scale(1);
-  }
-  :root .container-1r6BKw.themed-ANHk51 .search-36MZv- .search-2oPWTC:not(.open-6_Y_aH):hover .searchBar-3dMhjb .iconContainer-O4O2CN .icon-3cZ1F_ {
-    color: var(--text-muted);
-  }
-  :root .container-1r6BKw.themed-ANHk51 .search-36MZv- .searchAnswer-3Dz2-q, :root .container-1r6BKw.themed-ANHk51 .search-36MZv- .searchFilter-2ESiM3 {
-    background-color: var(--background-primary);
-  }
+}
+:root .container-1r6BKw.themed-ANHk51 .search-36MZv- .search-2oPWTC:not(.open-6_Y_aH):hover .searchBar-3dMhjb .iconContainer-O4O2CN {
+    transform: scale(0);
+}
 /*folders and stuff*/
 #app-mount .expandedFolderBackground-1cujaW {
     background-color: rgba(0, 0, 0, 0.459);
