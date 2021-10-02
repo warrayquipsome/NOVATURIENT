@@ -1442,3 +1442,15 @@ code.hljs {
         background-color: #fff;
     }
 }
+/*user setting header gif pumpkin*/
+.side-8zPYf6 > .header-2RyJ0Y:first-of-type::after {
+    content: "";
+    margin-top: -30px;
+    background: url("https://images.squarespace-cdn.com/content/v1/57fc473b6a496313f1bf59ea/1597463851830-7436AQYSN9NOQ1UPOAI4/giphy-pumpkin.gif") center/cover;
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 160px;
+    top: 8px;
+}
