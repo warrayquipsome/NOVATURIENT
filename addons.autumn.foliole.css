@@ -992,10 +992,10 @@ div[class*="noChannel-"],
 }
 @keyframes settings-animation {
   0% {
-    transform: translateY(-1080px);
+    transform: opacity(0);
   }
   100% {
-    transform: translateY(0px);
+    transform: opacity(1);
   }
 }
 .layer-3QrUeG.baseLayer-35bLyl {
