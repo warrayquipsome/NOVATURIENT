@@ -985,23 +985,6 @@ div[class*="noChannel-"],
     border-radius: 5px;
     border: none;
 }
-/*user setting animation*/
-.animating-rRxada {
-  animation: settings-animation 0.5s ease;
-  transform: none !important;
-}
-@keyframes settings-animation {
-  0% {
-    transform: opacity(0);
-  }
-  100% {
-    transform: opacity(1);
-  }
-}
-.layer-3QrUeG.baseLayer-35bLyl {
-  opacity: unset !important;
-  animation: unset !important;
-}
 /*channel hover effect*/
 .mainContent-u_9PKf {
   transition: all 0.3s;
