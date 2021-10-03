@@ -34,7 +34,6 @@ remove limit css editor by Qb
 pin home button by Doggybootsy
 do not mirror video preview by David
 avatar only member list by Doggybootsy
-custom right click by Tropical
 home icon by David
 highlither by Tropical
 smooth discord msg box by Xyhlo
@@ -236,7 +235,7 @@ div[class*="typeWindows-"]::before {
         content: "Autumn Foliole";
     }
 }
-/*custom user setting border radius*/
+/*custom user setting buttons border radius*/
 :root .container-3auIfb, :root .bd-switch-body {
   border-radius: 5px;
 }
@@ -250,13 +249,13 @@ div[class*="typeWindows-"]::before {
 .closeButton-1tv5uR:hover {
   background: #fff;
   box-shadow: 0 0 10px rgba(255,255,255,1),
-              0 0 20px rgba(255,255,255,1),
-              0 0 30px rgba(255,255,255,1),
-              0 0 0 10px rgba(255,255,255,0.05),
-              0 0 0 8px rgba(255,255,255,0.05),
-              0 0 0 6px rgba(255,255,255,0.05),
-              0 0 0 4px rgba(255,255,255,0.05),
-              0 0 0 2px rgba(255,255,255,0.05);
+              0 0 20px rgb(255, 169, 130),
+              0 0 30px rgb(255, 138, 138),
+              0 0 0 1px rgb(255, 123, 0),
+              0 0 0 1px rgb(255, 123, 0),
+              0 0 0 1px rgb(255, 123, 0),
+              0 0 0 1px rgb(255, 123, 0),
+              0 0 0 1px rgb(255, 123, 0);
 }
 .closeButton-1tv5uR{
     border-color: rgba(255, 255, 255, 0)!important;
@@ -274,7 +273,7 @@ div[class*="typeWindows-"]::before {
 }
 :root .closeButton-1tv5uR {
   border-radius: 5px;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.6s ease-in-out;
 }
 :root .closeButton-1tv5uR:hover {
   transform: rotate(-315deg);
@@ -339,15 +338,6 @@ div[class*="typeWindows-"]::before {
 ::selection {
     background-color: rgba(255, 255, 255, 0.26);
 }
-/*custom right click menu my version*/
-.menu-3sdvDG {
-    opacity: 1;
-    animation: fade 0.3s linear;
-}
-@keyframes fade {
-  0% { opacity: 0 }
-  100% { opacity: 1 }
-}
 /*fancy indicator */
 :root {
     /* ---- base -- */
@@ -373,18 +363,8 @@ div[class*="typeWindows-"]::before {
     --indicator-connected-hover: rgba(var(--indicator-connected), 0.18);
 }
 /*custom public servers and create server buttons*/
-:root .guilds-1SWlCJ .scroller-1Bvpku .circleIconButton-1QV--U {
-    border-radius: 5px;
-    border: dashed 1px #fff3;
-    background: rgba(255, 255, 255, 0.123);
-    color: #fff3;
-    transition: all 0.5s;
-}
-:root .guilds-1SWlCJ .scroller-1Bvpku .circleIconButton-1QV--U:hover {
-    color: #ffffff;
-    border-color: #ffffff6e;
-    background: transparent;
-}
+:root .guilds-1SWlCJ .scroller-1Bvpku .circleIconButton-1QV--U {border-radius: 5px;border: dashed 1px #fff3;background: rgba(255, 255, 255, 0.123);color: #fff3;transition: all 0.5s;}
+:root .guilds-1SWlCJ .scroller-1Bvpku .circleIconButton-1QV--U:hover {color: #ffffff;border-color: #ffffff6e;background: transparent;}
 .scroller-1Bvpku > .tutorialContainer-30WoTp:nth-last-child(3) foreignObject, .scroller-1Bvpku > .listItem-GuPuDH:nth-last-child(2) foreignObject { mask: none;}
 /*button hover white and red text*/
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
@@ -394,21 +374,6 @@ background-color: #fff !important;
 .button-Jt-tIg:hover,
 #bd-pub-button:hover {background-color: rgb(255, 255, 255)!important;color: red;
 }
-/*blur emailthing*/
-.field-1HUseB+.field-1HUseB .colorHeaderPrimary-26Jzh-.size16-1P40sf{
-    filter: blur(8px);
-}
-.field-1HUseB+.field-1HUseB .colorHeaderPrimary-26Jzh-.size16-1P40sf:hover{
-    filter: blur(0px);
-    transition: 500ms;
-}
-.usernameInnerRow-ZlFnET{
-    filter: blur(8px);
-}
-.usernameInnerRow-ZlFnET:hover {
-    filter: blur(0px);
-    transition: 500ms;
-}
  /*home icon*/
 .homeIcon-FuNwkv path {fill: transparent}
 .homeIcon-FuNwkv {
@@ -417,11 +382,7 @@ background-color: #fff !important;
     min-height: 35px;
     margin-left: 1px;
 }
-/*blur when open image*/
-div.layer-2KE1M9 {
-  backdrop-filter: blur(5px);
-}
-/*online friends button*/
+/*online friends hover button to match blur activity background*/
 .actionButton-uPB8Fs {
     background-color: rgba(255, 255, 255, 0.288);
     backdrop-filter: blur(4px);
@@ -804,7 +765,7 @@ div[class*="noChannel-"],
   }
 /* user setting theme and those stuffs collours [idk whats it called ;-;] */
 .accountProfileCard-1XCH88, .background-1QDuV2, .fieldList-21DyL8 {
-    background-color: rgb(43, 0, 0);
+    background-color: rgba(0, 0, 0, 0.795);
 }
 /*theres something on the chatbox and its [uUUgLLy]*/
 .form-2fGMdU::before {
@@ -963,7 +924,6 @@ div[class*="noChannel-"],
     height: 5px !important;
     margin-right: -8px !important;
     border-radius: 0px;
-    animation: audio-flash 1.2s linear infinite;
   }
   .isUnread-3Ef-o9 .content-1o0f9g{
     color: rgb(255, 255, 255);
@@ -973,7 +933,7 @@ div[class*="noChannel-"],
       mask: unset;
       border-radius: 5px;
   }
-/*transparent scrollbar*/
+/*transparent scrollbar/you can use it but its transparent*/
 ::-webkit-scrollbar,
 ::-webkit-scrollbar-track,
 ::-webkit-scrollbar-track-piece {
@@ -1064,46 +1024,46 @@ div[class*="noChannel-"],
   }
 /*pin messages inbox gif etc colours*/
 .header-1TOWci {
-    background-color: rgba(77, 0, 0, 0.411);
+    background-color: rgba(0, 0, 0, 0.411);
 }
 .inner-3ErfOT {
-    background-color: rgba(77, 0, 0, 0.411);
+    background-color: rgba(0, 0, 0, 0.411);
 }
 .unicodeShortcut-15J8Ck {
-    background-color: rgba(77, 0, 0, 0.411);
+    background-color: rgba(0, 0, 0, 0.411);
 }
 .header-ywPcAE {
-    background-color: rgba(77, 0, 0, 0.411);
+    background-color: rgba(0, 0, 0, 0.411);
 }
 .scroller-3gAZLs {
-    background-color: rgba(77, 0, 0, 0.411);
+    background-color: rgba(0, 0, 0, 0.411);
 }
 .inspector-S2gM3e {
-    background-color: rgba(77, 0, 0, 0.411);
+    background-color: rgba(0, 0, 0, 0.411);
 }
 .contentWrapper-SvZHNd {
-    background-color: rgba(77, 0, 0, 0.411);
+    background-color: rgba(0, 0, 0, 0.411);
 }
 .messagesPopout-24nkyi {
-    background-color: rgba(77, 0, 0, 0.411);
+    background-color: rgba(0, 0, 0, 0.411);
 }
 .header-ykumBX {
-    background-color: rgba(77, 0, 0, 0.411);
+    background-color: rgba(0, 0, 0, 0.411);
 }
 .messageGroupCozy-2iY6cT {
-    background-color: rgba(77, 0, 0, 0.411);
+    background-color: rgba(0, 0, 0, 0.411);
 }
 .scroller-tlc3kG {
-    background-color: rgba(77, 0, 0, 0.411);
+    background-color: rgba(0, 0, 0, 0.411);
 }
 .tutorial-3w5I9h {
-    background-color: rgba(77, 0, 0, 0.411);
+    background-color: rgba(0, 0, 0, 0.411);
 }
 .channelHeader-3Gd2xq {
-    background-color: rgba(77, 0, 0, 0.411);
+    background-color: rgba(0, 0, 0, 0.411);
 }
 .messages-3G3erD {
-    background-color: rgba(77, 0, 0, 0.411);
+    background-color: rgba(0, 0, 0, 0.411);
 }
 /*better bot tag*/
 .botTagRegular-2HEhHi:hover {
@@ -1185,10 +1145,6 @@ code.hljs {
 /*spotify gradient thing*/
 .timeline-UWmgAx:hover .barFill-Dhkah7 {
     background: linear-gradient(135deg, #ffce61, #fc5050);
-}
-/*user settings text shadow*/
-.header-2RyJ0Y {
-    text-shadow: 0 0 20px #ffffff;
 }
 /*no text in share screen and video button*/
 .actionButtons-14eAc_ .contents-18-Yxp {
@@ -1290,7 +1246,7 @@ code.hljs {
     -webkit-perspective: 1000;
     backface-visibility: hidden;
     perspective: 1000;
-    background-color: rgba(0, 0, 0, 0.671);
+    background-color: rgba(0, 0, 0, 0.877);
     backdrop-filter: blur(2px);
     border-radius: 5px;
 }
@@ -1331,27 +1287,14 @@ code.hljs {
     background-color: var(--accent-rgb);
     color: var(0,0,0);
     border-radius: 0px;
-    animation: audio-flash 1.2s linear infinite;
 }
 .listItem-GuPuDH .wrapper-25eVIn .upperBadge-2XnnGB .iconBadge-2NuvG9.participating-1NvRVd {
     background-color: rgb(255, 166, 0);
     color: var(--accent-text-color );
 }
-@keyframes audio-flash {
-    0% { box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 0 0 0px rgba(var(--accent-rgb),0.4); }
-    50% { box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 0 0 6px rgba(var(--accent-rgb),0.65); }
-    100% { box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 0 0 12px rgba(var(--accent-rgb),0); }
-}
 /* makes the gray thing on the top bar disappear*/
 .children-19S4PO::after {
   display: none;
-}
-/* new unreads hover transition*/
-.active-1SSsBb{
-  transition: letter-spacing 0.5s;
-}
-.active-1SSsBb:hover {
-    letter-spacing: 5px;
 }
 /*attach button play spotify logo colour*/
 .attachButtonPlay-3iJ0mf {color: rgb(255, 166, 0);}
@@ -1373,10 +1316,10 @@ code.hljs {
 .total-i6us2n::after {
   display: none;
 }
-/*had to do it */
+/*had to do it i dont like the msg border*/
 .input-2_SIlA, .input-cIJ7To {
-  border: none;
-}
+    border: none;
+  }
 /*pill colours*/
 .item-2hkk8m {
     animation: pill 25s ease infinite;
