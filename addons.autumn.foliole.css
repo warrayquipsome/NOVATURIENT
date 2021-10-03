@@ -66,6 +66,9 @@ hover channels animated by Xyhlo
 #app-mount [data-user-id="709377715320651838"] .role-2irmRk {background-color: transparent;}
 #app-mount [data-user-id="709377715320651838"] .avatar-37jOim {border: 6px solid transparent;background-color: transparent;}
 #app-mount [data-user-id="709377715320651838"] .colorLink-2vG20E {display: none;}
+#app-mount [data-user-id="709377715320651838"] .nickname-3M3Jfa, .headerTagWithNickname-3l_x6x, .customStatus-oN4ZZY, .aboutMeSection-1Fw5Ia, .bodyTitle-1ySSKn, .headerTopWithCustomStatus-1DHAjX{text-align: center!important;}
+#app-mount [data-user-id="709377715320651838"] .avatarPositionNormal-aZjAsn {margin-left: 290px;}
+#app-mount [data-user-id="709377715320651838"] .aboutMeTitle-1IYtPE {margin-left: 300px;}
 /*channel sidebar icon white thing*/
 .modeUnread-1qO3K1 .icon-1DeIlz { 
     color: var(--interactive-active) !important;
@@ -1371,3 +1374,5 @@ code.hljs {
     left: 160px;
     top: 6px;
 }
+/*why do you need note in user popout for tho?*/
+.note-1oo11U, .bodyTitle-1ySSKn {display: none;}
