@@ -600,6 +600,7 @@ div[class*="noChannel-"],
     color:#13B94A !important; 
 }
 /* make some of those things transparent */
+.titleContainer-2CXtJo, .stickyHeader-hH_ZLl {background: transparent;}
 .perksModalContentWrapper-2HU6uL {
     background-color: rgba(0, 0, 0, 0.932);
 }
