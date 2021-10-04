@@ -48,9 +48,10 @@ hover channels animated by Xyhlo
   content:"Theme Creator";
   margin-left: 1px;
   font-size: 30px;
-  -webkit-text-fill-color: rgb(253, 117, 117);  
+  -webkit-text-fill-color: rgb(255, 111, 111);
   font-family: "Amatic SC";
   font-weight: 500;
+  text-shadow: 0 0 3px #ff0000, 0 0 5px #453f93;
 }
 [data-user-id="709377715320651838"].userPopout-xaxa6l .headerTagDiscriminatorNoNickname-D-AYUN::after{
   content: "" !important;
