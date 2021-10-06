@@ -246,12 +246,11 @@ div[class*="typeWindows-"]::before {
 :root .bd-switch-slider rect {
   rx: 5px;
 }
-/*esc button hover animation*/
+/*esc button*/
 #app-mount .keybind-KpFkfr {
-    color: rgba(255, 255, 255, 0.473);
+    color: rgb(255, 255, 255);
 }
-.closeButton-1tv5uR:hover {
-  background: #fff;
+.closeButton-1tv5uR {
   box-shadow: 0 0 10px rgba(255,255,255,1),
               0 0 20px rgb(255, 169, 130),
               0 0 30px rgb(255, 138, 138),
@@ -261,11 +260,11 @@ div[class*="typeWindows-"]::before {
               0 0 0 1px rgb(255, 123, 0),
               0 0 0 1px rgb(255, 123, 0);
 }
-.closeButton-1tv5uR{
-    border-color: rgba(255, 255, 255, 0)!important;
+.closeButton-1tv5uR {
+    border-color: rgb(253, 253, 253)!important;
 }
 .closeButton-1tv5uR:hover {
-    border-color: #fff!important;
+    transform: scale(1.05) !important;
 }
 .keybind-KpFkfr {
   margin-top: 17px;
@@ -276,11 +275,7 @@ div[class*="typeWindows-"]::before {
   margin-left: 80px;
 }
 :root .closeButton-1tv5uR {
-  border-radius: 5px;
-  transition: all 0.6s ease-in-out;
-}
-:root .closeButton-1tv5uR:hover {
-  transform: rotate(-315deg);
+  border-radius: 10px;
 }
 /*hide thread*/
 .container-3O_wAf {display : none}
