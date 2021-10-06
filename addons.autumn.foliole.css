@@ -1319,3 +1319,5 @@ code.hljs {
 }
 /*why do you need note in user popout for tho?*/
 .note-1oo11U, .bodyTitle-1ySSKn {display: none;}
+/*center about me for other users poout*/
+.aboutMeTitle-1IYtPE {margin-left: 100px;}
