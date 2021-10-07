@@ -38,6 +38,7 @@ home icon by David
 highlither by Tropical
 smooth discord msg box by Xyhlo
 hover channels animated by Xyhlo
+unread message pill edits by snow
 **/
 
 
@@ -1321,3 +1322,17 @@ code.hljs {
 .note-1oo11U, .bodyTitle-1ySSKn {display: none;}
 /*center about me for other users poout*/
 .aboutMeTitle-1IYtPE {margin-left: 100px;}
+/* unread message pill edits */
+.divider-JfaTT5 {
+    border: none !important;
+}
+.unreadPill-2HyYtt, .unreadPillCap-3_K2q2 {
+    position: absolute;
+    height: 13px;
+}
+.content-1o0f9g {
+    background: var(--background-shading);
+    color: white;
+    text-transform: uppercase;
+    opacity: 0.9;
+}
