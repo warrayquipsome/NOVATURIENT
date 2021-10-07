@@ -921,10 +921,7 @@ div[class*="noChannel-"],
  }
 .numberBadge-2s8kKX {
     background-color: rgb(255, 94, 94) !important;
-    margin-bottom: 25px;
-    height: 5px !important;
-    margin-right: -8px !important;
-    border-radius: 0px;
+    border-radius: 5px;
   }
   .isUnread-3Ef-o9 .content-1o0f9g{
     color: rgb(255, 255, 255);
