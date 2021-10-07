@@ -7,6 +7,7 @@
 # ADDON CREDIT
 ◆ Fancy channel indicators-by [LuckFire#4800](https://github.com/LuckFire),
 ◆ Settings Icon by [DevilBro#4401](https://github.com/mwittrien)
+◆ Blurple recolour by [DevilBro#4401](https://github.com/mwittrien)
 # BetterDiscord Installation
 ◆ Download better discord [**here**](https://betterdiscord.app/)
 # Bugs eating da theme
