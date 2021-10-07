@@ -1263,25 +1263,10 @@ code.hljs {
 #app-mount .childWrapper-anI2G9 {
   background-color: rgba(255, 255, 255, 0);
 }
-    /*audio call flash thing*/
-.upperBadge-2XnnGB {
-  left: 30pt!important;
-  top: 25px;
-}
-:root {
-    --accent-rgb: 128,128,128;
-    --accent-text-color: #fff;
-}
-.listItem-GuPuDH .wrapper-25eVIn .upperBadge-2XnnGB .iconBadge-2NuvG9 {
-    width: 3px;
-    height: 5px;
-    background-color: var(--accent-rgb);
-    color: var(0,0,0);
-    border-radius: 0px;
-}
+/*audio border radius*/
 .listItem-GuPuDH .wrapper-25eVIn .upperBadge-2XnnGB .iconBadge-2NuvG9.participating-1NvRVd {
     background-color: rgb(255, 166, 0);
-    color: var(--accent-text-color );
+    border-radius: 5px;
 }
 /* makes the gray thing on the top bar disappear*/
 .children-19S4PO::after {
