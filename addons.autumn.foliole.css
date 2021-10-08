@@ -929,12 +929,6 @@ div[class*="noChannel-"],
   #app-mount .guilds-1SWlCJ .scrollerBase-289Jih > div[style]:not(.listItem-2P_4kh)[style*="height: 0px"] {
     padding-top: 1px;
   }
-  #app-mount .guilds-1SWlCJ .svg-1X37T1,
-  #app-mount .guilds-1SWlCJ .guildsError-b7zR5H,
-  #app-mount .guilds-1SWlCJ .placeholderMask-3K9THS {
-    width: var(--server-size);
-    height: var(--server-size);
-  }
   #app-mount .guilds-1SWlCJ [role=group] {
     height: auto !important;
   }
@@ -1151,14 +1145,15 @@ div[class*="noChannel-"],
     top: 32px;
     z-index: 100000 !important;
   }
+
   :root {
-    --HSL-server-icon-size: 42px;  /* Size of the server icons | DEFAULT: 40px */
+    --HSL-server-icon-size: 40px;  /* Size of the server icons | DEFAULT: 40px */
     --HSL-server-spacing: 10px;  /* Spacing between each server icon | DEFAULT: 10px */
   }
  span[class^="expandedFolderBackground-"] {
      border-radius: 14px;
      width: 27px;
-     left: 20px;
+     left: 10px;
  }
 #app-mount .guilds-1SWlCJ .scrollerBase-289Jih {
     display: flex;
@@ -1170,8 +1165,8 @@ div[class*="noChannel-"],
       mask: unset;
       border-radius: 5px!important;
 }
-.wrapper-25eVIn{
-     zoom: 1.001;
+.wrapper-25eVIn {
+    zoom: .83334;
 }
 /*transparent scrollbar/you can use it but its transparent*/
 ::-webkit-scrollbar,
