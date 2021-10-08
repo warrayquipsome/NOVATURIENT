@@ -351,9 +351,9 @@ div[class*="typeWindows-"]::before {
     --indicator-connected-hover: rgba(var(--indicator-connected), 0.18);
 }
 /*custom public servers and create server buttons*/
-:root .guilds-1SWlCJ .scroller-1Bvpku .circleIconButton-1QV--U {border-radius: 5px;border: dashed 1px #fff3;background: rgba(255, 255, 255, 0.123);color: #fff3;transition: all 0.5s;}
-:root .guilds-1SWlCJ .scroller-1Bvpku .circleIconButton-1QV--U:hover {color: #ffffff;border-color: #ffffff6e;background: transparent;}
-.scroller-1Bvpku > .tutorialContainer-30WoTp:nth-last-child(3) foreignObject, .scroller-1Bvpku > .listItem-GuPuDH:nth-last-child(2) foreignObject { mask: none;}
+:root .guilds-1SWlCJ .scroller-1Bvpku .circleIconButton-1XqULR {border-radius: 5px;background: rgba(255, 255, 255, 0.123);color: #fff3;transition: all 0.4s;border: dashed 1px #fff3;}
+:root .guilds-1SWlCJ .scroller-1Bvpku .circleIconButton-1XqULR:hover {color: #ffffff;background: transparent;}
+.pill-2IYbPt {display: none;}
 /*button hover white and red text*/
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
 color: rgb(255, 0, 0) !important;
