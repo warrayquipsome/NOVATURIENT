@@ -32,7 +32,6 @@
 /**
 custom badge by Xyhlo
 remove limit css editor by Qb
-pin home button by Doggybootsy
 do not mirror video preview by David
 avatar only member list by Doggybootsy
 home icon by David
@@ -294,18 +293,6 @@ div[class*="typeWindows-"]::before {
 #floating-editor-window.resizable {
     max-height: unset;
     max-width: unset;
-}
-/*pin home button but its edited? */
-.guilds-1SWlCJ .scroller-1Bvpku {
-  contain: unset;
-  margin-top: 90px;
-}
-.tutorialContainer-2sGCg9 {
-  position: fixed;
-  transform: translatey( -71px );
-}
-.button-Jt-tIg {
-  background-color: transparent!important;
 }
 /* do not mirror video preview*/
 .mirror-1Z13AJ {transform: none}
@@ -752,6 +739,9 @@ div[class*="noChannel-"],
     transform: scale(0);
 }
 /*folders and stuff*/
+.folder-1hbNCn {
+  background-color: rgb(0, 0, 0)!important;
+}
 #app-mount .expandedFolderBackground-1cujaW {
     background-color: rgba(0, 0, 0, 0.459);
 }
@@ -1162,7 +1152,7 @@ div[class*="noChannel-"],
     z-index: 100000 !important;
   }
   :root {
-    --HSL-server-icon-size: 40px;  /* Size of the server icons | DEFAULT: 40px */
+    --HSL-server-icon-size: 42px;  /* Size of the server icons | DEFAULT: 40px */
     --HSL-server-spacing: 10px;  /* Spacing between each server icon | DEFAULT: 10px */
   }
  span[class^="expandedFolderBackground-"] {
@@ -1170,19 +1160,18 @@ div[class*="noChannel-"],
      width: 27px;
      left: 20px;
  }
-#bd-pub-li {
-  margin-top: -8px!important;
-  margin-left: 8px!important;
-}
-.button-Jt-tIg {
-  margin-left: 9px;
+#app-mount .guilds-1SWlCJ .scrollerBase-289Jih {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .wrapper-25eVIn foreignObject {
       mask: unset;
       border-radius: 5px!important;
 }
-.wrapper-25eVIn, .button-Jt-tIg{
-     zoom: 1.0001;
+.wrapper-25eVIn{
+     zoom: 1.001;
 }
 /*transparent scrollbar/you can use it but its transparent*/
 ::-webkit-scrollbar,
