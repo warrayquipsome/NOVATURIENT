@@ -1154,9 +1154,8 @@ div[class*="noChannel-"],
     --HSL-server-spacing: 10px;  /* Spacing between each server icon | DEFAULT: 10px */
   }
  span[class^="expandedFolderBackground-"] {
-     border-radius: 14px;
-     width: 27px;
-     left: 10px;
+     width: 32px;
+     left: 13px;
  }
 #app-mount .guilds-1SWlCJ .scrollerBase-289Jih {
     display: flex;
