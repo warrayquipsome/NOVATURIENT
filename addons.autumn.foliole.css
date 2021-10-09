@@ -940,7 +940,7 @@ div[class*="noChannel-"],
     height: var(--server-size);
     width: 4px;
     top: calc(var(--server-size) / -1 + var(--server-size) / 1.7 - 8px) !important;
-    margin-left: -6px;
+    margin-left: -2px;
   }
   #app-mount .guilds-1SWlCJ [class*=pill] span {
     height: 100% !important;
