@@ -18,16 +18,7 @@
 #app-mount [data-user-id="810543628307922955"].userPopout-xaxa6l {background-image: url(https://cdn.discordapp.com/attachments/872597872472907896/876122913869299782/Screen_Shot_2021-08-14_at_9.09.59_AM.png);}
 /*Popout Fixes*/
 #app-mount [data-user-id="810543628307922955"] .bodyInnerWrapper-26fQXj {background: transparent;}
-/*thank you DoggyBootsy#3442 for helps in these months without hate ;)*/
-#app-mount [data-user-id="515780151791976453"] .badgeList-1R1WgZ::after,
-#app-mount [data-user-id="515780151791976453"] .profileBadges-ohc0Vu::after,
-#app-mount [data-user-id="515780151791976453"] .badges-XRnWAp::after {
-  content: "";
-  width: 18px;
-  height: 18px;
-  margin-top: 2px;
-  background: url(https://i.imgur.com/sqgWsSx.png) center / 100% 100%;
-}
+
 /**third credit [css snippets] **/
 /**
 custom badge by Xyhlo
