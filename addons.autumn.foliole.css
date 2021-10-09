@@ -576,6 +576,15 @@ div[class*="noChannel-"],
     color:#13B94A !important; 
 }
 /* make some of those things transparent */
+.reaction-1hd86g {
+    background-color: rgb(0, 0, 0);
+}
+.reaction-1hd86g:hover {
+    background-color: rgba(0, 0, 0, 0.747);
+}
+.list-6NCENv, .list-donH_Z, .header-8ilj5e {
+    background-color: rgb(0, 0, 0)!important;
+}
 .titleContainer-2CXtJo, .stickyHeader-hH_ZLl {background: transparent;}
 .perksModalContentWrapper-2HU6uL {
     background-color: rgba(0, 0, 0, 0.932);
