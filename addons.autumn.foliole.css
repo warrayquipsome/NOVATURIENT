@@ -1504,8 +1504,8 @@ code.hljs {
   background-color: rgba(255, 255, 255, 0);
 }
 /*audio border radius*/
-.listItem-GuPuDH .wrapper-25eVIn .upperBadge-2XnnGB .iconBadge-2NuvG9.participating-1NvRVd {
-    background-color: rgb(255, 166, 0);
+.upperBadge-2XnnGB, .iconBadge-1N56q1, .participating-1P_Z3z, .iconBadge-2NuvG9, .base-PmTxvP, .baseShapeRound-1Mm1YW{
+    background-color: rgb(255, 166, 0)!important;
     border-radius: 5px;
 }
 /* makes the gray thing on the top bar disappear*/
