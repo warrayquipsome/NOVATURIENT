@@ -1503,9 +1503,13 @@ code.hljs {
 #app-mount .childWrapper-anI2G9 {
   background-color: rgba(255, 255, 255, 0);
 }
-/*audio border radius*/
-.upperBadge-2XnnGB, .iconBadge-1N56q1, .participating-1P_Z3z, .iconBadge-2NuvG9, .base-PmTxvP, .baseShapeRound-1Mm1YW{
+/*audio and ping border radius*/
+ .baseShapeRound-1Mm1YW {
     background-color: rgb(255, 166, 0)!important;
+    border-radius: 5px;
+}
+.numberBadge-2s8kKX {
+    background-color: rgb(255, 94, 94) !important;
     border-radius: 5px;
 }
 /* makes the gray thing on the top bar disappear*/
