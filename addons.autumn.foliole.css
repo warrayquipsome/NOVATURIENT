@@ -1251,6 +1251,9 @@ div[class*="noChannel-"],
     }
   }
 /*pin messages inbox gif etc colours*/
+.pageActions-1SVAnA, .summaryInfo-2QFKUg {
+    background: rgba(0, 0, 0, 0.623);
+}
 .header-1TOWci {
     background-color: rgba(0, 0, 0, 0.411);
 }
