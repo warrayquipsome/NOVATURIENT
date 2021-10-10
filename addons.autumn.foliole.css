@@ -66,6 +66,9 @@ unread message pill edits by snow
 .modeUnread-1qO3K1 .icon-1DeIlz { 
     color: var(--interactive-active) !important;
 }
+.selected-3LIHYU .icon-1DeIlz {
+    color: rgb(255, 132, 132);
+}
 /*blurple recolour root*/
 :root {
 	--accentcolor:			255, 166, 0;		/*	blurple		-	default:	88,101,242		*/
