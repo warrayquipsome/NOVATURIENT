@@ -1562,3 +1562,12 @@ code.hljs {
     text-transform: uppercase;
     opacity: 0.9;
 }
+/* Top Button animation */
+.clickable-3rdHwn:hover .icon-22AiRD {
+    animation: wigglewigglewigglebombombombombom .4s infinite;
+}
+@keyframes wigglewigglewigglebombombombombom {
+    0%   {transform: rotate(5deg);}
+    50%  {transform: rotate(-5deg);}
+    100% {transform: rotate(5deg);}
+}
