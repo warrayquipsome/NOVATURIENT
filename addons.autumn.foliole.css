@@ -675,6 +675,18 @@ div[class*="noChannel-"],
 }
 #bd-pub-button {background-color: rgba(255, 255, 255, 0);}
 /*MORE transparent stuffs*/
+.container-1d-xkt {
+    background-color: rgba(0, 0, 0, 0);
+}
+.button-1YxJv4, .followButton-L6L-Us  {
+    background-color: #000!important;
+}
+.button-1YxJv4:hover {
+    background-color: rgba(0, 0, 0, 0.384)!important;
+}
+.followButton-L6L-Us {
+    background-color: rgba(0, 0, 0, 0.74)!important;
+}
 .searchResult-9tQ1uo {background: #000;}
 .gameNameInput-385LoS:hover {
     background-color: rgba(0, 0, 0, 0.425)!important;
