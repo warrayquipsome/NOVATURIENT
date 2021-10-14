@@ -1599,7 +1599,7 @@ code.hljs {
     position: relative;
     overflow: visible;
     display: inline-block;
-    border-radius: 10px;
+    border-radius: 5px;
     max-width: 650px;
     margin: 0;
     padding: 3px 10px ;
