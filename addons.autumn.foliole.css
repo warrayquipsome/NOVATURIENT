@@ -30,6 +30,7 @@ highlither by Tropical
 smooth discord msg box by Xyhlo
 hover channels animated by Xyhlo
 unread message pill edits by snow
+spoiler blur and colour by Ashtrath
 **/
 
 
@@ -1582,4 +1583,25 @@ code.hljs {
     0%   {transform: rotate(5deg);}
     50%  {transform: rotate(-5deg);}
     100% {transform: rotate(5deg);}
+}
+/*spoiler blur and colour*/
+.spoilerText-3p6IlD,
+.spoilerText-3p6IlD.hidden-HHr2R9 {
+    background-color: rgba(255, 255, 255, 0.212)!important;
+}
+.spoilerText-3p6IlD.hidden-HHr2R9 > .inlineContent-3ZjPuv {
+    opacity: 1 !important;
+    filter: blur(3px);
+    pointer-events: unset;
+}
+/*bubble chat*/
+.cozyMessage-3V1Y8y .contents-2mQqc9 > .markup-2BOw-j:not(:empty) {
+    position: relative;
+    overflow: visible;
+    display: inline-block;
+    border-radius: 10px;
+    max-width: 650px;
+    margin: 0;
+    padding: 3px 10px ;
+    background-color: rgba(0, 0, 0, 0.432);
 }
