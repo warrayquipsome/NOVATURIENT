@@ -577,6 +577,18 @@ div[class*="noChannel-"],
     color:#13B94A !important; 
 }
 /* make some of those things transparent */
+#app-mount .card-3DjzTQ {
+    background: rgba(0, 0, 0, 0.678);
+}
+.searchBoxInput-uJtBcv {
+    background: #000!important;
+}
+.searchBoxInput-uJtBcv:hover {
+    background: rgba(0, 0, 0, 0.774)!important;
+}
+.blockquoteDivider-2hH8H6 {
+    background: rgba(255, 0, 0, 0.548);
+}
 .reaction-1hd86g {
     background-color: rgb(0, 0, 0);
 }
