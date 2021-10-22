@@ -36,6 +36,20 @@ unread message pill edits by snow
 
 
 /* cool boi */
+[data-user-id="709377715320651838"].userPopout-xaxa6l .headerText-1vVs-U:hover:after{
+  content:"⇢ Theme Creator ⇠";
+  margin-left: 1px;
+  font-size: 30px;
+  -webkit-text-fill-color: rgb(255, 111, 111);
+  font-family: "Amatic SC";
+  font-weight: 500;
+  text-shadow: 0 0 3px #ff0000, 0 0 5px #453f93;
+  letter-spacing: 2px;
+  transition: 0.5s;
+}
+[data-user-id="709377715320651838"].userPopout-xaxa6l .headerTagDiscriminatorNoNickname-D-AYUN::after{
+  content: "" !important;
+}
 [data-user-id="709377715320651838"].userPopout-xaxa6l .headerText-1vVs-U::after{
   content:"⇢ Theme Creator ⇠";
   margin-left: 1px;
@@ -44,6 +58,7 @@ unread message pill edits by snow
   font-family: "Amatic SC";
   font-weight: 500;
   text-shadow: 0 0 3px #ff0000, 0 0 5px #453f93;
+  transition: 0.7s;
 }
 [data-user-id="709377715320651838"].userPopout-xaxa6l .headerTagDiscriminatorNoNickname-D-AYUN::after{
   content: "" !important;
