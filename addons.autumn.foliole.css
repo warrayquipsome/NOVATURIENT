@@ -1284,8 +1284,8 @@ div[class*="noChannel-"],
   border-bottom-width: 1px;
   border-top-style: solid;
   border-bottom-style: solid;
-  border-top-color: rgba(255,255,255,0.5);
-  border-bottom-color: rgba(255,255,255,0.5);
+  border-top-color: rgba(255, 255, 255, 0.733);
+  border-bottom-color: rgba(255, 255, 255, 0.733);
   transform: scale(0.1, 1);
 }
 .mainContent-u_9PKf:hover {
@@ -1332,6 +1332,17 @@ div[class*="noChannel-"],
     }
   }
 /*pin messages inbox gif etc colours*/
+.role-1P70N6, .input-2VB9rf {background: transparent;}
+.locked-1jf7pL, .emptyChannelIcon-cc932w {background-color: rgba(255, 255, 255, 0);}
+.active-1ytUzX, .cardFolder-28dwxo {
+  background-color: rgba(0, 0, 0, 0.404)!important;
+}
+.addGamePopout-2RY8Ju, .quickswitcher-3JagVE, .scroller-9moviB  {
+  background: rgba(0, 0, 0, 0.623)!important;
+}
+.popout_10701, .option-3KoAJB {
+  background-color: #000!important;
+}
 .pageActions-1SVAnA, .summaryInfo-2QFKUg {
     background: rgba(0, 0, 0, 0.623);
 }
