@@ -77,12 +77,15 @@ unread message pill edits by snow
 #app-mount [data-user-id="709377715320651838"] .nickname-3M3Jfa, .headerTagWithNickname-3l_x6x, .customStatus-oN4ZZY, .aboutMeSection-1Fw5Ia, .bodyTitle-1ySSKn, .headerTopWithCustomStatus-1DHAjX{text-align: center!important;}
 #app-mount [data-user-id="709377715320651838"] .avatarPositionNormal-aZjAsn {margin-left: 290px;}
 #app-mount [data-user-id="709377715320651838"] .aboutMeTitle-1IYtPE {margin-left: 300px;}
-/*channel sidebar icon white thing*/
+/*channel small edits*/
 .modeUnread-1qO3K1 .icon-1DeIlz { 
     color: var(--interactive-active) !important;
 }
+.iconVisibility-sTNpHs.wrapper-2jXpOf.modeSelected-346R90 .name-23GUGE.overflow-WK9Ogt  {
+  color: rgb(255, 151, 151);
+}
 .selected-3LIHYU .icon-1DeIlz {
-    color: rgb(255, 132, 132);
+    color: rgb(255, 132, 132)!important;
 }
 /*blurple recolour root*/
 :root {
