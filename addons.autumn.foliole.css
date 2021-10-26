@@ -83,9 +83,11 @@ unread message pill edits by snow
 }
 .iconVisibility-sTNpHs.wrapper-2jXpOf.modeSelected-346R90 .name-23GUGE.overflow-WK9Ogt  {
   color: rgb(255, 151, 151);
+  text-shadow: 0 0 2px #ff0000, 0 0 5px #453f93;
 }
 .selected-3LIHYU .icon-1DeIlz {
-    color: rgb(255, 132, 132)!important;
+    color: rgb(255, 151, 151)!important;
+    text-shadow: 0 0 2px #ff0000, 0 0 5px #453f93;
 }
 /*blurple recolour root*/
 :root {
