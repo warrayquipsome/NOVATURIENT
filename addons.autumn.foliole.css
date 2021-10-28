@@ -1390,6 +1390,9 @@ div[class*="noChannel-"],
     background-color: rgba(0, 0, 0, 0.411);
 }
 /*better bot tag*/
+.botText-1526X_::after {
+  content: " SQUAD"!important;
+}
 .botTagRegular-2HEhHi:hover {
     transition: .5s;
     background: rgb(255, 166, 0);
