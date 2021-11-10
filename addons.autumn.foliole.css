@@ -1554,6 +1554,7 @@ code.hljs {
     width: 100%;    -webkit-backdrop-filter: blur(15px)!important;
     backdrop-filter: blur(15px)!important;
     z-index: -1;
+    border-radius: 10px;
 }
 /*custom css editor colours*/
 .floating-window-titlebar {
