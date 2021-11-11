@@ -807,6 +807,9 @@ div[class*="noChannel-"],
     transform: scale(0);
 }
 /*folders and stuff*/
+.expandedFolderIconWrapper-3fmTfW path {
+  display: none;
+}
 .folder-1hbNCn {
   background-color: rgb(0, 0, 0)!important;
 }
