@@ -1764,3 +1764,8 @@ code.hljs {
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e .item-PXvHYJ:before {
   transition: all 0.20s;
 }
+/*custom user popout colour for u guys la*/
+.userPopout-xaxa6l {background-color: rgba(0, 0, 0, 0.719); backdrop-filter: blur(4px); }
+.footer-3UKYOU {background-color: rgba(0, 0, 0, 0)!important;}
+.avatar-37jOim {border: 6px solid transparent;background-color: transparent;}
+.bodyInnerWrapper-26fQXj {background: transparent;}
