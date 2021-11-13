@@ -1,5 +1,5 @@
-# NOVATURIENT
-![unknown (2)](https://user-images.githubusercontent.com/84565593/137839182-472e4597-34b7-4c2f-a946-177f002758fb.jpg)
+# NOVATURIENT AKA NVTR
+![NVTR](https://user-images.githubusercontent.com/84565593/141606751-fecfeea2-519b-487e-beea-d2dea59e1ad7.jpg)
 
 ◆ Make your discord look more better with NOVATURIENT 🤪🔥 potato
 # ADDON CREDIT
