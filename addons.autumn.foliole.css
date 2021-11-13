@@ -78,6 +78,25 @@ unread message pill edits by snow
 #app-mount [data-user-id="709377715320651838"] .headerText-1vVs-U, .nickname-3M3Jfa, .nameTag-m8r81H, .headerTagWithNickname-3l_x6x, .customStatus-oN4ZZY, .aboutMeSection-1Fw5Ia, .bodyTitle-1ySSKn, .headerTopWithCustomStatus-1DHAjX{text-align: center!important;}
 #app-mount [data-user-id="709377715320651838"] .avatarPositionNormal-aZjAsn {margin-left: 290px;}
 #app-mount [data-user-id="709377715320651838"] .aboutMeTitle-1IYtPE {margin-left: 300px;}
+/*theme text*/
+.typeWindows-1za-n7 {
+    position:relative;
+}
+.wordmark-2iDDfm {
+  display:flex;
+  align-items:center;
+  height:calc(100% + 4px);
+  top:-5px;
+  left: 650px;
+  width:fit-content;
+  font-size:15px;
+  font-family: 'Discord';
+}
+.wordmark-2iDDfm > svg {display:none}
+.wordmark-2iDDfm:after {content:'DISCORD + ŋVTR = EPIKK'; text-shadow: 0 0 20px rgb(255, 0, 0); color: rgb(255, 94, 94);}
+.titleBar-AC4pGV {
+    padding: 8px!important;
+}
 /*channel small edits*/
 .modeUnread-1qO3K1 .icon-1DeIlz { 
     color: var(--interactive-active) !important;
@@ -95,166 +114,7 @@ unread message pill edits by snow
 	--accentcolor2:			255, 94, 94;	/*	boostpink	-	default:	255,115,250		*/
 }
 
-/*theme text*/
-.wordmark-2iDDfm{
-    --text-muted: rgba(255, 255, 255, 0);
-}
-div[class*="typeWindows-"]::after {
-    position: absolute;
-    font-family: "Amatic SC";
-    content: "‏‏‎‎‏‏‎‎‏NOVATURIENT‎‏‏‎‏‏";
-    font-size: 20px;
-    font-weight: 100;
-    top: -1px;
-    left: 150px;
-    color: white;
-    transform: translateY(-8%);
-    line-height: 43px;
-    animation: revealtext 2.5s linear;
-    animation-delay: 4s;
-}
-@keyframes revealtext {
-    0% {
-        content: "GTzfx7S3o4x";
-    }
-    10% {
-        content: "S#k0YYLZ2iA";
-    }
-    15% {
-        content: "A/Dr9akT?zB";
-    }
-    20% {
-        content: "h?4[1kpBKAe";
-    }
-    25% {
-        content: "Wsv%Ag1N*mF";
-    }
-    30% {
-        content: "SzM)qG33iVW";
-    }
-    35% {
-        content: "pmGw1m4l0ym";
-    }
-    40% {
-        content: "9sphom8TtVN";
-    }
-    45% {
-        content: "J{9AFnJ4Gwt";
-    }
-    50% {
-        content: "7xn:fFbQecT";
-    }
-    55% {
-        content: "S]SvwFnf>NT";
-    }
-    60% {
-        content: "dXB@MJ6BENT";
-    }
-    65% {
-        content: "FXvPG6$IENT";
-    }
-    70% {
-        content: "V@K9qsRIENT";
-    }
-    75% {
-        content: "81vBA+URIENT";
-    }
-    80% {
-        content: "Z*FoTURIENT";
-    }
-    85% {
-        content: "JjwATURIENT";
-    }
-    90% {
-        content: "O]VATURIENT";
-    }
-    95% {
-        content: "LOVATURIENT";
-    }
-    100% {
-        content: "NOVATURIENT";
-    }
-    
-}
-.wordmark-2iDDfm{
-    --text-muted: rgba(255, 255, 255, 0);
-}
-div[class*="typeWindows-"]::before {
-    position: absolute;
-    font-family: "Amatic SC";
-    content: "Autumn Foliole‎‏‏‎‏‏";
-    font-size: 20px;
-    font-weight: 100;
-    top: -1px;
-    left: 1250px;
-    color: white;
-    transform: translateY(-8%);
-    line-height: 43px;
-    animation: revealtext2 2.5s linear;
-    animation-delay: 4s;
-}
-@keyframes revealtext2 {
-    0% {
-        content: "rdToxJcjq0F0Cp";
-    }
-    10% {
-        content: "5AAGKFBokGJTd3";
-    }
-    15% {
-        content: "tRAakmu6mfFnbd";
-    }
-    20% {
-        content: "rSETSztmdliSQE";
-    }
-    25% {
-        content: "9Uluir9ZirUHk5";
-    }
-    30% {
-        content: "bqCEgEmSWIgYHa";
-    }
-    35% {
-        content: "8j8qUdISUfQEOe";
-    }
-    40% {
-        content: "XGW7B0S2jFcRle";
-    }
-    45% {
-        content: "ZWPt0KcXPoLole";
-    }
-    50% {
-        content: "7xn:fDHFbQiole";
-    }
-    55% {
-        content: "VRtzbS2Pfliole";
-    }
-    60% {
-        content: "BssFNqNFoliole";
-    }
-    65% {
-        content: "6qbFwK Foliole";
-    }
-    70% {
-        content: "OZfHrN Foliole";
-    }
-    75% {
-        content: "uK5hmn Foliole";
-    }
-    80% {
-        content: "CEIumn Foliole";
-    }
-    85% {
-        content: "r0tumn Foliole";
-    }
-    90% {
-        content: "Cutumn Foliole";
-    }
-    95% {
-        content: "Autumn Foliole";
-    }
-    100% {
-        content: "Autumn Foliole";
-    }
-}
+
 /*custom user setting buttons border radius*/
 :root .container-3auIfb, :root .bd-switch-body {
   border-radius: 5px;
@@ -439,9 +299,11 @@ background-color: #fff !important;
     color: transparent;
 }
 .searchBar-6Kv8R2 .searchBarComponent-32dTOx::before {
-    content: "Who you tryna search for?🎅📸";
-    color: hsla(0, 0%, 100%, 0.616);
+    content: "Dont be shy just, search it😀📸";
+    color: hsla(0, 0%, 100%, 0.705);
     margin-left: 10px;
+    font-family: "Amatic SC";
+    letter-spacing: 1.5px;
 }
   /*Hides CSS Tips*/
 .markdown-hover {display: none;}
@@ -703,6 +565,9 @@ div[class*="noChannel-"],
 }
 #bd-pub-button {background-color: rgba(255, 255, 255, 0);}
 /*MORE transparent stuffs*/
+.header-2mZ9Ov, .previewContainer-sli91T {
+  background-color: transparent;
+}
 .header-ykumBX {
     background-color: #000;
 }
@@ -852,30 +717,17 @@ div[class*="noChannel-"],
     display: none;
 }
 /*bigger middle min max close buttons and hover effects*/
-.titleBar-AC4pGV {
-    padding: 8px
-}
 .winButton-iRh8-Z {
-    font-size: 1rem;
-}
-.winButton-iRh8-Z {
-    top: -13px;
-    right: -8px;
-    height: 40px;
-    width: 45px;
+    top: -13px!important;
+    height: 40px!important;
+    width: 30px!important;
+    left: -20px!important;
 }
 .winButtonClose-1HsbF- {
-  left: -640px;
-  color: rgba(255, 255, 255, 0.329);
+  color: rgb(255, 115, 115);
 }
 .winButtonMinMax-PBQ2gm {
-  left: -640px;
-  color: rgba(255, 255, 255, 0.329);
-}
-.winButtonMinMax-PBQ2gm:hover {
-    transform: rotate(45deg)!important;
-    background-color: transparent;
-    color: #fff;
+  color: rgb(255, 94, 94);
 }
 .winButtonMinMax-PBQ2gm:hover {
     transform: rotate(45deg)!important;
@@ -1481,6 +1333,7 @@ code.hljs {
     text-transform: uppercase;
     font-size: 9px;
 }
+.button-Jt-tIg {border: dashed 1px #fff3;height: 40px;background: rgba(255, 255, 255, 0.123)!important;}
 /*spotify gradient thing*/
 .timeline-UWmgAx:hover .barFill-Dhkah7 {
     background: linear-gradient(135deg, #ffce61, #fc5050);
@@ -1789,3 +1642,17 @@ code.hljs {
 @keyframes gradient-border {
   from {background-position: 0 0;}
   to {background-position: 130% 0;}}
+/*custom {edited} message text*/
+.messageContent-2qWWxC {
+  font-size: 14px;
+  font-weight: 500;
+}
+.cozy-3raOZG:hover {
+   background-color: rgba(255, 255, 255, 0.068)!important;
+}
+.edited-3sfAzf::Before {
+  content: "was NOT "!important;
+}
+.edited-3sfAzf::after {
+  content: " ok jk it was edited"!important;
+}
