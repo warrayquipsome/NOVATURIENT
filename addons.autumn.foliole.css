@@ -1769,3 +1769,22 @@ code.hljs {
 .footer-3UKYOU {background-color: rgba(0, 0, 0, 0)!important;}
 .avatar-37jOim {border: 6px solid transparent;background-color: transparent;}
 .bodyInnerWrapper-26fQXj {background: transparent;}
+/*rgb line (help from Demented_Elmo)*/
+.guildSeparator-nWMCrR::after{
+  content:"";
+  left: 47.4px; 
+  overflow: visible; 
+  width:5px; 
+  height:20000px; 
+  visibility: visible; 
+  position:fixed; 
+  bottom:-10000px;
+  background-image: linear-gradient(to left,rgb(255, 255, 255), rgb(255, 139, 139), rgb(255, 95, 95),rgb(255, 75, 75),rgb(255, 95, 95), rgb(255, 139, 139), rgb(255, 255, 255));
+  animation: gradient-border 15s linear infinite;
+  background-size: 400% 100%;
+  background-clip: text;
+  z-index: 1;
+}
+@keyframes gradient-border {
+  from {background-position: 0 0;}
+  to {background-position: 130% 0;}}
