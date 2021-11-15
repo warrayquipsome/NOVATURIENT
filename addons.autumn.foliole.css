@@ -1684,3 +1684,89 @@ code.hljs {
   content: "...................words :)"!important;
   letter-spacing: 1.5px;
 }
+/*custom abusive website text and image*/
+.art-25XW-1 {
+  content: url(https://cdn-icons-png.flaticon.com/512/2297/2297768.png);
+  width: 170px;
+  height: auto;
+  margin: -200px auto 0px;
+}
+.title-2HYF3Z {
+  color: rgb(255, 111, 111);
+  text-shadow: 0 0 3px #ff0000, 0 0 5px #453f93;
+}
+.title-2HYF3Z::after {
+  content: " !";
+}
+.title-2HYF3Z::before {
+  content: "! ";
+}
+.colorStandard-2KCXvj.size16-1P40sf {color: rgb(255, 255, 255);}
+.colorStandard-2KCXvj.size16-1P40sf::after {
+  content: " Stay woke bro, hackers are getting more intelligent. U almost went in their trap."; 
+}
+.body-r2d1CY strong {color:rgb(255, 139, 139) !important;text-shadow: 0 0 3px #ff0000, 0 0 5px #453f93;}
+.small-3iVZYw {
+  border-radius: 5px;
+}
+/*custom text in friends tab {help from lifegrain#3569} */
+/* custom friends tab text 1*/
+#online-tab .friendsEmpty-1K9B4k .text-GwUZgS {
+    color: transparent;
+    display: flex;
+    justify-content: center;
+}
+#online-tab .friendsEmpty-1K9B4k .text-GwUZgS::before {
+    content: "No friends? No worries wumpus got you but he's asleep and umm watch out for that alien tho wumpus"; 
+    position: absolute;
+    max-width: 30ch; 
+    color: #ffffff52;
+}
+/* custom friends tab text 2*/
+#all-tab .friendsEmpty-1K9B4k .text-GwUZgS {
+    color: transparent;
+    display: flex;
+    justify-content: center;
+}
+#all-tab .friendsEmpty-1K9B4k .text-GwUZgS::before {
+    content: "Starter huh? You got a long way to travel young traveller."; 
+    position: absolute;
+    max-width: 30ch; 
+    color: #ffffff52;
+}
+/* custom friends tab text 3*/
+#pending-tab .friendsEmpty-1K9B4k .text-GwUZgS {
+    color: transparent;
+    display: flex;
+    justify-content: center;
+}
+#pending-tab .friendsEmpty-1K9B4k .text-GwUZgS::before {
+    content: "Alright let's wait together"; 
+    position: absolute;
+    max-width: 30ch; 
+    color: #ffffff52;
+}
+/* custom friends tab text 4*/
+#blocked-tab .friendsEmpty-1K9B4k .text-GwUZgS {
+    color: transparent;
+    display: flex;
+    justify-content: center;
+}
+#blocked-tab .friendsEmpty-1K9B4k .text-GwUZgS::before {
+    content: "Ayeee you haven't block anyone, goin gudd keep it up bro"; 
+    position: absolute;
+    max-width: 30ch; 
+    color: #ffffff52;
+}
+/* custom friends tab text 5*/
+#add_friend-tab .friendsEmpty-1K9B4k .text-GwUZgS {
+    color: transparent;
+    display: flex;
+    justify-content: center;
+}
+#add_friend-tab .friendsEmpty-1K9B4k .text-GwUZgS::before {
+    content: "FASTER ADD THAT FRIEND, WUMPUS IS GETTING BORED MAN!!"; 
+    position: absolute;
+    max-width: 30ch; 
+    color: #ffffff52;
+}
