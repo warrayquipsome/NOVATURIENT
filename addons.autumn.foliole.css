@@ -1115,7 +1115,6 @@ div[class*="noChannel-"],
   background: transparent !important;
 }
 ::-webkit-scrollbar-thumb {
-  border-radius: 10px !important;
   border: none !important;
   background-clip: content-box !important;
   background: rgba(255, 255, 255, 0) !important;
