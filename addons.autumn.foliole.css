@@ -1779,5 +1779,14 @@ code.hljs {
     overflow-y:scroll;
 }
 .clamped-IwJfxR::-webkit-scrollbar {
-  display: none;
+  width: 15px;
+  height: 15px;
+}
+.clamped-IwJfxR::-webkit-scrollbar-track {
+  border-radius: 30px; 
+  background-color: rgba(255, 255, 255, 0.062); 
+}
+.clamped-IwJfxR::-webkit-scrollbar-thumb {
+  background:  linear-gradient(45deg, #ff6b6b, #ff4242); 
+  border-radius: 30px; 
 }
