@@ -30,6 +30,7 @@ highlither by Tropical
 smooth discord msg box by Xyhlo
 hover channels animated by Xyhlo
 unread message pill edits by snow
+Removes the clamp from the About Me sction by ItMeSarah
 **/
 
 
@@ -1769,4 +1770,14 @@ code.hljs {
     position: absolute;
     max-width: 30ch; 
     color: #ffffff52;
+}
+/*lets u see the rest of the thing in the about me*/
+.clamped-IwJfxR{
+    -webkit-line-clamp: 190; 
+    max-height:112px;
+    overflow-x: hidden;
+    overflow-y:scroll;
+}
+.clamped-IwJfxR::-webkit-scrollbar {
+  display: none;
 }
