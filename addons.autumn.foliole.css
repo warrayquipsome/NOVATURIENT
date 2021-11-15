@@ -1784,9 +1784,9 @@ code.hljs {
 }
 .clamped-IwJfxR::-webkit-scrollbar-track {
   border-radius: 30px; 
-  background-color: rgba(255, 255, 255, 0.062); 
+  background-color: rgba(255, 255, 255, 0.047)!important; 
 }
 .clamped-IwJfxR::-webkit-scrollbar-thumb {
-  background:  linear-gradient(45deg, #ff6b6b, #ff4242); 
+  background:  linear-gradient(45deg, #ff7e7e, #ff4242)!important; 
   border-radius: 30px; 
 }
