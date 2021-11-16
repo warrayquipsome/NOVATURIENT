@@ -1197,6 +1197,12 @@ div[class*="noChannel-"],
     }
   }
 /*pin messages inbox gif etc colours*/
+.button-2IFFQ4 {
+  background: rgba(255, 255, 255, 0.123)!important;
+}
+.button-2IFFQ4:hover {
+  background: rgba(255, 255, 255, 0.212)!important;
+}
 .wrapper-35wsBm {
   background-color: rgba(0, 0, 0, 0.445);
 }
