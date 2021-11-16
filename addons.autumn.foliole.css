@@ -1684,12 +1684,12 @@ code.hljs {
   content: "...................words :)"!important;
   letter-spacing: 1.5px;
 }
-/*custom abusive website text and image*/
+/*custom abusive website image*/
 .art-25XW-1 {
   content: url(https://cdn-icons-png.flaticon.com/512/2297/2297768.png);
   width: 170px;
   height: auto;
-  margin: -200px auto 0px;
+  margin-left: 30%;
 }
 .title-2HYF3Z {
   color: rgb(255, 111, 111);
@@ -1702,9 +1702,6 @@ code.hljs {
   content: "! ";
 }
 .colorStandard-2KCXvj.size16-1P40sf {color: rgb(255, 255, 255);}
-.colorStandard-2KCXvj.size16-1P40sf::after {
-  content: " Stay woke bro, hackers are getting more intelligent. U almost went in their trap."; 
-}
 .body-r2d1CY strong {color:rgb(255, 139, 139) !important;text-shadow: 0 0 3px #ff0000, 0 0 5px #453f93;}
 .small-3iVZYw {
   border-radius: 5px;
