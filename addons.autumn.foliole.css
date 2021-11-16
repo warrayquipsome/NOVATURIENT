@@ -65,7 +65,7 @@ Removes the clamp from the About Me sction by ItMeSarah
   content: "" !important;
 }
 .size14-e6ZScH {margin-left: 2px!important;}
-/*I LOVE PUGS, i mean i have a custom user popout*/
+/*I LOVE PUGS, i mean i have a custom user popout lel*/
 #app-mount [data-user-id="709377715320651838"].userPopout-xaxa6l {background-color: rgba(255, 255, 255, 0.158);background-image: url(https://i.imgur.com/fvdu6zk.gif);backdrop-filter: blur(500px);width: 700px!important;height: 359px!important;}
 #app-mount [data-user-id="709377715320651838"] .bodyInnerWrapper-26fQXj {background: transparent;}
 #app-mount [data-user-id="709377715320651838"] .banner-2QYc2d {background: transparent!important;}.divider-ewBQKj {display: none;}
@@ -78,6 +78,7 @@ Removes the clamp from the About Me sction by ItMeSarah
 #app-mount [data-user-id="709377715320651838"] .headerText-1vVs-U, .nickname-3M3Jfa, .nameTag-m8r81H, .headerTagWithNickname-3l_x6x, .customStatus-oN4ZZY, .aboutMeSection-1Fw5Ia, .bodyTitle-1ySSKn, .headerTopWithCustomStatus-1DHAjX{text-align: center!important;}
 #app-mount [data-user-id="709377715320651838"] .avatarPositionNormal-aZjAsn {margin-left: 290px;}
 #app-mount [data-user-id="709377715320651838"] .aboutMeTitle-1IYtPE {margin-left: 300px;}
+#app-mount [data-user-id="709377715320651838"] .bodyTitle-1ySSKn.base-1x0h_U::before {display: none;}
 /*theme text*/
 .typeWindows-1za-n7 {
     position:relative;
