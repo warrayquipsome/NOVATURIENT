@@ -1778,10 +1778,11 @@ code.hljs {
     max-height:112px;
     overflow-x: hidden;
     overflow-y:scroll;
+    margin-left: 15px;
 }
 .clamped-IwJfxR::-webkit-scrollbar {
-  width: 15px;
-  height: 15px;
+  width: 13px;
+  margin-left: 7px;
 }
 .clamped-IwJfxR::-webkit-scrollbar-track {
   border-radius: 30px; 
