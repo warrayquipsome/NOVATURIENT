@@ -7,6 +7,7 @@
 - ◆ Settings Icon by [DevilBro#4401](https://github.com/mwittrien)
 - ◆ Blurple recolour by [DevilBro#4401](https://github.com/mwittrien)
 - ◆ Horizontal server list by [Gibbu#1211](https://github.com/Gibbu)
+- ◆ Discolored by [Nyria#3863](https://github.com/NYRI4)
 # BetterDiscord Installation
 - ◆ Download better discord [**here**](https://betterdiscord.app/)
 - ◆ To download the theme go to [**this**](https://betterdiscord.app/theme/NOVATURIENT) link, bring it to the theme folder and enable it and WALA theme is ready to go.
