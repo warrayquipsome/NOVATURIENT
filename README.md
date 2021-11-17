@@ -10,4 +10,6 @@
 - ◆ Discolored by [Nyria#3863](https://github.com/NYRI4)
 # BetterDiscord Installation
 - ◆ Download better discord [**here**](https://betterdiscord.app/)
-- ◆ To download the theme go to [**this**](https://betterdiscord.app/theme/NOVATURIENT) link, bring it to the theme folder and enable it and WALA theme is ready to go.
+- ◆ To download the theme go to [**this**](https://betterdiscord.app/theme/NOVATURIENT) link
+- ◆ Drag it to the theme folder 
+- ◆ Enable it and VOILA theme is ready to go
