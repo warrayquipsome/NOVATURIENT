@@ -1665,6 +1665,10 @@ code.hljs {
   background-size: 400% 100%;
   background-clip: text;
   z-index: 1;
+  filter: drop-shadow(0 0 10px rgba(255, 0, 0, 0.200))
+          drop-shadow(0 0 12px rgba(255, 118, 118, 0.103))
+          drop-shadow(0 0 14px rgba(255, 118, 118, 0.103))
+          drop-shadow(0 0 16px rgba(255, 118, 118, 0.103));
 }
 @keyframes gradient-border {
   from {background-position: 0 0;}
