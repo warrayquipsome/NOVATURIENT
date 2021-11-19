@@ -1509,7 +1509,6 @@ code.hljs {
     perspective: 1000;
     background-color: rgb(255, 255, 255);
     color: #000;
-    backdrop-filter: blur(2px);
     border-radius: 5px;
     animation: wigglewigglewigglebombombombombom2 .5s infinite;
 }
