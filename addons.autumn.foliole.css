@@ -82,6 +82,48 @@ vc ring colour by david
 #app-mount [data-user-id="709377715320651838"] .avatarPositionNormal-aZjAsn {margin-left: 290px;}
 #app-mount [data-user-id="709377715320651838"] .aboutMeTitle-1IYtPE {margin-left: 300px;}
 #app-mount [data-user-id="709377715320651838"] .bodyTitle-1ySSKn.base-1x0h_U::before {display: none;}
+/*theme alert*/
+@keyframes warningflash {
+    0% {
+      box-shadow: 0 2px 10px rgba(240,71,71,0.2),0 0 0 2px rgba(240,70,70,0.3);
+    }
+  
+    70% {
+      box-shadow: 0 0 20px 15px rgba(240,71,71,0.1),0 0 0 6px rgba(240,70,70,0.2);
+    }
+  
+    100% {
+      box-shadow: 0 0 20px 15px rgba(240,71,71,0),0 0 0 6px rgba(240,24,70,0.1);
+    }
+  }
+  .theme-light .layer-3QrUeG:first-of-type::before {
+    content: "You need to have dark theme enabled for this theme to work properly. To enable it, go into Settings -> Appearance -> Dark Theme";
+    z-index: 5;
+    background: rgb(0, 0, 0);
+    color: #ffffff;
+    position: fixed;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    width: 500px;
+    height: 35px;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(240, 71, 71, 0.22);
+    animation: warningflash 1s ease infinite;  
+    border: 3px solid #F04747;
+  }
+  .theme-light [aria-controls="appearance-tab"],
+  .theme-light .app-2rEoOp .container-3baos1 > .noWrap-3jynv6 > .button-14-BFJ:nth-child(3) {
+    animation: warningflash 1s ease infinite;
+    border: 2px solid #F04747!important; 
+  } 
+    .theme-light .children-rWhLdy > .marginTop40-i-78cZ:nth-child(2) > div > div[tabindex="-1"]:not(:nth-child(3)) {
+    animation: warningflash 1s ease infinite;
+    border: 2px solid #F04747;
+  }
 /*theme text*/
 .typeWindows-1za-n7 {
     position:relative;
