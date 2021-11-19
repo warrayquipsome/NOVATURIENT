@@ -1860,3 +1860,8 @@ code.hljs {
 .avatarSpeaking-2c8-9i {box-shadow: inset 0 0 0 2px rgb(255, 89, 89),inset 0 0 0 2px var(--background-secondary)}
 /* Voice users */
 .speaking-3dBKhR {box-shadow: inset 0 0 0 2px rgb(255, 89, 89),inset 0 0 0 2px var(--background-secondary)}
+
+/*image upload recolour*/
+.upload-3Dkqd6 {
+  background-color: rgba(0, 0, 0, 0);
+}
