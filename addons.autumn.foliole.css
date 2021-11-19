@@ -1699,27 +1699,6 @@ code.hljs {
 .footer-3UKYOU {background-color: rgba(0, 0, 0, 0)!important;}
 .avatar-37jOim {border: 6px solid transparent;background-color: transparent;}
 .bodyInnerWrapper-26fQXj {background: transparent;}
-/*rgb line (help from Demented_Elmo)*/
-.container-3baos1::after{
-  content:"";
-  width:3px; 
-  height: 4600px; 
-  visibility: visible; 
-  margin-bottom:-50px!important;
-  background-image: linear-gradient(to left,rgb(255, 215, 215), rgb(255, 139, 139), rgb(255, 95, 95),rgb(255, 75, 75),rgb(255, 95, 95), rgb(255, 139, 139), rgb(255, 215, 215));
-  animation: gradient-border 15s linear infinite;
-  background-size: 400% 100%;
-  background-clip: text;
-  z-index: 1;
-  transform: rotate(270deg)!important;
-  filter: drop-shadow(0 0 10px rgba(255, 0, 0, 0.200))
-          drop-shadow(0 0 12px rgba(255, 118, 118, 0.103))
-          drop-shadow(0 0 14px rgba(255, 118, 118, 0.103))
-          drop-shadow(0 0 16px rgba(255, 118, 118, 0.103));
-}
-@keyframes gradient-border {
-  from {background-position: 0 0;}
-  to {background-position: 130% 0;}}
 /*custom {edited} message text*/
 .messageContent-2qWWxC {
   font-size: 14px;
