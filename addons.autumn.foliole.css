@@ -120,6 +120,14 @@ vc ring colour by david
     animation: warningflash 1s ease infinite;
     border: 2px solid #F04747!important; 
   } 
+.theme-light #user-settings-cog-Appearance {
+  animation: warningflash 1s ease infinite;
+  border: 2px solid #F04747!important; 
+}
+.theme-light #user-settings-cog-Appearance--dark {
+  animation: warningflash 1s ease infinite;
+  border: 2px solid #F04747!important; 
+}
     .theme-light .children-rWhLdy > .marginTop40-i-78cZ:nth-child(2) > div > div[tabindex="-1"]:not(:nth-child(3)) {
     animation: warningflash 1s ease infinite;
     border: 2px solid #F04747;
