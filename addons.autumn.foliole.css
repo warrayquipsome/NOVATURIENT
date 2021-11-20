@@ -132,6 +132,14 @@ vc ring colour by david
     animation: warningflash 1s ease infinite;
     border: 2px solid #F04747;
   }
+.theme-light #user-settings-cog-Appearance {
+  animation: warningflash 1s ease infinite;
+  border: 2px solid #F04747!important; 
+}
+.theme-light #user-settings-cog-Appearance--dark {
+  animation: warningflash 1s ease infinite;
+  border: 2px solid #F04747!important; 
+}
 /*theme text*/
 .typeWindows-1za-n7 {
     position:relative;
