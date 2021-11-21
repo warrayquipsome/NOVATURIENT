@@ -34,7 +34,6 @@ hover channels animated by Xyhlo
 unread message pill edits by snow
 Removes the clamp from the About Me sction by ItMeSarah
 vc ring colour by david
-Embed redesign by Alexis WyvernZu
 **/
 
 
@@ -1858,44 +1857,4 @@ code.hljs {
 /*image upload recolour*/
 .upload-3Dkqd6 {
   background-color: rgba(0, 0, 0, 0);
-}
-
-/*Embed redesign*/
-:root{
-    --embed-border-radius: 8px;
-}
-.embed-IeVjo6 {
-    border-radius: var(--embed-border-radius);
-}
-.embed-IeVjo6 code{
-    background: var(--background-secondary);
-}
-:root{
-    --embed-line-width: 256px;
-}
-.embedWrapper-lXpS3L{
-}
-.embedFull-2tM8-- {
-
-    border-left: calc(4px + var(--embed-line-width)) solid var(--background-accent);
-    background: var(--background-secondary);
-}
-.grid-1nZz7S {
-    margin-left: calc( -1 * var(--embed-line-width));
-    z-index: 1;
-}
-.embedFull-2tM8--:after, .embedFull-2tM8--:before{
-    content: "";
-    height: 100%;
-    width: var(--embed-line-width);
-    position: absolute;
-    top: 0;
-    left: calc(-1 * var(--embed-line-width));
-}
-.embedFull-2tM8--:after{
-    background: linear-gradient(to right, transparent, var(--background-secondary));
-}
-.embedFull-2tM8--:before{
-    background: var(--background-secondary);
-    opacity: .8;
 }
