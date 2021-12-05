@@ -1,5 +1,5 @@
 # NOVATURIENT AKA NVTR
-![NVTR2](https://user-images.githubusercontent.com/84565593/141606859-b216ee8f-cce7-4484-9693-d787e972044b.jpg)
+![NVTR3](https://user-images.githubusercontent.com/84565593/144735234-6a8cb861-2b75-4625-8d7a-d96f67a8f501.png)
 
 ◆ Make your discord look more better with NOVATURIENT 🤪
 # ADDON CREDIT
