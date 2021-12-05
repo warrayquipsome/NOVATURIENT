@@ -37,7 +37,10 @@ Removes the clamp from the About Me sction by ItMeSarah
 vc ring colour by david
 **/
 
-
+/*roots*/
+:root {
+ --background-image: url(https://i.imgur.com/cxcxDlZ.jpg);
+}
 
 
 /* cool boi */
@@ -145,7 +148,7 @@ vc ring colour by david
 .titleBar-AC4pGV,
 .layers-3iHuyZ .layer-3QrUeG {
   background-color: rgb(255, 255, 255) !important;
-  background-image: url("https://i.imgur.com/cxcxDlZ.jpg") !important;
+  background-image: var(--background-image) !important;
   background-size: cover !important;
   background-blend-mode: multiply !important;
   background-position: 0 -50px !important;
