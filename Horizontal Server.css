@@ -1,0 +1,16 @@
+@import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
+/*horizontal theme server and spacing size*/
+:root {
+  --HSL-server-icon-size: 35px;  /* Size of the server icons | DEFAULT: 40px */
+  --HSL-server-spacing: 10px;  /* Spacing between each server icon | DEFAULT: 10px */
+}
+#app-mount .guilds-1SWlCJ .scrollerBase-289Jih {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.wrapper-25eVIn foreignObject {
+      mask: unset;
+      border-radius: 5px!important;
+}
