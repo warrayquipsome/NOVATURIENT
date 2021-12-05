@@ -1,3 +1,4 @@
+@import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
 @import url('https://discord-theme-addons.github.io/modern-channel-indicators/src/support/compiled.css');
 @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css');
@@ -139,6 +140,19 @@ vc ring colour by david
 .theme-light #user-settings-cog-Appearance--dark {
   animation: warningflash 1s ease infinite;
   border: 2px solid #F04747!important; 
+}
+/*change ur background image here*/
+.titleBar-AC4pGV,
+.layers-3iHuyZ .layer-3QrUeG {
+  background-color: rgb(255, 255, 255) !important;
+  background-image: url("https://i.imgur.com/cxcxDlZ.jpg") !important;
+  background-size: cover !important;
+  background-blend-mode: multiply !important;
+  background-position: 0 -50px !important;
+}
+.typeWindows-1za-n7 {
+  margin-top: 0 !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0) !important;
 }
 /*theme text*/
 .typeWindows-1za-n7 {
@@ -370,19 +384,6 @@ background-color: #fff !important;
 }
   /*Hides CSS Tips*/
 .markdown-hover {display: none;}
-/*background-image*/
-.titleBar-AC4pGV,
-.layers-3iHuyZ .layer-3QrUeG {
-  background-color: rgb(255, 255, 255) !important;
-  background-image: url("https://i.imgur.com/cxcxDlZ.jpg") !important;
-  background-size: cover !important;
-  background-blend-mode: multiply !important;
-  background-position: 0 -50px !important;
-}
-.typeWindows-1za-n7 {
-  margin-top: 0 !important;
-  border-bottom: 1px solid rgba(255, 255, 255, 0) !important;
-}
 /* crappy patty matty crappy */
 .root-1BQpZw,
 .container-2lgZY8,
@@ -769,7 +770,7 @@ div[class*="noChannel-"],
   background-color: transparent!important;
 }
 [aria-label="Servers"] {
-  margin-left: 10px;
+  margin-left: 4px;
 }
 /* user setting theme and those stuffs collours [idk whats it called ;-;] */
 .accountProfileCard-1XCH88, .background-1QDuV2, .fieldList-21DyL8 {
@@ -882,281 +883,12 @@ div[class*="noChannel-"],
 .clickable-1JJAn8 {
   transition: all 0.2s ease-in;
 }
-/*horizontal server list*/
-:root {
-    --server-size: var(--HSL-server-icon-size, var(--HSL-size, 35px));
-    --server-spacing: var(--HSL-server-spacing, var(--HSL-spacing, 10px));
-    --server-container: calc(var(--server-size) + 20px);
-  }
-  
-  #app-mount .app-1q1i1E .base-3dtUhz {
-    top: var(--server-container) !important;
-    position: absolute !important;
-    left: 0 !important;
-    right: 0;
-    bottom: 0;
-    max-width: 100%;
-  }
-  #app-mount .sidebar-2K8pFh {
-    border-radius: 0;
-  }
-  #app-mount [class*=unreadMentionsIndicator] {
-    width: var(--server-size);
-    padding: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    height: auto;
-  }
-  #app-mount .guilds-1SWlCJ {
-    transform-origin: top left;
-    transform: rotate(-90deg);
-    height: 100vw !important;
-    width: var(--server-container);
-    top: var(--server-container);
-    bottom: unset;
-    position: absolute !important;
-    left: 0;
-  }
-  #app-mount .guilds-1SWlCJ > [data-list-id=guildsnav] {
-    margin-bottom: 0 !important;
-  }
-  #app-mount .guilds-1SWlCJ .scrollerWrap-1IAIlv {
-    width: calc(100% + 30px);
-  }
-  #app-mount .guilds-1SWlCJ .scrollerBase-289Jih {
-    padding-top: 0 !important;
-  }
-  #app-mount .guilds-1SWlCJ .scrollerBase-289Jih > div[style]:not(.listItem-2P_4kh) {
-    height: auto !important;
-  }
-  #app-mount .guilds-1SWlCJ .scrollerBase-289Jih > div[style]:not(.listItem-2P_4kh)[style*="height: 0px"] {
-    padding-top: 1px;
-  }
-  #app-mount .guilds-1SWlCJ [role=group] {
-    height: auto !important;
-  }
-  #app-mount .guilds-1SWlCJ [class*=pill] {
-    transform: rotate(90deg) translateY(-50%);
-    height: var(--server-size);
-    width: 4px;
-    top: calc(var(--server-size) / -1 + var(--server-size) / 1.7 - 8px) !important;
-    margin-left: -2px;
-  }
-  #app-mount .guilds-1SWlCJ [class*=pill] span {
-    height: 100% !important;
-    width: 3px !important;
-    transform: scale(0, 1) !important;
-    transition: 0.15s ease !important;
-    margin-left: 0;
-    border-radius: 0 4px 4px 0;
-  }
-  #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 0"] {
-    transform: scale(1, 0.24) !important;
-  }
-  #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 1"] {
-    transform: scale(1, 0.24) !important;
-  }
-  #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 2"] {
-    transform: scale(1, 0.24) !important;
-  }
-  #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 3"] {
-    transform: scale(1, 0.24) !important;
-  }
-  #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 4"] {
-    transform: scale(1, 0.24) !important;
-  }
-  #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 5"] {
-    transform: scale(1, 0.24) !important;
-  }
-  #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 6"] {
-    transform: scale(1, 0.24) !important;
-  }
-  #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 7"] {
-    transform: scale(1, 0.24) !important;
-  }
-  #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 8"] {
-    transform: scale(1, 0.24) !important;
-  }
-  #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 9"] {
-    transform: scale(1, 0.7) !important;
-  }
-  #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 10"] {
-    transform: scale(1, 0.7) !important;
-  }
-  #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 11"] {
-    transform: scale(1, 0.7) !important;
-  }
-  #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 12"] {
-    transform: scale(1, 0.7) !important;
-  }
-  #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 13"] {
-    transform: scale(1, 0.7) !important;
-  }
-  #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 14"] {
-    transform: scale(1, 0.7) !important;
-  }
-  #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 15"] {
-    transform: scale(1, 0.7) !important;
-  }
-  #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 16"] {
-    transform: scale(1, 0.7) !important;
-  }
-  #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 17"] {
-    transform: scale(1, 0.7) !important;
-  }
-  #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 18"] {
-    transform: scale(1, 0.7) !important;
-  }
-  #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 19"] {
-    transform: scale(1, 0.7) !important;
-  }
-  #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 20"] {
-    transform: scale(1, 0.7) !important;
-  }
-  #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 21"] {
-    transform: scale(1, 1) !important;
-  }
-  #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 22"] {
-    transform: scale(1, 1) !important;
-  }
-  #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 23"] {
-    transform: scale(1, 1) !important;
-  }
-  #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 24"] {
-    transform: scale(1, 1) !important;
-  }
-  #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 25"] {
-    transform: scale(1, 1) !important;
-  }
-  #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 26"] {
-    transform: scale(1, 1) !important;
-  }
-  #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 27"] {
-    transform: scale(1, 1) !important;
-  }
-  #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 28"] {
-    transform: scale(1, 1) !important;
-  }
-  #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 29"] {
-    transform: scale(1, 1) !important;
-  }
-  #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 30"] {
-    transform: scale(1, 1) !important;
-  }
-  #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 31"] {
-    transform: scale(1, 1) !important;
-  }
-  #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 32"] {
-    transform: scale(1, 1) !important;
-  }
-  #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 33"] {
-    transform: scale(1, 1) !important;
-  }
-  #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 34"] {
-    transform: scale(1, 1) !important;
-  }
-  #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 35"] {
-    transform: scale(1, 1) !important;
-  }
-  #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 36"] {
-    transform: scale(1, 1) !important;
-  }
-  #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 37"] {
-    transform: scale(1, 1) !important;
-  }
-  #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 38"] {
-    transform: scale(1, 1) !important;
-  }
-  #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 39"] {
-    transform: scale(1, 1) !important;
-  }
-  #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 40"] {
-    transform: scale(1, 1) !important;
-  }
-  #app-mount .guilds-1SWlCJ .wrapper-sa6paO {
-    height: var(--server-size) !important;
-  }
-  #app-mount .guilds-1SWlCJ .wrapper-21YSNc,
-  #app-mount .guilds-1SWlCJ .wrapper-3Njo_c {
-    width: var(--server-container);
-  }
-  #app-mount .guilds-1SWlCJ [class*=listItem]:not([class*=listItemWrapper]) {
-    width: var(--server-size);
-    transform: rotate(90deg);
-    margin: var(--server-spacing) 10px;
-    position: unset;
-  }
-  #app-mount .guilds-1SWlCJ [class*=guildSeparator] {
-    transform: rotate(90deg);
-    width: var(--server-size);
-  }
-  
-  #app-mount .guilds-1SWlCJ .folder-21wGz3 {
-    background: transparent;
-  }
-  #app-mount .guilds-1SWlCJ.hidden-3dXt4k + .base-3dtUhz {
-    top: 0 !important;
-  }
-  #app-mount [class*=listItemTooltip] {
-    position: absolute;
-    max-width: unset;
-    white-space: nowrap;
-    margin-left: calc(var(--server-size) / -1 - 20px);
-    top: calc(var(--server-size) - 10px);
-  }
-  #app-mount [class*=listItemTooltip] [class*=tooltipPointer] {
-    transform: rotate(180deg);
-    top: -5px;
-    right: unset;
-    left: 13px;
-    z-index: 1;
-  }
-  #app-mount .friendsOnline-2JkivW {
-    position: absolute;
-    transform: translate(-50%, 50%);
-    top: calc(-50% + var(--server-spacing));
-    left: calc(-50%);
-    width: calc(var(--server-size) + var(--server-spacing));
-    display: flex;
-    justify-content: center;
-  }
-  #app-mount .guilds-1SWlCJ.content-Pph8t6, #app-mount .BF-folderSidebar {
-    position: abbolute !important;
-    top: calc(var(--server-container) * 1) !important;
-  }
-  #app-mount .guilds-1SWlCJ.content-Pph8t6:not(.closed-j55_T-) + .base-3dtUhz, #app-mount .BF-folderSidebar:not(.closed-j55_T-) + .base-3dtUhz {
-    top: calc(var(--server-container) * 2) !important;
-  }
-  #app-mount .guilds-1SWlCJ .frame-oXWS21[class*=listItem] {
-    height: var(--server-size) !important;
-  }
-  #app-mount .guilds-1SWlCJ .frame-oXWS21[class*=listItem] .wrapper-1BJsBx {
-    height: 100% !important;
-  }
-  
-  #app-mount .BF-folderSidebar {
-    top: calc(var(--server-container)) !important;
-  }
-  
-  html.platform-osx #app-mount .typeMacOS-3EmCyP {
-    width: 100%;
-  }
-  html.platform-osx #app-mount .base-3dtUhz {
-    top: calc(var(--server-container) + 30px) !important;
-  }
-  html.platform-osx #app-mount #pluginNotice {
-    top: 32px;
-    z-index: 100000 !important;
-  }
 
-  :root {
-    --HSL-server-icon-size: 40px;  /* Size of the server icons | DEFAULT: 40px */
-    --HSL-server-spacing: 10px;  /* Spacing between each server icon | DEFAULT: 10px */
-  }
- span[class^="expandedFolderBackground-"] {
-     width: 32px;
-     left: 13px;
- }
+/*horizontal theme server and spacing size*/
+:root {
+  --HSL-server-icon-size: 35px;  /* Size of the server icons | DEFAULT: 40px */
+  --HSL-server-spacing: 10px;  /* Spacing between each server icon | DEFAULT: 10px */
+}
 #app-mount .guilds-1SWlCJ .scrollerBase-289Jih {
     display: flex;
     justify-content: center;
@@ -1166,9 +898,6 @@ div[class*="noChannel-"],
 .wrapper-25eVIn foreignObject {
       mask: unset;
       border-radius: 5px!important;
-}
-.wrapper-25eVIn {
-    zoom: .83334;
 }
 /*transparent scrollbar/you can use it but its transparent*/
 ::-webkit-scrollbar,
