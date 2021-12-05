@@ -181,7 +181,7 @@ vc ring colour by david
     color: var(--interactive-active) !important;
 }
 .iconVisibility-sTNpHs.wrapper-2jXpOf.modeSelected-346R90 .name-23GUGE.overflow-WK9Ogt  {
-  color: rgb(255, 151, 151);
+  color: rgb(255, 151, 151)!important;
   text-shadow: 0 0 2px #ff0000, 0 0 5px #453f93;
 }
 .selected-3LIHYU .icon-1DeIlz {
