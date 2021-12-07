@@ -1642,3 +1642,25 @@ code.hljs {
     transform: translateY(0px);
   }
 }
+/*custom user controls*/ /*on the bottom left*/
+.container-3baos1 {
+  margin-top: 9px;
+  height: auto;
+  flex-direction: column;
+}
+.subtext-3CDbHg .hovered-d5PMVU {
+  text-align: center!important;
+}
+.subtext-3CDbHg .hovered-d5PMVU::after {
+  content: "#-";
+}
+.subtext-3CDbHg .hovered-d5PMVU::before {
+  content: "-";
+}
+.customStatus-3tC2ig {
+  max-width: 10ch!important;
+  justify-content: center;
+}
+.subtext-3CDbHg {
+  color: rgb(255, 255, 255);
+}
