@@ -1442,11 +1442,12 @@ code.hljs {
 .cozy-3raOZG:hover {
    background-color: rgba(255, 255, 255, 0.068)!important;
 }
-.edited-3sfAzf::Before {
-  content: "was NOT "!important;
+.edited-3sfAzf {
+    font-size:0;
 }
 .edited-3sfAzf::after {
-  content: " ok jk it was edited"!important;
+    font-size:12px;
+    content: "(false information)"
 }
 /* user typing... but its edited*/
 .typing-2GQL18, .base-gE7OpD::after {
