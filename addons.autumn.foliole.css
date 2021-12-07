@@ -1627,3 +1627,18 @@ code.hljs {
 [aria-label="Deafen"] .contents-18-Yxp path {
     display: none;
 }
+/*floating ping*/
+.numberBadge-2s8kKX {
+  animation: Ping 2.5s normal ease infinite;
+}
+@keyframes Ping {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
