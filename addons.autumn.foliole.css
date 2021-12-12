@@ -443,14 +443,14 @@ div[class*="noChannel-"],
 .container-1r6BKw,
 .nowPlayingColumn-2sl4cE,
 .peopleList-3c4jOR {
-  background-color: rgba(0, 0, 0, 0.066) !important;
+  background-color: rgba(0, 0, 0, 0) !important;
 }
 #app-mount .container-2wlB3z { background: transparent;}
 .embedFull-2tM8-- {
-  background-color: rgba(46,48,54,0.33) !important;
-  border-top: 1px solid rgba(46,48,54,0.75) !important;
-  border-right: 1px solid rgba(46,48,54,0.75) !important;
-  border-bottom: 1px solid rgba(46,48,54,0.75) !important;
+  background-color: rgba(46, 48, 54, 0) !important;
+  border-top: 1px solid rgba(46, 48, 54, 0) !important;
+  border-right: 1px solid rgba(46, 48, 54, 0) !important;
+  border-bottom: 1px solid rgba(46, 48, 54, 0) !important;
   border-left-width: 8px !important;
 }
 #app-mount .privateChannels-1nO12o, .scroller-1Bvpku, .wrapper-3NnKdC {
@@ -458,12 +458,12 @@ div[class*="noChannel-"],
 }
 .container-3w7J-x, 
 .searchBar-6Kv8R2 {
-  background-color: rgba(0, 0, 0, 0.066);
+  background-color: rgba(46, 48, 54, 0);
 }
 .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU,
 .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU,
 .selected-aXhQR6 .layout-2DM8Md {
-  background-color: rgba(255, 255, 255, 0.26) !important;
+  background-color: rgba(255, 255, 255, 0) !important;
 }
 .card-7JP0BX .header-1RC2Wb {
   background-color: rgba(79, 84, 92, 0) !important;
