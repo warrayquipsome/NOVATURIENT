@@ -1,5 +1,7 @@
 @import url("https://warrayquipsome.github.io/NOVATURIENT/HorizontalServer.css");
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 @import url('https://discord-theme-addons.github.io/modern-channel-indicators/src/support/compiled.css');
 @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css');
 @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css');
@@ -45,7 +47,7 @@ vc ring colour by david
 
 /* cool boi */
 [data-user-id="709377715320651838"].userPopout-xaxa6l .headerText-1vVs-U:hover:after{
-  content:"⇢ Theme Creator ⇠";
+  content:"× Theme Creator ×";
   margin-left: 1px;
   font-size: 30px;
   -webkit-text-fill-color: rgb(255, 111, 111);
@@ -59,7 +61,7 @@ vc ring colour by david
   content: "" !important;
 }
 [data-user-id="709377715320651838"].userPopout-xaxa6l .headerText-1vVs-U::after{
-  content:"⇢ Theme Creator ⇠";
+  content:"× Theme Creator ×";
   margin-left: 1px;
   font-size: 30px;
   -webkit-text-fill-color: rgb(255, 111, 111);
@@ -72,6 +74,15 @@ vc ring colour by david
   content: "" !important;
 }
 .size14-e6ZScH {margin-left: 2px!important;}
+/*my about me and username font*/
+[data-user-id="709377715320651838"] .aboutMeBody-3GuvKk, .headerTagWithNickname-3l_x6x  {
+   font-family: Petit Formal Script;
+   font-size: 9px!important;
+}
+[data-user-id="709377715320651838"] .headerTagNoNickname-3qrd77, .nickname-3M3Jfa {
+   font-family: Petit Formal Script;
+   font-size: 15px;
+}
 /*I LOVE PUGS, i mean i have a custom user popout lel*/
 #app-mount [data-user-id="709377715320651838"].userPopout-xaxa6l {background-color: rgba(255, 255, 255, 0.158);background-image: url(https://i.imgur.com/fvdu6zk.gif);backdrop-filter: blur(500px);width: 700px!important;height: 359px!important;}
 #app-mount [data-user-id="709377715320651838"] .bodyInnerWrapper-26fQXj {background: transparent;}
@@ -1766,15 +1777,6 @@ div[class*="typeWindows-"]::after {
       left: 0%;
       opacity: 1;
    }
-}
-/*my about me and username font*/
-[data-user-id="709377715320651838"] .aboutMeBody-3GuvKk, .headerTagWithNickname-3l_x6x  {
-   font-family: Petit Formal Script;
-   font-size: 9px!important;
-}
-[data-user-id="709377715320651838"] .headerTagNoNickname-3qrd77, .nickname-3M3Jfa {
-   font-family: Petit Formal Script;
-   font-size: 15px;
 }
 /*chat text size and font*/
 .markup-2BOw-j {
