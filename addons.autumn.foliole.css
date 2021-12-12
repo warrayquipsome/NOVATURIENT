@@ -1729,7 +1729,7 @@ div[class*="typeWindows-"]::after {
    }
 }
 .messageContent-2qWWxC {
-   animation: animate3 2s;
+   animation: animate3 1.7s;
 }
 @keyframes animate3 {
    0% {
@@ -1741,10 +1741,23 @@ div[class*="typeWindows-"]::after {
       opacity: 1;
    }
 }
-.imageWrapper-2p5ogY {
+.imageWrapper-2p5ogY, .embedWrapper-lXpS3L {
    animation: animate4 1.5s;
 }
 @keyframes animate4 {
+   0% {
+      left: 50%;
+      opacity: 0;
+   }
+   100% {
+      left: 0%;
+      opacity: 1;
+   }
+}
+.repliedMessage-VokQwo {
+   animation: animate5 1.5s;
+}
+@keyframes animate5 {
    0% {
       left: 50%;
       opacity: 0;
