@@ -75,13 +75,17 @@ vc ring colour by david
 }
 .size14-e6ZScH {margin-left: 2px!important;}
 /*my about me and username font*/
-[data-user-id="709377715320651838"] .aboutMeBody-3GuvKk, .headerTagWithNickname-3l_x6x  {
+[data-user-id="709377715320651838"] .aboutMeBody-3GuvKk  {
    font-family: Petit Formal Script;
    font-size: 9px!important;
 }
-[data-user-id="709377715320651838"] .headerTagNoNickname-3qrd77, .nickname-3M3Jfa {
+[data-user-id="709377715320651838"] .nickname-3M3Jfa {
    font-family: Petit Formal Script;
-   font-size: 15px;
+   font-size: 13px;
+}
+[data-user-id="709377715320651838"] .nameTag-m8r81H {
+   font-family: Petit Formal Script;
+   font-size: 11px;
 }
 /*I LOVE PUGS, i mean i have a custom user popout lel*/
 #app-mount [data-user-id="709377715320651838"].userPopout-xaxa6l {background-color: rgba(255, 255, 255, 0.158);background-image: url(https://i.imgur.com/fvdu6zk.gif);backdrop-filter: blur(500px);width: 700px!important;height: 359px!important;}
