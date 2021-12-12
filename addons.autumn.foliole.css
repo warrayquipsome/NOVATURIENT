@@ -1701,3 +1701,56 @@ div[class*="typeWindows-"]::after {
   margin-right: 92px;
   transform: none;
 }
+/*chat animation*/
+.avatar-1BDn8e  {
+   animation: animate 1.5s;
+}
+@keyframes animate {
+   0% {
+      left: 30%;
+      opacity: 0;
+   }
+   100% {
+      left: 1.5%;
+      opacity: 1;
+   }
+}
+.header-23xsNx {
+   animation: animate2 1.7s;
+}
+@keyframes animate2 {
+   0% {
+      left: 30%;
+      opacity: 0;
+   }
+   100% {
+      left: 0%;
+      opacity: 1;
+   }
+}
+.messageContent-2qWWxC {
+   animation: animate3 2s;
+}
+@keyframes animate3 {
+   0% {
+      left: 30%;
+      opacity: 0;
+   }
+   100% {
+      left: 0%;
+      opacity: 1;
+   }
+}
+.imageWrapper-2p5ogY {
+   animation: animate4 1.5s;
+}
+@keyframes animate4 {
+   0% {
+      left: 50%;
+      opacity: 0;
+   }
+   100% {
+      left: 0%;
+      opacity: 1;
+   }
+}
