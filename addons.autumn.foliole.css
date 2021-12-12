@@ -1196,6 +1196,7 @@ code.hljs {
     background-image: url(https://i.imgur.com/1lPgkCc.gif);
     background-size: contain;
     background-repeat: no-repeat;
+    filter: brightness(0%);
 }
 #app-mount .status-1AY8sU {
   background-color: rgba(0, 0, 0, 0.753)!important;
@@ -1210,7 +1211,7 @@ code.hljs {
     display: none;
 }
 :root #status-picker {
-  left: -6px;
+  left: -95px;
   width: 230px;
 }
 :root #status-picker .description-2L932D {
@@ -1218,6 +1219,10 @@ code.hljs {
 }
 .item-1tOPte {
     color: #fff;
+}
+.focused-3afm-j, .statusItem-33LqPf:hover {
+   background: rgb(255, 86, 86)!important;
+   border-radius: 5px;
 }
 /*blur menus*/
 .menu-3sdvDG, .scroller-3BxosC { /*Right click panel*/
