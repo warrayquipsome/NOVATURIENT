@@ -1767,3 +1767,17 @@ div[class*="typeWindows-"]::after {
       opacity: 1;
    }
 }
+/*my about me and username font*/
+[data-user-id="709377715320651838"] .aboutMeBody-3GuvKk, .headerTagWithNickname-3l_x6x  {
+   font-family: Petit Formal Script;
+   font-size: 9px!important;
+}
+[data-user-id="709377715320651838"] .headerTagNoNickname-3qrd77, .nickname-3M3Jfa {
+   font-family: Petit Formal Script;
+   font-size: 15px;
+}
+/*chat text size and font*/
+.markup-2BOw-j {
+   font-family: Poppins;
+   font-size: 12px!important;
+}
