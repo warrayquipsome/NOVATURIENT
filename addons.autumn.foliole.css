@@ -646,6 +646,12 @@ div[class*="noChannel-"],
 }
 #bd-pub-button {background-color: rgba(255, 255, 255, 0);}
 /*MORE transparent stuffs*/
+.searchBar-3dMhjb {
+   background: transparent!important;
+}
+.upsell-34F9Me {
+   background: transparent;
+}
 .header-2mZ9Ov, .previewContainer-sli91T {
   background-color: transparent;
 }
