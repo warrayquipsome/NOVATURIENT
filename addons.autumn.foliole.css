@@ -1469,10 +1469,42 @@ code.hljs {
     content: "(false information)"
 }
 /* user typing... but its edited*/
-.typing-2GQL18, .base-gE7OpD::after {
-  font-family: "Amatic SC";
-  content: "...................words :)"!important;
-  letter-spacing: 1.5px;
+.dots-3Bkt3k g {
+display: none;
+}
+.dots-3Bkt3k {
+background-image: url("https://i.imgur.com/S5mKPRm.gif");
+background-size: 100%;
+background-repeat: no-repeat;
+z-index: 9999;
+}
+.base-gE7OpD .text-1y-e8- {
+    display:flex;
+    align-items:center;
+}
+.typing-2GQL18 {
+    font-size:0;
+}
+.typing-2GQL18 strong {
+    font-size:12px;
+}
+.typing-2GQL18 strong:after {
+    content:',';
+    margin-right:4px;
+    font-family: Amatic SC;
+}
+.typing-2GQL18 strong:nth-last-child(2)::after {
+    content:'and';
+    margin:0 4px;
+    font-family: Amatic SC;
+    letter-spacing: 1.2px;
+}
+.typing-2GQL18 strong:last-child::after {
+    content:'is smashing some random buttons';
+    margin:0;
+    margin-left:4px;
+    font-family: Amatic SC;
+    letter-spacing: 1.2px;
 }
 /*custom abusive website image*/
 .art-25XW-1 {
