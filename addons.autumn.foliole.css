@@ -1755,7 +1755,7 @@ div[class*="typeWindows-"]::after {
 }
 /*chat animation*/
 .avatar-1BDn8e  {
-   animation: animate 1.5s;
+   animation: animate 1.0s;
 }
 @keyframes animate {
    0% {
@@ -1768,7 +1768,7 @@ div[class*="typeWindows-"]::after {
    }
 }
 .header-23xsNx {
-   animation: animate2 1.7s;
+   animation: animate2 1.2s;
 }
 @keyframes animate2 {
    0% {
@@ -1781,7 +1781,7 @@ div[class*="typeWindows-"]::after {
    }
 }
 .messageContent-2qWWxC {
-   animation: animate3 1.7s;
+   animation: animate3 1.2s;
 }
 @keyframes animate3 {
    0% {
@@ -1794,7 +1794,7 @@ div[class*="typeWindows-"]::after {
    }
 }
 .imageWrapper-2p5ogY, .embedWrapper-lXpS3L {
-   animation: animate4 1.5s;
+   animation: animate4 1.0s;
 }
 @keyframes animate4 {
    0% {
@@ -1807,7 +1807,7 @@ div[class*="typeWindows-"]::after {
    }
 }
 .repliedMessage-VokQwo {
-   animation: animate5 1.5s;
+   animation: animate5 1.0s;
 }
 @keyframes animate5 {
    0% {
@@ -1823,4 +1823,9 @@ div[class*="typeWindows-"]::after {
 .markup-2BOw-j {
    font-family: Poppins;
    font-size: 12px!important;
+}
+/*transparent call background*/
+.wrapper-2qzCYF, .minimum-28Z35l, .callContainer-36WRfH  {
+  background: none!important;
+  backdrop-filter: blur(20px);
 }
