@@ -1828,3 +1828,9 @@ div[class*="typeWindows-"]::after {
   background: none!important;
   backdrop-filter: blur(20px);
 }
+.root-2VTZPJ, .tile-2naSqK {
+  background: none;
+}
+.videoGrid-1khsrF{
+  background: transparent!important;
+}
