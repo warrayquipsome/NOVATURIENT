@@ -69,6 +69,9 @@ vc ring colour by david
   content: "" !important;
 }
 .size14-e6ZScH {margin-left: 2px!important;}
+[data-user-id="709377715320651838"] .size12-3cLvbJ.muted-3-7c5L{
+  display: none;
+}
 /*my about me and username font*/
 [data-user-id="709377715320651838"] .aboutMeBody-3GuvKk  {
    font-family: Petit Formal Script;
@@ -1609,10 +1612,6 @@ z-index: 9999;
 .clamped-IwJfxR::-webkit-scrollbar-thumb {
   background:  linear-gradient(45deg, #ff7e7e, #ff4242)!important; 
   border-radius: 30px; 
-}
-/*you dont need notes bro*/
-.size12-3cLvbJ.muted-3-7c5L{
-  display: none;
 }
 /*vc ring colour*/
 /* Servers */
