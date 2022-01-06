@@ -1417,7 +1417,7 @@ code.hljs {
           mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10.496 2.132a1 1 0 00-.992 0l-7 4A1 1 0 003 8v7a1 1 0 100 2h14a1 1 0 100-2V8a1 1 0 00.496-1.868l-7-4zM6 9a1 1 0 00-1 1v3a1 1 0 102 0v-3a1 1 0 00-1-1zm3 1a1 1 0 012 0v3a1 1 0 11-2 0v-3zm5-1a1 1 0 00-1 1v3a1 1 0 102 0v-3a1 1 0 00-1-1z" clip-rule="evenodd" /></svg>') center/cover;
   background: rgb(255, 255, 255);
 }
-/*flicking user setting icons*/
+/*flickering user setting icons*/
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e .item-PXvHYJ:hover:before {
   transition: all 0.20s;
   transform: rotateY(180deg);
@@ -1425,7 +1425,7 @@ code.hljs {
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e .item-PXvHYJ:before {
   transition: all 0.20s;
 }
-/*custom user popout colour for u guys la*/
+/*custom user popout colour*/
 .userPopout-xaxa6l {background-color: rgba(0, 0, 0, 0.719); backdrop-filter: blur(4px); }
 .footer-3UKYOU {background-color: rgba(0, 0, 0, 0)!important;}
 .avatar-37jOim {border: 6px solid transparent;background-color: transparent;}
@@ -1549,7 +1549,7 @@ z-index: 9999;
     justify-content: center;
 }
 #blocked-tab .friendsEmpty-1K9B4k .text-GwUZgS::before {
-    content: "Ayeee you haven't block anyone, goin gudd keep it up bro"; 
+    content: "Ayeee you haven't block anyone, goin gudd keep it up bro. But don't block me im "; 
     position: absolute;
     max-width: 30ch; 
     color: #ffffff52;
@@ -1668,26 +1668,11 @@ z-index: 9999;
   }
 }
 /*custom user controls*/ /*on the bottom left*/
-.container-3baos1 {
-  margin-top: 9px;
-  height: auto;
-  flex-direction: column;
-}
-.subtext-3CDbHg .hovered-d5PMVU {
-  text-align: center!important;
-}
 .subtext-3CDbHg .hovered-d5PMVU::after {
-  content: "#-";
+  content: "#-"!important;
 }
 .subtext-3CDbHg .hovered-d5PMVU::before {
-  content: "-";
-}
-.customStatus-3tC2ig {
-  max-width: 10ch!important;
-  justify-content: center;
-}
-.subtext-3CDbHg {
-  color: rgb(255, 255, 255);
+  content: "-"!important;
 }
 /*mix max closse button hover animation*/
 div[class*="typeWindows-"]::after, div[class*="typeWindows-"]::before {
@@ -1725,72 +1710,6 @@ div[class*="typeWindows-"]::after {
   margin-right: 92px;
   transform: none;
 }
-/*chat animation*/
-.avatar-1BDn8e  {
-   animation: animate 1.0s;
-}
-@keyframes animate {
-   0% {
-      left: 30%;
-      opacity: 0;
-   }
-   100% {
-      left: 1.5%;
-      opacity: 1;
-   }
-}
-.header-23xsNx {
-   animation: animate2 1.2s;
-}
-@keyframes animate2 {
-   0% {
-      left: 30%;
-      opacity: 0;
-   }
-   100% {
-      left: 0%;
-      opacity: 1;
-   }
-}
-.messageContent-2qWWxC {
-   animation: animate3 1.2s;
-}
-@keyframes animate3 {
-   0% {
-      left: 30%;
-      opacity: 0;
-   }
-   100% {
-      left: 0%;
-      opacity: 1;
-   }
-}
-.imageWrapper-2p5ogY, .embedWrapper-lXpS3L {
-   animation: animate4 1.0s;
-}
-@keyframes animate4 {
-   0% {
-      left: 50%;
-      opacity: 0;
-   }
-   100% {
-      left: 0%;
-      opacity: 1;
-   }
-}
-.repliedMessage-VokQwo {
-   animation: animate5 1.0s;
-}
-@keyframes animate5 {
-   0% {
-      left: 50%;
-      opacity: 0;
-   }
-   100% {
-      left: 0%;
-      opacity: 1;
-   }
-}
 /*chat text size and font*/
 .markup-2BOw-j {
    font-family: Poppins;
@@ -1806,4 +1725,7 @@ div[class*="typeWindows-"]::after {
 }
 .videoGrid-1khsrF{
   background: transparent!important;
+}
+.videoControls-24w7Xp .gradientTop-3UWg3T, .videoControls-24w7Xp .gradientBottom-3X4SdK {
+    display:none;
 }
