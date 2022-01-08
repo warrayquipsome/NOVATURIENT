@@ -183,7 +183,7 @@ vc ring colour by david
   font-family: 'Discord';
 }
 .wordmark-2iDDfm > svg {display:none}
-.wordmark-2iDDfm:after {content:'DISCORD + ŋVTR = EPIKK'; text-shadow: 0 0 20px rgb(255, 0, 0); color: rgb(255, 94, 94);}
+.wordmark-2iDDfm:after {content:'DISCORD + ŋVTR = EPIKK'; text-shadow: 0 0 20px rgb(255, 0, 0); color: rgb(255, 94, 94); font-family: "Discord"}
 .titleBar-AC4pGV {
     padding: 8px!important;
 }
