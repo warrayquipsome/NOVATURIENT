@@ -506,6 +506,12 @@ div[class*="noChannel-"],
 [href*="open.spotify.com"]{
     color:#13B94A !important; 
 }
+/* SoundCloud */
+[href*="soundcloud.com"],
+[href*="open.spotify.com"]{
+    color:#ff5500 !important; 
+}
+
 /* make some of those things transparent */
 #app-mount .card-3DjzTQ {
     background: rgba(0, 0, 0, 0.678);
