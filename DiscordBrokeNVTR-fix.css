@@ -1197,8 +1197,7 @@ code.hljs {
     display: none;
 }
 :root #status-picker {
-  left: -95px;
-  width: 230px;
+  width: 225px;
 }
 :root #status-picker .description-3Cwkxk {
   display: none;
@@ -1213,16 +1212,8 @@ code.hljs {
 /*blur menus*/
 .menu-1QACrS, .scroller-1bVxF5 { /*Right click panel*/
     background-color: rgba(255, 255, 255, 0.103)!important;
-}
-.menu-1QACrS::before,
-.menu-1QACrS.submenu-1apzyU::before { /*Creates the blur behind the panel*/
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 100%;    -webkit-backdrop-filter: blur(15px)!important;
-    backdrop-filter: blur(15px)!important;
-    z-index: -1;
-    border-radius: 10px;
+    backdrop-filter: blur(15px);
+    border-radius: 5px;
 }
 /*custom css editor colours*/
 .floating-window-titlebar {
