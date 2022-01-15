@@ -84,6 +84,31 @@ vc ring colour by david
    font-family: Petit Formal Script;
    font-size: 11px;
 }
+/*the edit user profile icon for myself*/
+#app-mount [data-user-id="709377715320651838"] .pencilContainer-18TrEJ{
+  margin-right: -10px;
+  margin-top: 20px!important;
+  background-color: rgb(255, 166, 31);
+  border-radius: 0px;
+  height: 22px;
+  width: 70px;
+}
+#app-mount [data-user-id="709377715320651838"] .pencilContainer-18TrEJ:hover{
+  margin-right: -10px;
+  margin-top: 20px!important;
+  background-color: #fff;
+  border-radius: 0px;
+  height: 22px;
+  width: 70px;
+}
+#app-mount [data-user-id="709377715320651838"] .avatarWrapper-eenWra .pointerEvents-9SZWKj {
+    y: 50;
+    x: -94;
+    mask: none;
+    pointer-events: none;
+    height: 22px;
+    width: 80px!important;
+}
 /*I LOVE PUGS, i mean i have a custom user popout lel*/
 #app-mount [data-user-id="709377715320651838"].userPopout-2j1gM4 {background-color: rgba(255, 255, 255, 0.158);background-image: url(https://i.imgur.com/fvdu6zk.gif);backdrop-filter: blur(500px);width: 700px!important;height: 359px!important;}
 #app-mount [data-user-id="709377715320651838"] .bodyInnerWrapper-2bQs1k {background: transparent;}
