@@ -40,75 +40,20 @@ vc ring colour by david
 
 
 /* moohamad gang */
-[data-user-id="709377715320651838"].userPopout-2j1gM4 .headerText-1-WmDq:hover:after{
-  content:"× Theme Creator ×";
-  margin-left: 1px;
-  font-size: 30px;
-  -webkit-text-fill-color: rgb(255, 111, 111);
-  font-family: "Amatic SC";
-  font-weight: 500;
-  text-shadow: 0 0 3px #ff0000, 0 0 5px #453f93;
-  letter-spacing: 2px;
-  transition: 0.5s;
-}
-[data-user-id="709377715320651838"].userPopout-2j1gM4 .headerTagDiscriminatorNoNickname-dfcvHa::after{
-  content: "" !important;
-}
-[data-user-id="709377715320651838"].userPopout-2j1gM4 .headerText-1-WmDq::after{
-  content:"× Theme Creator ×";
-  margin-left: 1px;
-  font-size: 30px;
-  -webkit-text-fill-color: rgb(255, 111, 111);
-  font-family: "Amatic SC";
-  font-weight: 500;
-  text-shadow: 0 0 3px #ff0000, 0 0 5px #453f93;
-  transition: 0.7s;
-}
-[data-user-id="709377715320651838"].userPopout-2j1gM4 .headerTagDiscriminatorNoNickname-dfcvHa::after{
-  content: "" !important;
-}
+[data-user-id="709377715320651838"].userPopout-2j1gM4 .headerText-1-WmDq:hover:after{content:"× Theme Creator ×";margin-left: 1px;font-size: 30px;-webkit-text-fill-color: rgb(255, 111, 111);font-family: "Amatic SC";font-weight: 500;text-shadow: 0 0 3px #ff0000, 0 0 5px #453f93;letter-spacing: 2px;transition: 0.5s;}
+[data-user-id="709377715320651838"].userPopout-2j1gM4 .headerTagDiscriminatorNoNickname-dfcvHa::after{content: "" !important;}
+[data-user-id="709377715320651838"].userPopout-2j1gM4 .headerText-1-WmDq::after{content:"× Theme Creator ×";margin-left: 1px;font-size: 30px;-webkit-text-fill-color: rgb(255, 111, 111);font-family: "Amatic SC";font-weight: 500;text-shadow: 0 0 3px #ff0000, 0 0 5px #453f93;transition: 0.7s;}
+[data-user-id="709377715320651838"].userPopout-2j1gM4 .headerTagDiscriminatorNoNickname-dfcvHa::after{content: "" !important;}
 .size14-3fJ-ot {margin-left: 2px!important;}
-[data-user-id="709377715320651838"] .size12-oc4dx4.muted-eZM05q{
-  display: none;
-}
+[data-user-id="709377715320651838"] .size12-oc4dx4.muted-eZM05q{display: none;}
 /*my about me and username font*/
-[data-user-id="709377715320651838"] .aboutMeBody-1J8rhz  {
-   font-family: Petit Formal Script;
-   font-size: 9px!important;
-}
-[data-user-id="709377715320651838"] .nickname-t08Mck {
-   font-family: Petit Formal Script;
-   font-size: 13px;
-}
-[data-user-id="709377715320651838"] .nameTag-H6kSJ0 {
-   font-family: Petit Formal Script;
-   font-size: 11px;
-}
+[data-user-id="709377715320651838"] .aboutMeBody-1J8rhz  {font-family: Petit Formal Script;font-size: 9px!important;}
+[data-user-id="709377715320651838"] .nickname-t08Mck {font-family: Petit Formal Script;font-size: 13px;}
+[data-user-id="709377715320651838"] .nameTag-H6kSJ0 {font-family: Petit Formal Script;font-size: 11px;}
 /*the edit user profile icon for myself*/
-#app-mount [data-user-id="709377715320651838"] .pencilContainer-18TrEJ{
-  margin-right: -10px;
-  margin-top: 20px!important;
-  background-color: rgb(255, 166, 31);
-  border-radius: 0px;
-  height: 22px;
-  width: 70px;
-}
-#app-mount [data-user-id="709377715320651838"] .pencilContainer-18TrEJ:hover{
-  margin-right: -10px;
-  margin-top: 20px!important;
-  background-color: #fff;
-  border-radius: 0px;
-  height: 22px;
-  width: 70px;
-}
-#app-mount [data-user-id="709377715320651838"] .avatarWrapper-eenWra .pointerEvents-9SZWKj {
-    y: 50;
-    x: -94;
-    mask: none;
-    pointer-events: none;
-    height: 22px;
-    width: 80px!important;
-}
+#app-mount [data-user-id="709377715320651838"] .pencilContainer-18TrEJ{margin-right: -10px;margin-top: 20px!important;background-color: rgb(255, 166, 31);border-radius: 0px;height: 22px;width: 70px;}
+#app-mount [data-user-id="709377715320651838"] .pencilContainer-18TrEJ:hover{margin-right: -10px;margin-top: 20px!important;background-color: #fff;border-radius: 0px;height: 22px;width: 70px;}
+#app-mount [data-user-id="709377715320651838"] .avatarWrapper-eenWra .pointerEvents-9SZWKj {y: 50;x: -94;mask: none;pointer-events: none;height: 22px;width: 80px!important;}
 /*I LOVE PUGS, i mean i have a custom user popout lel*/
 #app-mount [data-user-id="709377715320651838"].userPopout-2j1gM4 {background-color: rgba(255, 255, 255, 0.158);background-image: url(https://i.imgur.com/fvdu6zk.gif);backdrop-filter: blur(500px);width: 700px!important;height: 359px!important;}
 #app-mount [data-user-id="709377715320651838"] .bodyInnerWrapper-2bQs1k {background: transparent;}
