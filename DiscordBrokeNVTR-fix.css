@@ -477,8 +477,7 @@ div[class*="noChannel-"],
     color:#13B94A !important; 
 }
 /* SoundCloud */
-[href*="soundcloud.com"],
-[href*="open.spotify.com"]{
+[href*="soundcloud.com"]{
     color:#ff5500 !important; 
 }
 /* make some of those things transparent */
