@@ -1641,6 +1641,12 @@ z-index: 9999;
 .subtext-2HDqJ7 .hovered-20u3oh::before {
   content: "-"!important;
 }
+.subtext-2HDqJ7::before {
+    content: '-';
+}
+.subtext-2HDqJ7::after {
+    content:'#-';
+}
 /*mix max closse button hover animation*/
 div[class*="typeWindows-"]::after, div[class*="typeWindows-"]::before {
   color: rgba(255, 255, 255, 0.5);
